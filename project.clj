@@ -3,7 +3,8 @@
   :url "http://blog.hashobject.com"
   :dependencies [[org.clojure/clojure "1.5.1"]
                  [hiccup "1.0.3"]
-                 [markdown-clj "0.9.26"]]
+                 [markdown-clj "0.9.26"]
+                 [endophile "0.1.0"]]
   :plugins [[lein-shell "0.1.0"]]
   :aliases {"html" ["trampoline" "run" "-m" "blog.hashobject.generator/generate"]
             "site-build" ["shell" "./frontend/node_modules/grunt-cli/bin/grunt" "--gruntfile" "frontend/Gruntfile.js" "build"]
