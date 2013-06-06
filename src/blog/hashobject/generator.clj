@@ -2,6 +2,7 @@
   (:use clojure.java.io)
   (:require [markdown.core :as markdown]
             [endophile.core :as markdown-parser]
+            [sitemap.core :as sitemap]
             [blog.hashobject.views.index :as index-view]
             [blog.hashobject.views.post :as post-view]))
 
@@ -60,8 +61,11 @@
     ))))
 
 (defn generate []
-  (process-posts))
-  ;(spit (str "./resources/public/index.html") (index-view/index)))
+  (process-posts)
+  (println "posts pages were generated")
+  (spit (str "./resources/public/index.html") (index-view/index))
+  (println "index page was generated")
+  )
 
 
  (process-posts)
