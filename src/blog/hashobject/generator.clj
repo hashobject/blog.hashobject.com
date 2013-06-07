@@ -31,7 +31,7 @@
   (let [metadata {}]
         (into metadata
           (for [line lines]
-            (let [tokens (clojure.string/split line #":")
+            (let [tokens (clojure.string/split line #":" 2)
                   key-token (trim-if-not-nil (first tokens))
                   value-token (trim-if-not-nil (second tokens))]
                   (if (not (clojure.string/blank? key-token))
@@ -83,7 +83,7 @@
 (defn posts-sitemap-definitions []
   (let [posts (process-posts)]
     (for [post posts]
-      {:loc (str "http://hashobject.com/" (:filename post) ".html")
+      {:loc (str "http://blog.hashobject.com/" (:filename post) ".html")
        :lastmod (get post "date_modified")
        :changefreq "weekly"
        :priority 0.8})))

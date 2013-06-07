@@ -13,6 +13,7 @@ date_published: 2013-06-06
 headline:
 in_language: en
 keywords: clojure, amazon beanstalk, https, ssl, aws, heroku, deploy, web app, amazon route 53, naked domain
+discussion_url: https://github.com/hashobject/blog.hashobject.com/issues/1
 -->
 ## Intro
 
@@ -108,4 +109,4 @@ Basically there are 2 main steps:
 In this post I tried to describe steps needed to have Clojure web app deployed to Amazon Beanstalk
 and available behind custom secure naked domain.
 
-Described setup will cost almost $0 for the first year.
+Described setup will cost almost nothing for the first year.
