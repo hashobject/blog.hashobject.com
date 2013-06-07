@@ -22,6 +22,7 @@
       [:meta {:name "keywords" :itemprop "keywords" :content "hashobject, blog, clojure, development, heroku, amazon route 53, aws"}]
       [:meta {:name "description" :itemprop "description" :content "HashObject - software engineering, design and application development"}]
       [:title "HashObject Team blog about development and design"]
+      [:link {:rel "publisher" :href "https://plus.google.com/118068495795214676039"}]
       (include-css "/css/app.css")
       (common/ga)
      ]
@@ -32,5 +33,4 @@
        [:ul.posts.columns.large-12
         (for [post posts] (render-post post))]]]
 
-     [:footer]
-     ]))
+     (common/footer)]))

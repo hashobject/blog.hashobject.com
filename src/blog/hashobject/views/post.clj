@@ -14,11 +14,12 @@
       [:meta {:itemprop "author" :name "author" :content "HashObject (team@hashobject.com)"}]
       [:meta {:name "keywords" :itemprop "keywords" :content (get metadata "keywords")}]
       [:meta {:name "description" :itemprop "description" :content (get metadata "description")}]
-      [:meta {:itemprop "inLaguage" :content (get metadata "inLaguage")}]
+      [:meta {:itemprop "inLanguage" :content (get metadata "in_language")}]
       [:meta {:itemprop "dateCreated" :content (get metadata "date_created")}]
       [:meta {:itemprop "dateModified" :content (get metadata "date_modified")}]
       [:meta {:itemprop "datePublished" :content (get metadata "date_published")}]
       [:title {:itemprop "name"}  (get metadata "name")]
+      [:link {:rel "publisher" :href "https://plus.google.com/118068495795214676039"}]
       (include-css "/css/app.css")
       (common/ga)]
     [:body
@@ -31,5 +32,4 @@
            [:a.author {:href (get metadata "author_url")} (get metadata "author")]
            [:span.date-published (dates/reformat-datestr (get metadata "date_published") "YYYY-MM-dd", "MMM dd, YYYY")]]
           (str content)]]]
-     [:footer]
-     ]))
+     (common/footer)]))
