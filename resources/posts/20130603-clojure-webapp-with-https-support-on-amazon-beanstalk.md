@@ -2,6 +2,7 @@
 name: Configure Clojure web app to run with HTTPS support on Amazon Beanstalk
 description: Short guide how to deploy Clojure web app on Amazon Beanstalk with HTTPS support with almost no cost.
 author: Anton Podviaznikov
+author_email: anton@hashobject.com
 author_url: http://hashobject.com/team/anton
 author_github: podviaznikov
 author_twitter: podviaznikov

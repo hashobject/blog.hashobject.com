@@ -10,5 +10,6 @@
   :plugins [[lein-shell "0.1.0"]]
   :aliases {"index-html" ["trampoline" "run" "-m" "blog.hashobject.generator/generate-index"]
             "posts-html" ["trampoline" "run" "-m" "blog.hashobject.generator/generate-posts"]
+            "sitemap" ["trampoline" "run" "-m" "blog.hashobject.generator/generate-sitemap"]
             "site-build" ["shell" "./frontend/node_modules/grunt-cli/bin/grunt" "--gruntfile" "frontend/Gruntfile.js" "build"]
             "site-deploy" ["shell" "./frontend/node_modules/grunt-cli/bin/grunt" "--gruntfile" "frontend/Gruntfile.js" "deploy"]})

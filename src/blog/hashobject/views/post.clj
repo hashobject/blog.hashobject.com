@@ -11,7 +11,7 @@
       [:meta {:charset "utf-8"}]
       [:meta {:http-equiv "X-UA-Compatible" :content "IE=edge,chrome=1"}]
       [:meta {:name "viewport" :content "width=device-width, initial-scale=1.0, user-scalable=no"}]
-      [:meta {:itemprop "author" :name "author" :content "HashObject (team@hashobject.com)"}]
+      [:meta {:itemprop "author" :name "author" :content (str (get metadata "author") " (" (get metadata "author_email") ")" )}]
       [:meta {:name "keywords" :itemprop "keywords" :content (get metadata "keywords")}]
       [:meta {:name "description" :itemprop "description" :content (get metadata "description")}]
       [:meta {:itemprop "inLanguage" :content (get metadata "in_language")}]

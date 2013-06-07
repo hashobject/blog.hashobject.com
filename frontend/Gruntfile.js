@@ -50,6 +50,10 @@ module.exports = function(grunt) {
         {
           src: '../resources/public/robots.txt',
           dest: 'robots.txt'
+        },
+        {
+          src: '../resources/public/sitemap.xml',
+          dest: 'sitemap.xml'
         }
       ]
     },

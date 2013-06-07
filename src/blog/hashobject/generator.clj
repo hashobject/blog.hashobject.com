@@ -78,3 +78,25 @@
     (println "posts" posts)
     (spit (str "./resources/public/index.html")
           (index-view/index posts))))
+
+
+(defn posts-sitemap-definitions []
+  (let [posts (process-posts)]
+    (for [post posts]
+      {:loc (str "http://hashobject.com/" (:filename post) ".html")
+       :lastmod (get post "date_modified")
+       :changefreq "weekly"
+       :priority 0.8})))
+
+(defn generate-sitemap []
+  (let [posts-pages (posts-sitemap-definitions)
+        all-pages (conj posts-pages
+                        {:loc (str "http://blog.hashobject.com/index.html")
+                         :lastmod "2013-06-06"
+                         :changefreq "daily"
+                         :priority 1.0})]
+        (sitemap/generate-sitemap-and-save "./resources/public/sitemap.xml" all-pages)))
+
+
+
+

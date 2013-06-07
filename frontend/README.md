@@ -1,7 +1,7 @@
 frontend
 ===================
 
-Template for static webapp/website. Include grunt tasks for jade, js, stylus and deploy to S3.
+Template for static webapp/website. Include grunt tasks for stylus compilation and S3 deployment.
 
 For deployment to S3 create grunt-aws.json file:
 ```
