@@ -34,6 +34,11 @@ module.exports = function(grunt) {
           gzip: true
         },
         {
+          src: '../resources/public/clojure-webapp-with-https-support-on-amazon-beanstalk.html',
+          dest: 'clojure-webapp-with-https-support-on-amazon-beanstalk.html',
+          gzip: true
+        },
+        {
           src: '../resources/public/css/app.css',
           dest: 'css/app.css',
           gzip: true
