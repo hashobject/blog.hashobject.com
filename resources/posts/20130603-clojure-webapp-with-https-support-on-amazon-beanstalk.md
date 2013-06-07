@@ -10,17 +10,17 @@ date_created: 2013-06-03
 date_modified: 2013-06-06
 date_published: 2013-06-06
 headline:
-inLanguage: en
-keywords: clojure, amazon beanstalk, https, sls, aws, heroku, deploy, web app, amazon route 53, naked domain
+in_language: en
+keywords: clojure, amazon beanstalk, https, ssl, aws, heroku, deploy, web app, amazon route 53, naked domain
 -->
 ## Intro
 
-Currently there are several options of hosting Clojure web apps.
+Currently there are several options for hosting Clojure web apps.
 
 The obvious one is [Heroku](http://heroku.com) with their great
 [guide](https://devcenter.heroku.com/articles/clojure-web-application).
 
-However if you web app need SSL support on custom domain you immediately need to pay $20/month
+However, if your web app needs SSL support on custom domain you immediately need to pay $20/month
 for the [Heroku addon](https://addons.heroku.com/ssl).
 
 
@@ -29,7 +29,7 @@ the first year if your app is small enough. Check out AWS [Free Usage Tier](http
 Hosting web app on Amazon EC2 has its own upsides and downsides.
 
 
-There is third solution (probably there are much more options out there) that I want to describe in this post.
+The third solution (probably, there are many other options out there) is the one, that I want to describe in this post.
 
 
 ## Amazon Beanstalk
@@ -41,7 +41,7 @@ It's called [Beanstalk](http://aws.amazon.com/elasticbeanstalk/). According to A
 >New AWS customers who are eligible for the AWS free usage tier can deploy an application in Elastic Beanstalk for free.
 
 
-There are some resource that can help Clojure developers to deploy their apps on Beanstalk.
+There are some resources that can help Clojure developers to deploy their apps on Beanstalk.
 I recommend reading this [blog post](http://www.ctdean.com/2012/04/10/aws-beanstalk-on-clojure.html) and using
 [lein-beanstalk](https://github.com/weavejester/lein-beanstalk) plugin.
 
@@ -51,7 +51,7 @@ Basically you will be able to deploy you app using following command:
 lein beanstalk deploy prod
 ```
 
-Where `prod` name of you environment that you need to specify when you'll create Beanstalk app.
+Where `prod` name of you environment that you need to specify creating Beanstalk app.
 
 Creating Amazon Beanstalk application is easy. Just follow official [docs](http://docs.aws.amazon.com/elasticbeanstalk/latest/dg/create_deploy_Java.html).
 You can choose Tomcat 6 or Tomcat 7 as container (both 32 and 64 bit).
@@ -59,7 +59,7 @@ You can choose Tomcat 6 or Tomcat 7 as container (both 32 and 64 bit).
 
 ## How to get SSL certificate
 
-I'm usually getting my SSL certificates from [StartSSL](http://www.startssl.com/).
+Usually I'm getting my SSL certificates from [StartSSL](http://www.startssl.com/).
 
 They are providing Class 1 SSL certificates for 1 year for free.
 
@@ -76,25 +76,24 @@ You shouldn't share these files.
 ## How to setup custom domain(naked domain) for Beanstalk application
 
 I recommend to use [Amazon Route 53](http://aws.amazon.com/route53/) for managing DNS records.
-If you have hosted zone on Amazon Route 53 for your domain name then you need just to create new Record set
+If you have a hosted zone on Amazon Route 53 for your domain name, then you need just to create new Record set
 of type A.
 
 Select "Yes" for "Alias" field and you will be able to select Elastic Load balancer that works
-with your Beantalk intace in the "Alias target" field.
+with your Beantalk instance in the "Alias target" field.
 
 After this is done you will be able to reach your web app using naked domain name (e.x. example.com instead of www.example.com).
 
 
 ## How to configure HTTPS support for you Beanstalk application
 
-There is nice article in Amazon [docs](http://docs.aws.amazon.com/elasticbeanstalk/latest/dg/configuring-https.html)
-how to add HTTPS support for your Beanstalk application.
+There is a nice article in Amazon [docs](http://docs.aws.amazon.com/elasticbeanstalk/latest/dg/configuring-https.html)
+about how to add HTTPS support for your Beanstalk application.
 
 Basically there are 2 main steps:
 
-  * upload your SSL certificate using command: `iam-servercertupload -b server.crt -k ssl.key -s server`.
-  * you will get Amazon Resource name for your certificate similar to `arn:aws:iam::123456789012:server-certificate/cert`.
-  * edit configuration for you Beanstalk app. In the "Load balancer" section specify:
+  * upload your SSL certificate using command: `iam-servercertupload -b server.crt -k ssl.key -s server`. You will get Amazon Resource name for your certificate similar to `arn:aws:iam::123456789012:server-certificate/cert`.
+  * edit configuration for your Beanstalk app. In the "Load balancer" section specify:
 
     ```
       Secure listener port: 443
