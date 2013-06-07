@@ -104,6 +104,7 @@ Basically there are 2 main steps:
 
 ## Conclusion
 
-There are some configuration steps that needed to have web app working on naked domain with HTTPS support.
+In this post I tried to describe steps needed to have Clojure web app deployed to Amazon Beanstalk
+and available behind custom secure naked domain.
 
-In this post I tried to describe steps needed to have secure naked domain for Clojure web app deployed to Amazon Beanstalk.
+Described setup will cost almost $0 for the first year.
