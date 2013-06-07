@@ -11,7 +11,7 @@ date_modified: 2013-06-06
 date_published: 2013-06-06
 headline:
 inLanguage: en
-keywords: clojure, amazon beanstalk, https, sls, aws, heroku, deploy, web app
+keywords: clojure, amazon beanstalk, https, sls, aws, heroku, deploy, web app, amazon route 53, naked domain
 -->
 ## Intro
 

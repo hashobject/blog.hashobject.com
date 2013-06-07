@@ -42,31 +42,39 @@
         filename (subs file 9 (- length 3))]
         filename))
 
-(defn generate-post-html [metadata content-html filename]
-  (spit (str "./resources/public/" filename ".html") (post-view/index metadata content-html)))
+(defn generate-post-html [metadata]
+  (println "generate post html" (:filename metadata))
+  (spit
+   (str "./resources/public/" (:filename metadata) ".html")
+   (post-view/index metadata (:content metadata))))
 
 (defn original-md-to-html-str [file]
   (markdown/md-to-html-string (slurp (str "./resources/posts/" file))))
 
+(defn process-post [file]
+  (let [post (post-to-clj file)
+        data (:data (first post))
+        lines (clojure.string/split data #"\n")
+        filename (generate-post-url file)
+        metadata (parse-post-defn lines)
+        content (original-md-to-html-str file)]
+    (assoc metadata :filename filename
+                    :content content)))
+
+
 (defn process-posts []
   (let [files (get-files-to-process)]
     (for [file files]
-      (let [post (post-to-clj file)
-            content-html (original-md-to-html-str file)
-            data (:data (first post))
-            lines (clojure.string/split data #"\n")
-            metadata (parse-post-defn lines)
-            filename (generate-post-url file)]
-            (generate-post-html metadata content-html filename)
-    ))))
-
-(defn generate []
-  (process-posts)
-  (println "posts pages were generated")
-  (spit (str "./resources/public/index.html") (index-view/index))
-  (println "index page was generated")
-  )
+      (process-post file))))
 
 
- (process-posts)
-;(original-md-to-html-str "20130603-clojure-webapp-with-https-support-on-amazon-beanstalk-DRAFT.md")
+(defn generate-posts []
+  (let [posts (process-posts)]
+    (for [post posts]
+       (generate-post-html post))))
+
+(defn generate-index []
+  (let [posts (process-posts)]
+    (println "posts" posts)
+    (spit (str "./resources/public/index.html")
+          (index-view/index posts))))

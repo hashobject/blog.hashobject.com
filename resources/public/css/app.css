@@ -544,4 +544,5 @@ ul.icons li [class*=" icon-"] {
 article.post-content h1{font-size:1.5em}
 article.post-content h2{font-size:1.2em}
 article.post-content ul{list-style-position:inside}
+ul.posts li.post{list-style:none}
 header.post-metadata a.author{margin-right:1em}
