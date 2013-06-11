@@ -542,7 +542,9 @@ ul.icons li [class*=" icon-"] {
 .icon-folder-open-alt:before      { content: "\f115"; }
 .row > .content{width:1000px}
 article.post-content h1{font-size:1.5em}
-article.post-content h2{font-size:1.2em}
+article.post-content h2{font-size:1.1em;margin-top:1.5em}
 article.post-content ul{list-style-position:inside}
 ul.posts li.post{list-style:none}
-header.post-metadata a.author{margin-right:1em}
+header.post-metadata a.author{margin-right:.5em}
+p.discussion-link{font-size:.8em;margin-top:1em}
+p.licence{font-size:.8em;margin:1.2em}

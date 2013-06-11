@@ -8,7 +8,7 @@ author_github: podviaznikov
 author_twitter: podviaznikov
 location: Guatemala City, Guatemala
 date_created: 2013-06-03
-date_modified: 2013-06-06
+date_modified: 2013-06-10
 date_published: 2013-06-06
 headline:
 in_language: en
@@ -50,10 +50,10 @@ I recommend reading this [blog post](http://www.ctdean.com/2012/04/10/aws-beanst
 Basically you will be able to deploy you app using following command:
 
 ```
-lein beanstalk deploy prod
+  lein beanstalk deploy prod
 ```
 
-Where `prod` name of you environment that you need to specify creating Beanstalk app.
+Where `prod` is the name of you environment that you need to specify creating Beanstalk app.
 
 Creating Amazon Beanstalk application is easy. Just follow official [docs](http://docs.aws.amazon.com/elasticbeanstalk/latest/dg/create_deploy_Java.html).
 You can choose Tomcat 6 or Tomcat 7 as container (both 32 and 64 bit).
@@ -67,9 +67,9 @@ They are providing Class 1 SSL certificates for 1 year for free.
 
 What you will get from them (after registration and applying for certificate) is two files:
 
-  * certificate (let's call it server.crt).
+  * certificate (let's call it `server.crt`).
     File content starts with `'-----BEGIN CERTIFICATE-----'`.
-  * private key (let's call it ssl.key).
+  * private key (let's call it `ssl.key`).
     File content starts with `'-----BEGIN RSA PRIVATE KEY-----'`.
 
 You shouldn't share these files.
@@ -107,6 +107,6 @@ Basically there are 2 main steps:
 ## Conclusion
 
 In this post I tried to describe steps needed to have Clojure web app deployed to Amazon Beanstalk
-and available behind custom secure naked domain.
+and available behind your own secure naked domain.
 
 Described setup will cost almost nothing for the first year.

@@ -7,9 +7,11 @@
                  [endophile "0.1.0"]
                  [sitemap "0.2.0"]
                  [clj-time "0.5.0"]]
-  :plugins [[lein-shell "0.1.0"]]
+  :plugins [[lein-shell "0.1.0"]
+            [lein-sitemap "0.1.0"]]
+  :sitemaps ["http://blog.hashobject.com/sitemap.xml"]
   :aliases {"index-html" ["trampoline" "run" "-m" "blog.hashobject.generator/generate-index"]
             "posts-html" ["trampoline" "run" "-m" "blog.hashobject.generator/generate-posts"]
-            "sitemap" ["trampoline" "run" "-m" "blog.hashobject.generator/generate-sitemap"]
+            "sitemap-xml" ["trampoline" "run" "-m" "blog.hashobject.generator/generate-sitemap"]
             "site-build" ["shell" "./frontend/node_modules/grunt-cli/bin/grunt" "--gruntfile" "frontend/Gruntfile.js" "build"]
             "site-deploy" ["shell" "./frontend/node_modules/grunt-cli/bin/grunt" "--gruntfile" "frontend/Gruntfile.js" "deploy"]})
