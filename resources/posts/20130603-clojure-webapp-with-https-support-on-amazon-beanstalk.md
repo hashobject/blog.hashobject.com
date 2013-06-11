@@ -47,12 +47,7 @@ There are some resources that can help Clojure developers to deploy their apps o
 I recommend reading this [blog post](http://www.ctdean.com/2012/04/10/aws-beanstalk-on-clojure.html) and using
 [lein-beanstalk](https://github.com/weavejester/lein-beanstalk) plugin.
 
-Basically you will be able to deploy you app using following command:
-
-```
-  lein beanstalk deploy prod
-```
-
+Basically you will be able to deploy you app using following command: `lein beanstalk deploy prod`.
 Where `prod` is the name of you environment that you need to specify creating Beanstalk app.
 
 Creating Amazon Beanstalk application is easy. Just follow official [docs](http://docs.aws.amazon.com/elasticbeanstalk/latest/dg/create_deploy_Java.html).
