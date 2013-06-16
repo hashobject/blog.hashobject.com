@@ -17,7 +17,7 @@ discussion_url: https://github.com/hashobject/blog.hashobject.com/issues/2
 -->
 ## Logging
 
-If you are using `clojure.tools.logging` in the app for logging following snippet will
+If you are using `clojure.tools.logging` in the app for logging, the following snippet will
 help you to have proper logs on Amazon Beanstalk.
 
 ```clojure
@@ -28,7 +28,7 @@ help you to have proper logs on Amazon Beanstalk.
 
 ```
 
-For Ring/Compojure projects just put this code somewhere on top of your web handler file.
+For Ring/Compojure projects just put this code somewhere at the top of your web handler file.
 
 ## Force HTTPS
 
