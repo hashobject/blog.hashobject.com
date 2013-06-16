@@ -8,7 +8,7 @@ HashObject team technical blog. Generated using Clojure. Hosted on Amazon S3.
 Inside `frontend` directory execute command:
 
 ```
-  lein index-html;lein posts-html;lein sitemap; grunt deploy
+  lein index-html;lein posts-html;lein sitemap-xml; grunt deploy; lein sitemap
 ```
 
 This will build all html, sitemap, css and deploy it to S3.

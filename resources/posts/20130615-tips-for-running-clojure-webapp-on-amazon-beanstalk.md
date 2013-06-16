@@ -1,6 +1,6 @@
 <!--
 name: Tips for running Clojure web app on Amazon Beanstalk
-description: Bunch of small advises for running Clojure web app on Amazon Beanstalk
+description: Bunch of small advises for running Clojure web app on Amazon Beanstalk.
 author: Anton Podviaznikov
 author_email: anton@hashobject.com
 author_url: http://hashobject.com/team/anton
@@ -20,10 +20,12 @@ discussion_url: https://github.com/hashobject/blog.hashobject.com/issues/2
 If you are using `clojure.tools.logging` in the app for logging following snippet will
 help you to have proper logs on Amazon Beanstalk.
 
-```
+```clojure
+
   (alter-var-root
    #'clojure.tools.logging/*logger-factory*
    (constantly (clojure.tools.logging.impl/jul-factory)))
+
 ```
 
 For Ring/Compojure projects just put this code somewhere on top of your web handler file.
@@ -40,26 +42,30 @@ You can setup proxy to do that.
 
 I was able to achive that with these sample ring middleware:
 
-```
-(defn https-url [request-url]
-  (str (str (str (str "https://" (:server-name request-url) ":") "443")) (:uri request-url)))
+```clojure
+
+  (defn https-url [request-url]
+    (str (str (str (str "https://" (:server-name request-url) ":") "443")) (:uri request-url)))
 
 
-(defn require-https
-  [handler]
-  (fn [request]
-    (if (= (:scheme request) :http)
-      (ring.util.response/redirect (https-url request))
-      (handler request))))
+  (defn require-https
+    [handler]
+    (fn [request]
+      (if (= (:scheme request) :http)
+        (ring.util.response/redirect (https-url request))
+        (handler request))))
+
 ```
 
 And then just add `require-https` middleware to your other middleware. E.x.:
 
-```
-(def war-handler
-  (-> app
-    (require-https)
-    (wrap-resource "public")
-    (wrap-base-url)
-    (wrap-file-info)))
+```clojure
+
+  (def war-handler
+    (-> app
+      (require-https)
+      (wrap-resource "public")
+      (wrap-base-url)
+      (wrap-file-info)))
+
 ```
