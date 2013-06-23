@@ -21,6 +21,7 @@
       [:title {:itemprop "name"} (get metadata "name")]
       [:link {:rel "publisher" :href "https://plus.google.com/118068495795214676039"}]
       [:link {:rel "discussionUrl" :href (get metadata "discussion_url")}]
+      [:link {:rel "canonical" :href (get metadata "canonical_url")}]
       (include-css "/css/app.css")
       (include-css "http://fonts.googleapis.com/css?family=PT+Sans")
       (common/ga)]

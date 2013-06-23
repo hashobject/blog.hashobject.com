@@ -551,7 +551,7 @@ body > footer.row p.licence{font-size:.8em;margin:1.2em;font-style:italic;color:
 .row > .content{width:600px;margin:0 auto;position:relative;}
 .row > .content a{color:#eb4d94;}
 .row > .content a:visited{color:#9e0047}
-aside.post-metadata{position:absolute;width:150px;left:-160px;text-align:right;}
+aside.post-metadata{position:absolute;width:95px;left:-105px;text-align:right;}
 aside.post-metadata img.avatar{border-radius:25px;width:50px}
 aside.post-metadata a,aside.post-metadata span{display:block;}
 aside.post-metadata a.meta-label,aside.post-metadata span.meta-label{margin-top:10px}

@@ -13,8 +13,9 @@ date_modified: 2013-06-15
 date_published: 2013-06-15
 headline:
 in_language: en
-keywords: clojure, amazon beanstalk, https, aws, logs, tips, logging
+keywords: clojure, amazon beanstalk, https, aws, logs, tips, logging, web app
 discussion_url: https://github.com/hashobject/blog.hashobject.com/issues/2
+canonical_url: http://blog.hashobject.com/tips-for-running-clojure-webapp-on-amazon-beanstalk.html
 -->
 ## Logging
 
@@ -58,7 +59,7 @@ I was able to achive that with these sample ring middleware:
 
 ```
 
-And then just add `require-https` middleware to your other middleware. E.x.:
+And then just add `require-https` middleware to your other middlewares. E.x.:
 
 ```clojure
 
