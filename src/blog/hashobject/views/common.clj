@@ -13,6 +13,15 @@
   ga('send', 'pageview');"])
 
 
+(defn header []
+  [:header.row
+   [:div.content
+    [:a {:href "http://blog.hashobject.com"}[:img.logo]]
+    [:nav {:role "navigation"}
+     [:ul
+      [:li [:a {:href "http://hashobject.com"} "Home"]]
+      [:li [:a {:href "http://blog.hashobject.com"} "Blog"]]]]]])
+
 (defn footer []
   [:footer.row
    [:div.content

@@ -6,6 +6,7 @@ author_email: anton@hashobject.com
 author_url: http://hashobject.com/team/anton
 author_github: podviaznikov
 author_twitter: podviaznikov
+author_avatar: /images/anton-avatar.png
 location: Guatemala City, Guatemala
 date_created: 2013-06-03
 date_modified: 2013-06-10
@@ -62,10 +63,10 @@ They are providing Class 1 SSL certificates for 1 year for free.
 
 What you will get from them (after registration and applying for certificate) is two files:
 
-  * certificate (let's call it `server.crt`).
-    File content starts with `'-----BEGIN CERTIFICATE-----'`.
-  * private key (let's call it `ssl.key`).
-    File content starts with `'-----BEGIN RSA PRIVATE KEY-----'`.
+  * certificate (let's call it server.crt).
+    File content starts with '-----BEGIN CERTIFICATE-----'.
+  * private key (let's call it ssl.key).
+    File content starts with '-----BEGIN RSA PRIVATE KEY-----'.
 
 You shouldn't share these files.
 
@@ -87,16 +88,17 @@ After this is done you will be able to reach your web app using naked domain nam
 There is a nice article in Amazon [docs](http://docs.aws.amazon.com/elasticbeanstalk/latest/dg/configuring-https.html)
 about how to add HTTPS support for your Beanstalk application.
 
-Basically there are 2 main steps:
+You need to upload your SSL certificate using command
+`iam-servercertupload -b server.crt -k ssl.key -s server`
+You will get Amazon Resource name for your certificate similar to
+`arn:aws:iam::123456789012:server-certificate/cert`
 
-  * upload your SSL certificate using command: `iam-servercertupload -b server.crt -k ssl.key -s server`. You will get Amazon Resource name for your certificate similar to `arn:aws:iam::123456789012:server-certificate/cert`.
-  * edit configuration for your Beanstalk app. In the "Load balancer" section specify:
+After uploading SSL certificate you need to edit configuration for your Beanstalk app.
+In the "Load balancer" section specify:
 
-    ```
-      Secure listener port: 443
-      Protocol: HTTPS
-      SSL Certiificate ID: Amazon Resource name that you received after certificate upload.
-    ```
+  * Secure listener port: 443
+  * Protocol: HTTPS
+  * SSL Certiificate ID: Amazon Resource name that you received after certificate upload.
 
 
 ## Conclusion

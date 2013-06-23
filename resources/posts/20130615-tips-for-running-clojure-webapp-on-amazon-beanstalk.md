@@ -6,6 +6,7 @@ author_email: anton@hashobject.com
 author_url: http://hashobject.com/team/anton
 author_github: podviaznikov
 author_twitter: podviaznikov
+author_avatar: /images/anton-avatar.png
 location: San Salvador, El Salvador
 date_created: 2013-06-15
 date_modified: 2013-06-15
@@ -33,7 +34,7 @@ For Ring/Compojure projects just put this code somewhere on top of your web hand
 ## Force HTTPS
 
 I described how to get HTTPS support for Clojure web app deployed on Amazon Beanstalk in the
-[previous post][http://blog.hashobject.com/clojure-webapp-with-https-support-on-amazon-beanstalk.html].
+[previous post](http://blog.hashobject.com/clojure-webapp-with-https-support-on-amazon-beanstalk.html).
 
 Sometimes you need to force HTTPS traffic for eevrything. So e.x. if user request page on
 http://example.com you want to redirect him on https://example.com.

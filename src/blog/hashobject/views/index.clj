@@ -25,10 +25,11 @@
       [:title "HashObject Team blog about development and design"]
       [:link {:rel "publisher" :href "https://plus.google.com/118068495795214676039"}]
       (include-css "/css/app.css")
+      (include-css "http://fonts.googleapis.com/css?family=PT+Sans")
       (common/ga)
      ]
     [:body
-     [:header]
+     (common/header)
      [:div.row
       [:div.content
        [:ul.posts.columns.large-12

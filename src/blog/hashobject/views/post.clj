@@ -22,19 +22,21 @@
       [:link {:rel "publisher" :href "https://plus.google.com/118068495795214676039"}]
       [:link {:rel "discussionUrl" :href (get metadata "discussion_url")}]
       (include-css "/css/app.css")
+      (include-css "http://fonts.googleapis.com/css?family=PT+Sans")
       (common/ga)]
     [:body
-     [:header]
+     (common/header)
      [:div.row
        [:div.content
+         [:aside.post-metadata
+          [:img.avatar {:src (get metadata "author_avatar")}]
+          [:span "Written by"]
+          [:a.author {:href (get metadata "author_url")} (get metadata "author")]
+          [:span.date-published (str "Published: " (dates/reformat-datestr (get metadata "date_published") "YYYY-MM-dd", "MMM dd, YYYY"))]
+          [:span.date-modified (str "Modified: " (dates/reformat-datestr (get metadata "date_modified") "YYYY-MM-dd", "MMM dd, YYYY"))]
+          [:span.location (str "Published in: " (get metadata "location"))]]
          [:article.post-content.columns.large-12
-          [:header.post-metadata
-           [:h1 {:itemprop "name"} (get metadata "name")]
-           [:a.author {:href (get metadata "author_url")} (get metadata "author")]
-           [:span.date-published (str "[Published: " (dates/reformat-datestr (get metadata "date_published") "YYYY-MM-dd", "MMM dd, YYYY") "]")]
-           [:span.date-modified (str "[Modified: " (dates/reformat-datestr (get metadata "date_modified") "YYYY-MM-dd", "MMM dd, YYYY") "]")]
-           [:span.location (str "[Written in: " (get metadata "location") "]")]
-           ]
+          [:h1 {:itemprop "name"} (get metadata "name")]
           (str content)
           [:footer.post-footer
            [:p.discussion-link "Discussion for this post available on "
