@@ -49,10 +49,11 @@ There are some resources that can help Clojure developers to deploy their apps o
 I recommend reading this [blog post](http://www.ctdean.com/2012/04/10/aws-beanstalk-on-clojure.html) and using
 [lein-beanstalk](https://github.com/weavejester/lein-beanstalk) plugin.
 
-Basically you will be able to deploy you app using following command: `lein beanstalk deploy prod`.
-Where `prod` is the name of you environment that you need to specify creating Beanstalk app.
+Basically you will be able to deploy you app using following command:
+`lein beanstalk deploy prod`
+Where 'prod' is the name of you environment that you need to specify creating Beanstalk app.
 
-Creating Amazon Beanstalk application is easy. Just follow official [docs](http://docs.aws.amazon.com/elasticbeanstalk/latest/dg/create_deploy_Java.html).
+Creating Amazon Beanstalk application is easy. Just follow [official docs](http://docs.aws.amazon.com/elasticbeanstalk/latest/dg/create_deploy_Java.html).
 You can choose Tomcat 6 or Tomcat 7 as container (both 32 and 64 bit).
 
 
@@ -86,8 +87,8 @@ After this is done you will be able to reach your web app using naked domain nam
 
 ## How to configure HTTPS support for you Beanstalk application
 
-There is a nice article in Amazon [docs](http://docs.aws.amazon.com/elasticbeanstalk/latest/dg/configuring-https.html)
-about how to add HTTPS support for your Beanstalk application.
+There is a nice [article](http://docs.aws.amazon.com/elasticbeanstalk/latest/dg/configuring-https.html)
+in Amazon docs about how to add HTTPS support for your Beanstalk application.
 
 You need to upload your SSL certificate using command
 `iam-servercertupload -b server.crt -k ssl.key -s server`
