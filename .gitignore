@@ -11,4 +11,4 @@ pom.xml.asc
 .lein-plugins
 .lein-repl-history
 *DS_Store*
-resources/posts/20130603-clojure-webapp-with-https-support-on-amazon-beanstalk-DRAFT.md
+resources/public/*.html.gz
