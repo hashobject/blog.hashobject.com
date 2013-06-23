@@ -49,6 +49,11 @@ module.exports = function(grunt) {
           gzip: true
         },
         {
+          src: '../resources/public/images/*.png',
+          dest: 'images/',
+          rel: '../resources/public/images'
+        },
+        {
           src: '../resources/public/google235235bcbf7ddb0d.html',
           dest: 'google235235bcbf7ddb0d.html'
         },
