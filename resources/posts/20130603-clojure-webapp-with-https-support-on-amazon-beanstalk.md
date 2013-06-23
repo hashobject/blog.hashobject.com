@@ -79,7 +79,7 @@ If you have a hosted zone on Amazon Route 53 for your domain name, then you need
 of type A.
 
 Select "Yes" for "Alias" field and you will be able to select Elastic Load balancer that works
-with your Beantalk instance in the "Alias target" field.
+with your Beanstalk instance in the "Alias target" field.
 
 After this is done you will be able to reach your web app using naked domain name (e.x. example.com instead of www.example.com).
 
