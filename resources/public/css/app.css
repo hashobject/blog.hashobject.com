@@ -563,4 +563,6 @@ article.post-content pre{font-family:Courier,monospace;font-weight:bold;color:#9
 article.post-content p{margin-top:0;margin-bottom:7px}
 article.post-content p.discussion-link{font-size:.8em;margin-top:1em;font-style:italic;color:#3a434a}
 article.post-content ul{color:#3a434a;margin-left:15px;margin-top:20px;margin-bottom:20px}
+article.post-content blockquote{border-left:5px solid #eb4d94;background-color:#e8eaeb;font-style:italic;margin:15px 0;padding:15px 30px;}
+article.post-content blockquote p{margin:0;padding:0}
 ul.posts li.post{list-style:none}

@@ -9,6 +9,7 @@ $visited-link-color = #9e0047;
 $code-color = #99eb52;
 $code-background = #3a434a;
 $header-color = #1cb8e8;
+$quote-background = #e8eaeb;
 
 
 body
@@ -123,6 +124,16 @@ article.post-content
     margin-left: 15px;
     margin-top: 20px;
     margin-bottom: 20px;
+
+  & blockquote
+    border-left: 5px solid $link-color;
+    background-color: $quote-background;
+    font-style: italic;
+    margin: 15px 0;
+    padding: 15px 30px;
+    & p
+      margin: 0;
+      padding: 0;
 
 ul.posts
   & li.post
