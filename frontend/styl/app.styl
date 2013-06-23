@@ -40,7 +40,7 @@ body > header.row
         margin: 10px 20px;
         & a
         & a:visited
-          color: black;
+          color: black!important;
           font-weight: bold;
           font-size: 18px;
           line-height: 1.2;
@@ -68,11 +68,13 @@ aside.post-metadata
   left: -160px;
   text-align: right;
   & img.avatar
-    border-radius: 30px;
-    width: 60px;
+    border-radius: 25px;
+    width: 50px;
   & a
   & span
     display: block;
+    &.meta-label
+      margin-top: 10px;
 
 article.post-content
   & h1

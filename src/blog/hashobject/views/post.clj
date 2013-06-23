@@ -32,9 +32,12 @@
           [:img.avatar {:src (get metadata "author_avatar")}]
           [:span "Written by"]
           [:a.author {:href (get metadata "author_url")} (get metadata "author")]
-          [:span.date-published (str "Published: " (dates/reformat-datestr (get metadata "date_published") "YYYY-MM-dd", "MMM dd, YYYY"))]
-          [:span.date-modified (str "Modified: " (dates/reformat-datestr (get metadata "date_modified") "YYYY-MM-dd", "MMM dd, YYYY"))]
-          [:span.location (str "Published in: " (get metadata "location"))]]
+          [:span.meta-label "Published: "]
+          [:span (dates/reformat-datestr (get metadata "date_published") "YYYY-MM-dd", "MMM dd, YYYY")]
+          [:span.meta-label "Modified: "]
+          [:span (dates/reformat-datestr (get metadata "date_modified") "YYYY-MM-dd", "MMM dd, YYYY")]
+          [:span.meta-label "Published in: "]
+          [:span (get metadata "location")]]
          [:article.post-content.columns.large-12
           [:h1 {:itemprop "name"} (get metadata "name")]
           (str content)
