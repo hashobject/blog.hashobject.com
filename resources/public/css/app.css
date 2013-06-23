@@ -547,7 +547,7 @@ body > header.row > .content{width:900px}
 body > header.row nav{float:right;}
 body > header.row nav ul li{display:inline-block;text-transform:uppercase;list-style-type:none;margin:10px 20px;}
 body > header.row nav ul li a,body > header.row nav ul li a:visited{color:#000 !important;font-weight:bold;font-size:18px;line-height:1.2}
-body > footer.row p.licence{font-size:.8em;margin:1.2em;font-style:italic;color:#3a434a}
+body > footer.row p.licence{font-style:italic;color:#3a434a;margin:0 12px 20px}
 .row > .content{width:600px;margin:0 auto;position:relative;}
 .row > .content a{color:#eb4d94;}
 .row > .content a:visited{color:#9e0047}
@@ -561,7 +561,7 @@ article.post-content ul{list-style-position:inside}
 article.post-content code,article.post-content pre[class="brush: clojure"]{font-family:Courier,monospace;font-weight:bold;color:#99eb52;background-color:#3a434a;display:block;margin:15px;padding:10px 15px}
 article.post-content pre{font-family:Courier,monospace;font-weight:bold;color:#99eb52}
 article.post-content p{margin-top:0;margin-bottom:7px}
-article.post-content p.discussion-link{font-size:.8em;margin-top:1em;font-style:italic;color:#3a434a}
+article.post-content p.discussion-link{margin-top:20px;font-style:italic;color:#3a434a}
 article.post-content ul{color:#3a434a;margin-left:15px;margin-top:20px;margin-bottom:20px}
 article.post-content blockquote{border-left:5px solid #eb4d94;background-color:#e8eaeb;font-style:italic;margin:15px 0;padding:15px 30px;}
 article.post-content blockquote p{margin:0;padding:0}
