@@ -19,7 +19,7 @@ body
   font-family: 'PT Sans', Tahoma, sans-serif;
   color: $text-color;
 
-img.logo
+div.logo
   margin: 5px 0;
   background-image: url('/images/hashobject-logo.png');
   width: 157px;
@@ -30,9 +30,11 @@ body > header.row
   height: 63px;
   margin-bottom: 30px;
   & > .content
-    width: 900px;
+    width: 700px;
   & nav
-    float: right;
+    position: absolute;
+    right: 0;
+    top: 0;
     & ul
       & li
         display: inline-block;
@@ -50,7 +52,7 @@ body > footer.row
   & p.licence
     font-style: italic;
     color: $code-background;
-    margin: 0 12px 20px;
+    margin: 35px 12px 20px;
 
 .row > .content
   width: 600px;
@@ -77,6 +79,7 @@ aside.post-metadata
       margin-top: 10px;
 
 article.post-content
+article.docs-content
   & h1
     font-weight: bold;
     font-size: 18px;
@@ -95,6 +98,7 @@ article.post-content
 
   & code
   & pre[class="brush: clojure"]
+  & pre[class="brush: shell"]
     font-family: Courier, monospace;
     font-weight: bold;
     color: $code-color;

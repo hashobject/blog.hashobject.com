@@ -22,7 +22,7 @@
       [:meta {:itemprop "author" :name "author" :content "HashObject (team@hashobject.com)"}]
       [:meta {:name "keywords" :itemprop "keywords" :content "hashobject, blog, clojure, development, heroku, amazon route 53, aws"}]
       [:meta {:name "description" :itemprop "description" :content "HashObject - software engineering, design and application development"}]
-      [:title "HashObject Team blog about development and design"]
+      [:title "HashObject team blog about development and design"]
       [:link {:rel "publisher" :href "https://plus.google.com/118068495795214676039"}]
       (include-css "/css/app.css")
       (include-css "http://fonts.googleapis.com/css?family=PT+Sans")
