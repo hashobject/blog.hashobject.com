@@ -63,7 +63,7 @@ Usually I'm getting my SSL certificates from [StartSSL](http://www.startssl.com/
 
 They are providing Class 1 SSL certificates for 1 year for free.
 
-What you will get from them (after registration and applying for certificate) is two files:
+You will get from them (after registration and applying for certificate) two files:
 
   * certificate (let's call it server.crt).
     File content starts with '-----BEGIN CERTIFICATE-----'.

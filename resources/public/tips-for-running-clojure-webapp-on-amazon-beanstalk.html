@@ -11,7 +11,7 @@
    #'clojure.tools.logging/&#42;logger-factory&#42;
    &#40;constantly &#40;clojure.tools.logging.impl/jul-factory&#41;&#41;&#41;
 <p>
-</pre></p><p>For Ring/Compojure projects just put this code somewhere at the top of your web handler file.</p><h2>Force HTTPS</h2><p>I described how to get HTTPS support for Clojure web app deployed on Amazon Beanstalk in the <a href='http://blog.hashobject.com/clojure-webapp-with-https-support-on-amazon-beanstalk.html'>previous post</a>.</p><p>Sometimes you need to force HTTPS traffic for eevrything. So e.x. if user requests page on http://example.com you want to redirect him on https://example.com.</p><p>You can setup proxy to do that.</p><p>I was able to achive that with these sample ring middleware:</p><pre class="brush: clojure">
+</pre></p><p>For Ring/Compojure projects just put this code somewhere at the top of your web handler file.</p><h2>Force HTTPS</h2><p>I described how to get HTTPS support for Clojure web app deployed on Amazon Beanstalk in the <a href='http://blog.hashobject.com/clojure-webapp-with-https-support-on-amazon-beanstalk.html'>previous post</a>.</p><p>Sometimes you need to force HTTPS traffic for everything. So e.x. if user requests page on http://example.com you want to redirect him on https://example.com.</p><p>You can setup proxy to do that.</p><p>I was able to achieve that with this sample ring middleware:</p><pre class="brush: clojure">
 
   &#40;defn https-url &#91;request-url&#93;
     &#40;str &#40;str &#40;str &#40;str &quot;https://&quot; &#40;:server-name request-url&#41; &quot;:&quot;&#41; &quot;443&quot;&#41;&#41; &#40;:uri request-url&#41;&#41;&#41;

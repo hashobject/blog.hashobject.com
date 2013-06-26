@@ -37,12 +37,12 @@ For Ring/Compojure projects just put this code somewhere at the top of your web 
 I described how to get HTTPS support for Clojure web app deployed on Amazon Beanstalk in the
 [previous post](http://blog.hashobject.com/clojure-webapp-with-https-support-on-amazon-beanstalk.html).
 
-Sometimes you need to force HTTPS traffic for eevrything. So e.x. if user requests page on
+Sometimes you need to force HTTPS traffic for everything. So e.x. if user requests page on
 http://example.com you want to redirect him on https://example.com.
 
 You can setup proxy to do that.
 
-I was able to achive that with these sample ring middleware:
+I was able to achieve that with this sample ring middleware:
 
 ```clojure
 
