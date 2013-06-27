@@ -27,20 +27,34 @@ div.logo
 
 
 body > header.row
-  height: 63px;
+  height: 65px;
   margin-bottom: 30px;
   & > .content
     width: 700px;
+    height: 100%;
   & nav
     position: absolute;
     right: 0;
-    top: 0;
+    top: -5px;
+    height: 100%;
     & ul
+      height: 100%;
       & li
+        height: 100%;
         display: inline-block;
         text-transform: uppercase;
         list-style-type: none;
-        margin: 10px 20px;
+        margin: 0 10px;
+        padding-top: 25px;
+        padding-left: 10px;
+        padding-right: 10px;
+        &.active
+        &:hover
+          background-color: $header-color;
+          color: white;
+          & a
+          & a:visited
+            color: white!important;
         & a
         & a:visited
           color: black!important;
@@ -100,7 +114,7 @@ article.docs-content
   & pre[class="brush: clojure"]
   & pre[class="brush: shell"]
     font-family: Courier, monospace;
-    font-weight: bold;
+    font-weight: normal;
     color: $code-color;
     background-color: $code-background;
     display: block;
@@ -131,11 +145,13 @@ article.docs-content
     border-left: 5px solid $link-color;
     background-color: $quote-background;
     font-style: italic;
+    font-size: 16px;
     margin: 15px 0;
     padding: 15px 30px;
     & p
       margin: 0;
       padding: 0;
+      font-size: 16px;
 
 ul.posts
   & li.post

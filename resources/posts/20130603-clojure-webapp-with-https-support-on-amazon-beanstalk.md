@@ -10,7 +10,7 @@ author_avatar: /images/anton-avatar.png
 location: Guatemala City, Guatemala
 date_created: 2013-06-03
 date_modified: 2013-06-10
-date_published: 2013-06-06
+date_published: 2013-06-26
 headline:
 in_language: en
 keywords: clojure, amazon beanstalk, https, ssl, aws, heroku, deploy, web app, amazon route 53, naked domain

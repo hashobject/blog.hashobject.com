@@ -10,7 +10,7 @@ author_avatar: /images/anton-avatar.png
 location: San Salvador, El Salvador
 date_created: 2013-06-15
 date_modified: 2013-06-15
-date_published: 2013-06-15
+date_published: 2013-06-26
 headline:
 in_language: en
 keywords: clojure, amazon beanstalk, https, aws, logs, tips, logging, web app
