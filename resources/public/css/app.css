@@ -568,4 +568,9 @@ article.post-content p.discussion-link,article.docs-content p.discussion-link{ma
 article.post-content ul,article.docs-content ul{color:#3a434a;margin-left:15px;margin-top:20px;margin-bottom:20px}
 article.post-content blockquote,article.docs-content blockquote{border-left:5px solid #eb4d94;background-color:#e8eaeb;font-style:italic;font-size:16px;margin:15px 0;padding:15px 30px;}
 article.post-content blockquote p,article.docs-content blockquote p{margin:0;padding:0;font-size:16px}
-ul.posts li.post{list-style:none}
+ul.posts li.post{list-style:none;}
+ul.posts li.post a{text-transform:uppercase}
+ul.posts li.post p{margin-top:10px}
+ul.projects li.project{list-style:none;}
+ul.projects li.project a{text-transform:uppercase}
+ul.projects li.project p{margin-top:10px}
