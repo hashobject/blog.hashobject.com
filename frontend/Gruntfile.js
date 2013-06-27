@@ -34,13 +34,13 @@ module.exports = function(grunt) {
           gzip: true
         },
         {
-          src: '../resources/public/clojure-webapp-with-https-support-on-amazon-beanstalk.html',
-          dest: 'clojure-webapp-with-https-support-on-amazon-beanstalk.html',
+          src: '../resources/public/clojure-webapp-with-https-support-on-amazon-beanstalk/index.html',
+          dest: 'clojure-webapp-with-https-support-on-amazon-beanstalk/index.html',
           gzip: true
         },
         {
-          src: '../resources/public/tips-for-running-clojure-webapp-on-amazon-beanstalk.html',
-          dest: 'tips-for-running-clojure-webapp-on-amazon-beanstalk.html',
+          src: '../resources/public/tips-for-running-clojure-webapp-on-amazon-beanstalk/index.html',
+          dest: 'tips-for-running-clojure-webapp-on-amazon-beanstalk/index.html',
           gzip: true
         },
         {

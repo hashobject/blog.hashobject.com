@@ -7,6 +7,10 @@
             [blog.hashobject.views.post :as post-view]))
 
 
+(defn make-dir [path]
+   (.mkdir (java.io.File. path)))
+
+
 (def sources-dir (file "./resources/posts/"))
 
 (def posts-files
@@ -44,8 +48,9 @@
 
 (defn generate-post-html [metadata]
   (println "generate post html" (:filename metadata))
+  (make-dir (str "./resources/public/" (:filename metadata)))
   (spit
-   (str "./resources/public/" (:filename metadata) ".html")
+   (str "./resources/public/" (:filename metadata) "/index.html")
    (post-view/index metadata (:content metadata))))
 
 (defn original-md-to-html-str [file]
@@ -83,7 +88,7 @@
 (defn posts-sitemap-definitions []
   (let [posts (process-posts)]
     (for [post posts]
-      {:loc (str "http://blog.hashobject.com/" (:filename post) ".html")
+      {:loc (str "http://blog.hashobject.com/" (:filename post))
        :lastmod (get post "date_modified")
        :changefreq "weekly"
        :priority 0.8})))
