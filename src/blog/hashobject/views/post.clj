@@ -19,6 +19,7 @@
       [:meta {:itemprop "dateModified" :content (get metadata "date_modified")}]
       [:meta {:itemprop "datePublished" :content (get metadata "date_published")}]
       [:title {:itemprop "name"} (get metadata "name")]
+      [:link {:rel "shortcut icon" :href "/favicon.ico"}]
       [:link {:rel "publisher" :href "https://plus.google.com/118068495795214676039"}]
       [:link {:rel "discussionUrl" :href (get metadata "discussion_url")}]
       [:link {:rel "canonical" :href (get metadata "canonical_url")}]
