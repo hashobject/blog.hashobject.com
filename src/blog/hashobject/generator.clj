@@ -2,6 +2,8 @@
   (:use clojure.java.io)
   (:require [markdown.core :as markdown]
             [endophile.core :as markdown-parser]
+;            [endophile.hiccup :as endophile-hiccup]
+;            [hiccup.core :only [html]]
             [sitemap.core :as sitemap]
             [blog.hashobject.views.index :as index-view]
             [blog.hashobject.views.post :as post-view]))
@@ -63,6 +65,9 @@
         filename (generate-post-url file)
         metadata (parse-post-defn lines)
         content (original-md-to-html-str file)]
+    (println "post md ds" post)
+;    (println "post html" (html (to-hiccup past)))
+;    (println (markdown-parser/to-html post))
     (assoc metadata :filename filename
                     :content content)))
 
@@ -96,8 +101,8 @@
 (defn generate-sitemap []
   (let [posts-pages (posts-sitemap-definitions)
         all-pages (conj posts-pages
-                        {:loc (str "http://blog.hashobject.com/index.html")
-                         :lastmod "2013-06-06"
+                        {:loc (str "http://blog.hashobject.com/")
+                         :lastmod "2013-06-26"
                          :changefreq "daily"
                          :priority 1.0})]
         (sitemap/generate-sitemap-and-save "./resources/public/sitemap.xml" all-pages)))
