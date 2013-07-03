@@ -8,6 +8,7 @@ HashObject team technical blog. Generated using Clojure. Hosted on Amazon S3.
 Inside `frontend` directory execute command:
 
 ```
+  pygmentize -S default -f html > styl/pygments.css
   lein index-html;lein posts-html;lein sitemap-xml; grunt deploy; lein sitemap
 ```
 
