@@ -14,7 +14,7 @@ date_published: 2013-07-06
 headline:
 in_language: en
 keywords: clojure, amazon s3, web site, amazon route 53, amazon cloudfront, markdown, html, github, amazon route 53, clojure hiccup
-discussion_url: https://github.com/hashobject/blog.hashobject.com/issues/2
+discussion_url: https://github.com/hashobject/blog.hashobject.com/issues/3
 canonical_url: http://blog.hashobject.com/make-static-site-with-clojure-and-host-on-amazon
 -->
 ## Intro
@@ -71,7 +71,7 @@ If you have S3 bucket with the name example.com CloudFront will suggest
 If you choose such name you may have some troubles:
 'example.com/some-folder' will not be resolved automatically to 'example.com/some-folder/index.html'.
 I suggest to use full endpoint name for your S3 bucket. E.x. for bucket hosted on the US East
-`example.com.s3-website-us-east-1.amazonaws.com`.
+`example.com.s3-website-us-east-1.amazonaws.com`
 
 
 After creating 'Content distribution' on Amazon CloudFront for your site you should change your DNS records.
