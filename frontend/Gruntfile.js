@@ -44,6 +44,12 @@ module.exports = function(grunt) {
           gzip: true
         },
         {
+          src: '../resources/public/make-static-site-with-clojure-and-host-on-amazon/index.html',
+          dest: 'make-static-site-with-clojure-and-host-on-amazon/index.html',
+          gzip: true
+        },
+
+        {
           src: '../resources/public/css/app.css',
           dest: 'css/app.css',
           gzip: true

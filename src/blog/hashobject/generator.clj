@@ -84,7 +84,7 @@
        (generate-post-html post))))
 
 (defn generate-index []
-  (let [posts (process-posts)]
+  (let [posts (reverse (process-posts))]
     (println "posts" posts)
     (spit (str "./resources/public/index.html")
           (index-view/index posts))))
