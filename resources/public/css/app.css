@@ -554,10 +554,11 @@ body > footer.row p.licence{font-style:italic;color:#3a434a;margin:35px 12px 20p
 .row > .content{width:600px;margin:0 auto;position:relative;}
 .row > .content a{color:#eb4d94;}
 .row > .content a:visited{color:#9e0047}
-aside.post-metadata{position:absolute;width:95px;left:-105px;text-align:right;}
+aside.post-metadata{position:absolute;width:95px;left:-52px;text-align:right;}
 aside.post-metadata img.avatar{border-radius:25px;width:50px}
 aside.post-metadata a,aside.post-metadata span{display:block;}
 aside.post-metadata a.meta-label,aside.post-metadata span.meta-label{margin-top:10px}
+article.post-content{margin-left:52px}
 article.post-content h1,article.docs-content h1{font-weight:bold;font-size:18px;line-height:1.2;text-transform:uppercase}
 article.post-content h2,article.docs-content h2{margin-top:35px;margin-bottom:15px;font-weight:bold;font-size:18px;line-height:1.2;color:#1cb8e8}
 article.post-content ul,article.docs-content ul{list-style-position:inside}
