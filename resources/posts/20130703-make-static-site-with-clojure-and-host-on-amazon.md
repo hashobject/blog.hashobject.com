@@ -76,7 +76,7 @@ I suggest to use full endpoint name for your S3 bucket. E.x. for bucket hosted o
 
 After creating 'Content distribution' on Amazon CloudFront for your site you should change your DNS records.
 Basically you need some way to resolve DNS name of your site (e.x. [http://os.hashobject.com](http://os.hashobject.com))
-into CloudFront URL for your distibution. Luckily if you already using [Amazon Route 53](https://aws.amazon.com/route53/)
+into CloudFront URL for your distribution. Luckily if you already using [Amazon Route 53](https://aws.amazon.com/route53/)
 it will be super easy to do.
 You need to create new Record Set of type 'A' for your domain name.
 Then just select Alias and pickup your CloudFront distribution you just created.
