@@ -561,12 +561,12 @@ aside.post-metadata a.meta-label,aside.post-metadata span.meta-label{margin-top:
 article.post-content{margin-left:52px}
 article.post-content h1,article.docs-content h1{font-weight:bold;font-size:18px;line-height:1.2;text-transform:uppercase}
 article.post-content h2,article.docs-content h2{margin-top:35px;margin-bottom:15px;font-weight:bold;font-size:18px;line-height:1.2;color:#1cb8e8}
-article.post-content ul,article.docs-content ul{list-style-position:inside}
+article.post-content ul,article.docs-content ul,article.post-content ol,article.docs-content ol{list-style-position:inside}
 article.post-content code,article.docs-content code,article.post-content pre[class="brush: clojure"],article.docs-content pre[class="brush: clojure"],article.post-content pre[class="brush: shell"],article.docs-content pre[class="brush: shell"]{font-family:Courier,monospace;font-weight:normal;color:#99eb52;background-color:#3a434a;display:block;margin:15px;padding:10px 15px}
 article.post-content pre,article.docs-content pre{font-family:Courier,monospace;font-weight:bold;color:#99eb52}
 article.post-content p,article.docs-content p{margin-top:0;margin-bottom:7px}
 article.post-content p.discussion-link,article.docs-content p.discussion-link{margin-top:20px;font-style:italic;color:#3a434a}
-article.post-content ul,article.docs-content ul{color:#3a434a;margin-left:15px;margin-top:20px;margin-bottom:20px}
+article.post-content ul,article.docs-content ul,article.post-content ol,article.docs-content ol{color:#3a434a;margin-left:15px;margin-top:20px;margin-bottom:20px}
 article.post-content blockquote,article.docs-content blockquote{border-left:5px solid #eb4d94;background-color:#e8eaeb;font-style:italic;font-size:16px;margin:15px 0;padding:15px 30px;}
 article.post-content blockquote p,article.docs-content blockquote p{margin:0;padding:0;font-size:16px}
 ul.posts li.post{list-style:none;}

@@ -1,6 +1,6 @@
 <!--
 name: Payments API for the collaborative consumption apps
-description: Mangopay - payments API for marketplaces/collaborative consumption apps in Europe
+description: Payments API for marketplaces/collaborative consumption apps in Europe
 author: Anton Podviaznikov
 author_email: anton@hashobject.com
 author_url: http://hashobject.com/team/anton
@@ -13,17 +13,17 @@ date_modified: 2013-07-18
 date_published: 2013-07-18
 headline:
 in_language: en
-keywords: clojure, amazon s3, web site, amazon route 53, amazon cloudfront, markdown, html, github, amazon route 53, clojure hiccup
+keywords: payments, marketplaces, collaborative consuption, web apps,clojure, mangopay
 discussion_url: https://github.com/hashobject/blog.hashobject.com/issues/4
 canonical_url: http://blog.hashobject.com/payments-api-for-collaborative-consumption-apps
 -->
 ## Intro
 
 We were looking recently for good solution to process payments for
-our new app [communi.st](http://communi.st)(more on that soon).
+our new app [communi.st](http://communi.st) (more on that soon).
 
-Currently there are several really good companies that
-may solve that problem for most apps (both in US and Europe markets):
+Currently there are several really good companies (both in US and Europe markets) that
+may solve that problem for most apps (especially SaaS):
 
   * [Stripe](https://stripe.com/)
   * [Braintree](https://www.braintreepayments.com/)
@@ -38,15 +38,40 @@ But we had few very specific requirements:
 
 ## Payments for markeplaces
 
-describe the main case.+ escrow accounts.
+
+If you are trying to build online marketplace there are basically two types of customers on the site:
+
+  * buyers - people who buy stuff. You want to be able to process their payments
+  * sellers - people who sell stuff. They should be able to get earned money out of the markeplace on their personal/business accounts
+
+Online markeplace usually works within following steps:
+
+  1. process payment from buyer
+  2. cut procent from transaction as service fee
+  3. put money on virtual account of the seller
+  4. seller transfers money to his personal account (using e.x. bank wire transfer)
+
+
+Collaborative consumption apps (think [AirBnB](http://airbnb.com)) have slighly more steps:
+
+  1. process payment from buyer
+  2. cut procent from transaction as service fee
+  3. hold money on virtual escrow account
+  4. put money on virtual account of the seller
+  5. seller transfers money to his personal account (using e.x. bank wire transfer)
+
+The only difference is that usually in crowdfunding apps sellers will not get money immediately
+(on AirBnB owner of the place will get money after you move in, but money itself will be locked on your account
+immediately after reservation).
+
 
 
 ## US vs Europe
 
 Turns our that if your company is based in US there are already few options,
-but [Balanced](https://www.balancedpayments.com/)
-seems to be the best option (and these guys are really amazing. They are building
-an open company. Read about [it](http://www.fastcolabs.com/3008944/open-company/why-i-made-my-payments-startup-an-open-company)).
+but [Balanced](https://www.balancedpayments.com/) seems to be the best one.
+These guys are really amazing. They are building an open company.
+Read about [it](http://www.fastcolabs.com/3008944/open-company/why-i-made-my-payments-startup-an-open-company).
 
 
 But if your company is based in Europe options are much more limited.
@@ -63,10 +88,13 @@ In general there are two typical apps that you can built on top of their payment
   * marketplaces and collaborative consumption platforms
   * crowdfunding platforms
 
+And that was exactly what we needed.
+
+
 ## Conclusion
 
 We still not using Mangopay API in production, but so far it looks that it fits our needs.
 API itself is well designed and [documentation](http://www.mangopay.com/api-references/)
 is full and has good examples.
 
-We even created [clojure library](http://os.hashobject.com/mangopay/) for it.
+We even created [Clojure library](http://os.hashobject.com/mangopay/) for it.
