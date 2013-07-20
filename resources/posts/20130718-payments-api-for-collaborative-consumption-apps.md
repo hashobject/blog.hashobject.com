@@ -10,7 +10,7 @@ author_avatar: /images/anton-avatar.png
 location: Nicaragua, Leon
 date_created: 2013-07-18
 date_modified: 2013-07-18
-date_published: 2013-07-18
+date_published: 2013-07-19
 headline:
 in_language: en
 keywords: payments, marketplaces, collaborative consuption, web apps,clojure, mangopay
@@ -39,7 +39,7 @@ But we had few very specific requirements:
 ## Payments for markeplaces
 
 
-If you are trying to build online marketplace there are basically two types of customers on the site:
+If you are trying to build online marketplace there are basically two types of customers:
 
   * buyers - people who buy stuff. You want to be able to process their payments
   * sellers - people who sell stuff. They should be able to get earned money out of the markeplace on their personal/business accounts
@@ -52,7 +52,7 @@ Online markeplace usually works within following steps:
   4. seller transfers money to his personal account (using e.x. bank wire transfer)
 
 
-Collaborative consumption apps (think [AirBnB](http://airbnb.com)) have slighly more steps:
+Collaborative consumption apps (think [AirBnB](http://airbnb.com)) have just one additional step:
 
   1. process payment from buyer
   2. cut procent from transaction as service fee
