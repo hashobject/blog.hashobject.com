@@ -1,0 +1,15 @@
+/* TEAM */
+Developer: Anton Podviaznikov
+Contact: anton@hashobject.com
+Twitter: @podviaznikov
+
+Designer: Maryna Aleksandrova
+Contact: maryna@hashobject.com
+Twitter: @m_aleksandrova
+
+
+/* SITE */
+Last update: 2013/07/21
+Language: English
+Doctype: HTML5
+
