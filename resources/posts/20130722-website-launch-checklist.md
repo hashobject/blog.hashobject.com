@@ -40,14 +40,14 @@ web site or web app. Please note that all of them have different priorities an i
     that are available on your resource. Listing all pages will help web spiders(e.x. Google bot) faster
     index your content. See [documentation] for more details.
   * setup [Google Webmaster Tools](https://www.google.com/webmasters/tools/) - set of free tools to monitor
-    and analyze your site. Easy to setup.
+    and analyze your site. Easy to configure.
   * setup social accounts if it's important to your app/site.
   * markup your pages with apprpriate schemas from [schema.org](http://schema.org). This will help search engines
     to understand content on your site much better. E.x. if you are developing site for hotel use following
     schema - http://schema.org/Hotel, if it's blog post page - http://schema.org/BlogPosting
   * fill proper data in you head tag. At leats don't forget to specify following 'meta' tags: author,keywords,
-    description
-  * dont' forget to add favicon (icon that is visible in the tab of the browser).
+    description.
+  * add favicon (icon that is visible in the tab of the browser).
   * if you are developing web app you may think about publishing it to [Chrome Web Store](https://chrome.google.com/webstore).
     In such case you will have one more channel for discoverability - users will find your app through the store.
     It's fairly easy to publish application to Web Store. Please visit [official documentation](https://developers.google.com/chrome/web-store/docs/publish)
