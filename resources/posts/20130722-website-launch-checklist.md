@@ -21,6 +21,7 @@ canonical_url: http://blog.hashobject.com/website-launch-checklist
 
 Here I'll try to write down list of typical activities that should be perfomed launching
 web site or web app. Please note that all of them have different priorities an impacts.
+And not all of them mayb apply to your particular site/app.
 
 ## Checklist
 
