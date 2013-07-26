@@ -34,7 +34,7 @@ And not all of them should be applie to your particular site/app.
     [http://humanstxt.org](http://humanstxt.org) will put link to your site in their directory.
   * configure analytics - this will help you to have better understanding about visitors and content on your site:
     who visiting your site, how often, which mobile browser is the most popular among the visitors etc.
-    [Google analytics](https://www.google.com/analytics/) is the most well-nkown solution, but there are
+    [Google analytics](https://www.google.com/analytics/) is the most well-known solution, but there are
     much more options, e.x. [Mixpanel](http://mixpanel.com/), [KISSMetricks](https://www.kissmetrics.com/),
     [Segment.io](https://segment.io/).
   * add sitemap.xml file - this file defines structure of your site. You should enumerate all pages
