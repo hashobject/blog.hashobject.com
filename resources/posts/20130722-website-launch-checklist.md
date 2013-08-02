@@ -9,7 +9,7 @@ author_twitter: podviaznikov
 author_avatar: /images/anton-avatar.png
 location: San Jose, Costa Rica
 date_created: 2013-07-22
-date_modified: 2013-07-25
+date_modified: 2013-08-02
 date_published: 2013-07-22
 headline:
 in_language: en
@@ -46,7 +46,7 @@ And not all of them should be applie to your particular site/app.
   * markup your pages with appropriate schemas from [schema.org](http://schema.org). This will help search engines
     to understand content on your site much better. E.x. if you are developing site for hotel use following
     schema - [http://schema.org/Hotel](http://schema.org/Hotel), if it's blog post page - [http://schema.org/BlogPosting](http://schema.org/BlogPosting)
-  * fill proper data in you head tag. At leats don't forget to specify following 'meta' tags: author,keywords,
+  * fill proper data in you head tag. At leats don't forget to specify following 'meta' tags: author, keywords,
     description.
   * add favicon (icon that is visible in the tab of the browser).
   * if you are developing web app you may think about publishing it to [Chrome Web Store](https://chrome.google.com/webstore).
