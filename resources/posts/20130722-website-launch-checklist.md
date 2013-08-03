@@ -1,6 +1,6 @@
 <!--
 name: Website launch checklist
-description: List of activities to do while launcging website
+description: List of activities to do while launching website
 author: Anton Podviaznikov
 author_email: anton@hashobject.com
 author_url: http://hashobject.com/team/anton
