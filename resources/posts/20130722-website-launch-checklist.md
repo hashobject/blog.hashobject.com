@@ -9,7 +9,7 @@ author_twitter: podviaznikov
 author_avatar: /images/anton-avatar.png
 location: San Jose, Costa Rica
 date_created: 2013-07-22
-date_modified: 2013-08-02
+date_modified: 2013-08-03
 date_published: 2013-07-22
 headline:
 in_language: en
@@ -51,9 +51,9 @@ and analyze your site. Easy to configure.
 
 ## social
 
-Setup social accounts if it's important to your site.
+Setup social accounts if it's important to your site: twitter, google+, facebook, reddit.
 
-## sematic markup
+## semantic markup
 
 Markup your pages with appropriate schemas from [schema.org](http://schema.org). This will help search engines
 to understand content on your site much better. E.x. if you are developing site for hotel use following
@@ -66,7 +66,7 @@ description.
 
 ## favicon
 
-Add favicon (icon that is visible in the tab of the browser).
+Add favicon (icon that is visible in the tab of the browser). Read [more](https://en.wikipedia.org/wiki/Favicon) about it.
 
 ## chrome web store
 
