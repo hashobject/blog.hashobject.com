@@ -59,6 +59,11 @@ module.exports = function(grunt) {
           gzip: true
         },
         {
+          src: '../resources/public/product-launch-on-betalist/index.html',
+          dest: 'product-launch-on-betalist/index.html',
+          gzip: true
+        },
+        {
           src: '../resources/public/css/app.css',
           dest: 'css/app.css',
           gzip: true

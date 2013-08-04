@@ -57,11 +57,12 @@ Setup social accounts if it's important to your site: twitter, google+, facebook
 
 Markup your pages with appropriate schemas from [schema.org](http://schema.org). This will help search engines
 to understand content on your site much better. E.x. if you are developing site for hotel use following
-schema - [http://schema.org/Hotel](http://schema.org/Hotel), if it's blog post page - [http://schema.org/BlogPosting](http://schema.org/BlogPosting)
+schema - [http://schema.org/Hotel](http://schema.org/Hotel), if it's blog post page - [http://schema.org/BlogPosting](http://schema.org/BlogPosting).
 
 ## metatags
 
-Fill proper data in you head tag. At leats don't forget to specify following 'meta' tags: author, keywords,
+Fill proper data in 'head' tag of your html pages.
+At leats don't forget to specify following 'meta' tags: author, keywords,
 description.
 
 ## favicon

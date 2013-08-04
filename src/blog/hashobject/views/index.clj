@@ -22,7 +22,7 @@
       [:meta {:itemprop "author" :name "author" :content "hashobject (team@hashobject.com)"}]
       [:meta {:name "keywords" :itemprop "keywords" :content "hashobject, blog, clojure, development, heroku, amazon route 53, aws"}]
       [:meta {:name "description" :itemprop "description" :content "Hashobject - software engineering, design and application development"}]
-      [:title "HashObject team blog about development and design"]
+      [:title "Hashobject team blog about development and design"]
       [:link {:rel "shortcut icon" :href "/favicon.ico"}]
       [:link {:rel "publisher" :href "https://plus.google.com/118068495795214676039"}]
       [:link {:rel "author" :href "humans.txt"}]
