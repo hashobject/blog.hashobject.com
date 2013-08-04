@@ -9,7 +9,7 @@ author_twitter: podviaznikov
 author_avatar: /images/anton-avatar.png
 location: Panama City, Panama
 date_created: 2013-08-04
-date_modified: 2013-08-04
+date_modified: 2013-08-05
 date_published: 2013-07-22
 headline:
 in_language: en
@@ -75,6 +75,19 @@ For us conversion is number of users who signed up using our MailChimp form.
 
 In 2 weeks after launching exclusively on Beta List we got 60 signups, while total number of
 unique visitors is 435 (from July 21 till August 4).
+Average visit duration is 54 seconds. Which is pretty high for 1 page web site.
+
+We got following users distribution among the countries:
+
+ * USA - 146 visits
+ * UK - 63 visits
+ * Bulgaria - 39 visits
+ * Spain - 36 visits
+ * Greece - 31 visit
+ * Germany - 15 visits
+ * Turkey - 13 visits
+ * Canada - 11 visits
+ * France - 11 visits
 
 
 ## Conclusion
