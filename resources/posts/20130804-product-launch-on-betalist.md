@@ -47,7 +47,7 @@ Before submitting our product to Beta List we didn't know what to expect:
   * how many people will subscribe?
   * how many tweets and other social intereactions we will get?
 
-Basically it was black box for us. That's why we want to share information that we found out from our personal 
+Basically it was the black box for us. That's why we want to share information that we found out from our personal 
 experience.
 
 
