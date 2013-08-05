@@ -22,7 +22,7 @@ canonical_url: http://blog.hashobject.com/product-launch-on-betalist
 Recently we launched simple signup page for the marketplace, we are working on
 ([Communist](http://communi.st) - check it out). Our idea was to launch
 using only one source and we chose [Beta List](http://betali.st) for this purpose.
-Now we'll try (very short) to analyze what happened.
+In this article we are going to analyze (very short) what happened.
 
 ## Motivation
 
