@@ -27,7 +27,7 @@ In this article we are going to analyze (very short) what happened.
 ## Motivation
 
 We decided to launch simple signup page (HTML page with [MailChimp](http://mailchimp.com/) subscription form), 
-because we want to start collecting information about users, who are interested in
+because we wanted to start collecting information about users, who are potentially interested in
 our new product. For us, choosing Beta List for initial launch was an obvious solution, since we are
 using it by ourselves (highly recommend subscribe for their newsletters).
 
