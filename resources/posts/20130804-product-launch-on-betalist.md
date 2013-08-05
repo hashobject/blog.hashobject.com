@@ -57,7 +57,7 @@ We submitted our site on July 16, 2013 (you can do the same for free
 [here](http://betali.st/submit), your page will look similar to [ours](http://betali.st/startups/communist).
 After submission we got a message that typical time for review and approval in most cases is around 5 weeks 
 (we were shocked!), and that you can speedup process with some money. We were very surprised when on July 21 
-(it was Sunday) after just 5(!) days Communist was published to Beta List.
+(it was Sunday) after just 5(!) days [Communist](http://communi.st) was published to Beta List.
 
 The cool thing about Beta List is that after the new entry is published on the site, there are around 250 
 [tweets](https://twitter.com/search?q=%23communi.st) are sent automatically (some Beta List users set up 
