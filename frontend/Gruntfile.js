@@ -64,6 +64,11 @@ module.exports = function(grunt) {
           gzip: true
         },
         {
+          src: '../resources/public/install-postgresql-9.2-on-ubuntu-13.04/index.html',
+          dest: 'install-postgresql-9.2-on-ubuntu-13.04/index.html',
+          gzip: true
+        },
+        {
           src: '../resources/public/css/app.css',
           dest: 'css/app.css',
           gzip: true
