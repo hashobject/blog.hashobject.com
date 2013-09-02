@@ -69,6 +69,11 @@ module.exports = function(grunt) {
           gzip: true
         },
         {
+          src: '../resources/public/upstart-configuration-for-clojure-apps/index.html',
+          dest: 'upstart-configuration-for-clojure-apps/index.html',
+          gzip: true
+        },
+        {
           src: '../resources/public/css/app.css',
           dest: 'css/app.css',
           gzip: true
