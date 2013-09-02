@@ -1,6 +1,6 @@
 <!--
 name: Upstart configuration for Clojure apps
-description: Short guide how to create upstart configuration for Clojure app using Leiningen
+description: Short guide how to create Ubuntu Upstart configuration for Clojure apps using Leiningen
 author: Anton Podviaznikov
 author_email: anton@hashobject.com
 author_url: http://hashobject.com/team/anton
