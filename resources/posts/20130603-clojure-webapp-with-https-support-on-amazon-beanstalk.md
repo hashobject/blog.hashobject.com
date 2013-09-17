@@ -9,7 +9,7 @@ author_twitter: podviaznikov
 author_avatar: /images/anton-avatar.png
 location: Guatemala City, Guatemala
 date_created: 2013-06-03
-date_modified: 2013-06-10
+date_modified: 2013-09-16
 date_published: 2013-06-26
 headline:
 in_language: en
