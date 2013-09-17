@@ -67,15 +67,11 @@ In general you need to add RSA public key and grant readonly access to this key.
 Then just clone source code using git. Enter directory with source code and launch your app using
 Leiningen:
 
-`
-lein ring server
-`
+`lein ring server`
 
 or
 
-`
-lein with-profile prod ring server
-`
+`lein with-profile prod ring server`
 
 
 ## Conslusion
