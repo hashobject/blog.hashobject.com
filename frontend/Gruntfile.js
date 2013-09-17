@@ -74,6 +74,11 @@ module.exports = function(grunt) {
           gzip: true
         },
         {
+          src: '../resources/public/clojure-webapp-on-ubuntu-13.04/index.html',
+          dest: 'clojure-webapp-on-ubuntu-13.04/index.html',
+          gzip: true
+        },
+        {
           src: '../resources/public/css/app.css',
           dest: 'css/app.css',
           gzip: true

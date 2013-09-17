@@ -30,11 +30,12 @@ Also check this [StackOverflow discussion](http://askubuntu.com/questions/287786
 
 ## Instructions
 
-Install missing dependecies:
+Install missing dependencies:
 
 `sudo apt-get install libpq-dev libpq5`.
 
 Add PostgreSQL repo:
+
 `sudo su; echo 'deb http://apt.postgresql.org/pub/repos/apt/ precise-pgdg main' >> /etc/apt/sources.list.d/pgdg.list`
 
 Add the key:
@@ -45,7 +46,7 @@ Update repositories:
 
 `sudo apt-get update`
 
-Install PostgreSQL
+Install PostgreSQL:
 
 `sudo apt-get -t raring install postgresql-common -t raring postgresql-9.2 postgresql-client-9.2`
 
