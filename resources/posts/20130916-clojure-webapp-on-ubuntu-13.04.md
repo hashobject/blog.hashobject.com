@@ -35,7 +35,7 @@ Install Java:
 
 Install Leiningen:
 
-```
+```shell
 
   cd bin/
   curl https://raw.github.com/technomancy/leiningen/stable/bin/lein > lein
