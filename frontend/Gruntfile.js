@@ -84,6 +84,11 @@ module.exports = function(grunt) {
           gzip: true
         },
         {
+          src: '../resources/public/js/vendor.js',
+          dest: 'js/vendor.js',
+          gzip: true
+        },
+        {
           src: '../resources/public/images/*.png',
           dest: 'images/',
           rel: '../resources/public/images'
