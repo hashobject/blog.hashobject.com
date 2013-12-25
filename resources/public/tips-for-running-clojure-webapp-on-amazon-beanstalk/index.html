@@ -4,8 +4,8 @@
   &#40;alter-var-root
    #'clojure.tools.logging/&#42;logger-factory&#42;
    &#40;constantly &#40;clojure.tools.logging.impl/jul-factory&#41;&#41;&#41;
-<p>
-</pre></p><p>For Ring/Compojure projects just put this code somewhere at the top of your web handler file.</p><h2>Force HTTPS</h2><p>I described how to get HTTPS support for Clojure web app deployed on Amazon Beanstalk in the <a href='http://blog.hashobject.com/clojure-webapp-with-https-support-on-amazon-beanstalk.html'>previous post</a>.</p><p>Sometimes you need to force HTTPS traffic for everything. So e.x. if user requests page on http://example.com you want to redirect him on https://example.com.</p><p>You can setup proxy to do that.</p><p>I was able to achieve that with this sample ring middleware:</p><pre class="brush: clojure">
+
+</pre><p>For Ring/Compojure projects just put this code somewhere at the top of your web handler file.</p><h2>Force HTTPS</h2><p>I described how to get HTTPS support for Clojure web app deployed on Amazon Beanstalk in the <a href='http://blog.hashobject.com/clojure-webapp-with-https-support-on-amazon-beanstalk.html'>previous post</a>.</p><p>Sometimes you need to force HTTPS traffic for everything. So e.x. if user requests page on http://example.com you want to redirect him on https://example.com.</p><p>You can setup proxy to do that.</p><p>I was able to achieve that with this sample ring middleware:</p><pre class="brush: clojure">
 
   &#40;defn https-url &#91;request-url&#93;
     &#40;str &#40;str &#40;str &#40;str &quot;https://&quot; &#40;:server-name request-url&#41; &quot;:&quot;&#41; &quot;443&quot;&#41;&#41; &#40;:uri request-url&#41;&#41;&#41;
@@ -17,8 +17,8 @@
       &#40;if &#40;= &#40;:scheme request&#41; :http&#41;
         &#40;ring.util.response/redirect &#40;https-url request&#41;&#41;
         &#40;handler request&#41;&#41;&#41;&#41;
-<p>
-</pre></p><p>And then just add <code>require-https</code> middleware to your other middlewares. E.x.:</p><pre class="brush: clojure">
+
+</pre><p>And then just add <code>require-https</code> middleware to your other middlewares. E.x.:</p><pre class="brush: clojure">
 
   &#40;def war-handler
     &#40;-&gt; app
@@ -26,8 +26,8 @@
       &#40;wrap-resource &quot;public&quot;&#41;
       &#40;wrap-base-url&#41;
       &#40;wrap-file-info&#41;&#41;&#41;
-<p>
-</pre></p><aside class="post-meta small-12 columns"><img class="author-avatar" src="/images/anton-avatar.png"><div class="meta-info"><div><span class="meta-label">Written by</span><a class="author-name" href="http://hashobject.com/team/anton">Anton Podviaznikov</a></div><div><span class="meta-label">Published: </span><span>Jun 26, 2013</span></div><div><span class="meta-label">Modified: </span><span>Jun 15, 2013</span></div><div><span class="meta-label">Published in: </span><span>San Salvador, El Salvador</span></div></div></aside></div><footer class="post-discussion small-12 columns">Discussion for this post available on <a href="https://github.com/hashobject/blog.hashobject.com/issues/2">GitHub</a>.</footer></div><footer class="row"><p class="license small-12 columns">Except as otherwise noted, the content of this site is licensed
+
+</pre><aside class="post-meta small-12 columns"><img class="author-avatar" src="/images/anton-avatar.png"><div class="meta-info"><div><span class="meta-label">Written by</span><a class="author-name" href="http://hashobject.com/team/anton">Anton Podviaznikov</a></div><div><span class="meta-label">Published: </span><span>Jun 26, 2013</span></div><div><span class="meta-label">Modified: </span><span>Jun 15, 2013</span></div><div><span class="meta-label">Published in: </span><span>San Salvador, El Salvador</span></div></div></aside></div><footer class="post-discussion small-12 columns">Discussion for this post available on <a href="https://github.com/hashobject/blog.hashobject.com/issues/2">GitHub</a>.</footer></div><footer class="row"><p class="license small-12 columns">Except as otherwise noted, the content of this site is licensed
      under the <a href='http://creativecommons.org/licenses/by/3.0/'>Creative Commons Attribution 3.0 License</a>,
      and code samples are licensed under the
      <a href='http://opensource.org/licenses/eclipse-1.0'>Eclipse Public License 1.0</a>.</p><script src="/js/jquery.js" type="text/javascript"></script><script src="/js/foundation.min.js" type="text/javascript"></script><script src="/js/foundation.topbar.js" type="text/javascript"></script><script>$(document).foundation();</script></footer></body></html>
