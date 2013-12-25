@@ -7,7 +7,7 @@
 
 
 (defn render-post [post]
-  [:li.post {:itemprop "blogPost" :itemscope "" :itemtype "http://schema.org/BlogPosting"}
+  [:li.item {:itemprop "blogPost" :itemscope "" :itemtype "http://schema.org/BlogPosting"}
    [:meta {:itemprop "author" :content (str (get post "author") " (" (get post "author_email") ")" )}]
    [:a {:href (str (:filename post)) :itemprop "name"} (get post "name")]
    [:p {:itemprop "description"} (get post "description")]])
@@ -33,8 +33,6 @@
     [:body
      (common/header)
      [:div.row
-      [:div.content
-       [:ul.posts.columns.large-12
+       [:ul.items.columns.small-12
         (for [post posts] (render-post post))]]]
-
-     (common/footer)]))
+     (common/footer)))

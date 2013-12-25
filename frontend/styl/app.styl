@@ -41,6 +41,7 @@ div.logo
 
 .contain-to-grid
 .top-bar
+.top-bar.expanded .title-area
 .top-bar-section ul
 .top-bar-section li
   background: white;
@@ -124,13 +125,23 @@ a
   & .meta-label
     display: block;
 
-.post-discussion,
+.post-discussion
 .license.small-12.columns
   color: $gray-dark;
   font-style: italic;
+  font-size: 1.0em;
   margin-bottom: 30px;
   padding: 0 1em;
 
+
+
+ul.items
+  & li.item
+    list-style: none;
+    & a
+      text-transform: uppercase;
+    & p
+      margin-top: 10px;
 
 @media all and (min-width: 750px)
   .post-meta
@@ -146,4 +157,8 @@ a
     & .meta-label
       display: inline;
       margin-right: 5px;
+
+
+
+
 

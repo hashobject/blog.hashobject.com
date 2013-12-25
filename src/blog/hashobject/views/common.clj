@@ -30,11 +30,10 @@
 
 (defn footer []
   [:footer.row
-   [:div.content
-    [:p.licence "Except as otherwise noted, the content of this site is licensed
+    [:p.license.small-12.columns "Except as otherwise noted, the content of this site is licensed
      under the <a href='http://creativecommons.org/licenses/by/3.0/'>Creative Commons Attribution 3.0 License</a>,
      and code samples are licensed under the
-     <a href='http://opensource.org/licenses/eclipse-1.0'>Eclipse Public License 1.0</a>."]]
+     <a href='http://opensource.org/licenses/eclipse-1.0'>Eclipse Public License 1.0</a>."]
    (include-js "/js/jquery.js")
    (include-js "/js/foundation.min.js")
    (include-js "/js/foundation.topbar.js")

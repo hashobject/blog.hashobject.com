@@ -49,7 +49,6 @@
             [:div
               [:span.meta-label "Published in: "]
               [:span (get metadata "location")]]]]]
-        [:footer.post-discussion.small-12.columns
-         [:p.discussion-link "Discussion for this post available on "
-          [:a {:href (get metadata "discussion_url")} "GitHub"] "."]]]
+        [:footer.post-discussion.small-12.columns  "Discussion for this post available on "
+          [:a {:href (get metadata "discussion_url")} "GitHub"] "."]]
      (common/footer)]))
