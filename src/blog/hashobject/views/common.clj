@@ -15,7 +15,7 @@
 
 (defn header []
   [:header.row
-   [:div.content
+   [:div.small-12
     [:a {:href "http://blog.hashobject.com"}[:div.logo]]
     [:nav {:role "navigation"}
      [:ul

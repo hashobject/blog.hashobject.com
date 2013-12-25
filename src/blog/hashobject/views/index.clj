@@ -28,7 +28,7 @@
       [:link {:rel "author" :href "humans.txt"}]
       (include-css "/css/app.css")
       (include-css "http://fonts.googleapis.com/css?family=PT+Sans")
-      (common/ga)
+      ;(common/ga)
      ]
     [:body
      (common/header)

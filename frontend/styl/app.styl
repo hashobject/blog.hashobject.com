@@ -1,23 +1,19 @@
 @import "normalize.min.css"
 @import "foundation.min.css"
-@import "font-awesome.css"
+@import "nib"
 
-
-$text-color = black;
-$link-color = #eb4d94;
-$visited-link-color = #9e0047;
-$code-color = #99eb52;
-$code-background = #3a434a;
-$header-color = #1cb8e8;
-$quote-background = #e8eaeb;
-
+$blue-light = #1ab7ea
+$pink = #eb4d94
+$pink-dark = #9e0047
+$gray-bg = #eaeced
+$gray-dark = #39434a
+$green-bright = #99ec51
 
 body
+  font-family: 'PT Sans', Tahoma, sans-serif;
   font-size: 14px;
   line-height: 1.4;
-  color: black;
-  font-family: 'PT Sans', Tahoma, sans-serif;
-  color: $text-color;
+  color: #000;
 
 div.logo
   margin: 5px 0;
@@ -29,9 +25,6 @@ div.logo
 body > header.row
   height: 65px;
   margin-bottom: 30px;
-  & > .content
-    width: 700px;
-    height: 100%;
   & nav
     position: absolute;
     right: 0;
@@ -50,7 +43,7 @@ body > header.row
         padding-right: 10px;
         &.active
         &:hover
-          background-color: $header-color;
+          background-color: $blue-light;
           color: white;
           & a
           & a:visited
@@ -62,114 +55,80 @@ body > header.row
           font-size: 18px;
           line-height: 1.2;
 
-body > footer.row
-  & p.licence
-    font-style: italic;
-    color: $code-background;
-    margin: 35px 12px 20px;
+p
+  margin: 7px 0;
 
-.row > .content
-  width: 600px;
-  margin: 0 auto;
+a
+  color: $pink;
+  text-decoration: none;
+  &:visited
+    color: $pink-dark;
+
+.post
+  margin-bottom: 30px;
+  padding: 0 1em;
   position: relative;
-
-  & a
-    color: $link-color;
-    &:visited
-      color: $visited-link-color;
-
-aside.post-metadata
-  position: absolute;
-  width: 95px;
-  left: -52px;
-  text-align: right;
-  & img.avatar
-    border-radius: 25px;
-    width: 50px;
-  & a
-  & span
-    display: block;
-    &.meta-label
-      margin-top: 10px;
-
-article.post-content
-  margin-left: 52px;
-
-article.post-content
-article.docs-content
+  & h1, h2
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.2;
   & h1
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 1.2;
     text-transform: uppercase;
-
+    margin-bottom: 35px;
   & h2
-    margin-top: 35px;
-    margin-bottom: 15px;
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 1.2;
-    color: $header-color;
-  & ul
-  & ol
-    list-style-position: inside;
-
-  & code
-  & pre[class="brush: clojure"]
-  & pre[class="brush: shell"]
-    font-family: Courier, monospace;
-    font-weight: normal;
-    color: $code-color;
-    background-color: $code-background;
-    display: block;
-    margin: 15px;
-    padding: 10px 15px;
-
-  & pre
-    font-family: Courier, monospace;
-    font-weight: bold;
-    color: $code-color;
-
-  & p
-    margin-top: 0;
-    margin-bottom: 7px;
-
-  & p.discussion-link
-    margin-top: 20px;
-    font-style: italic;
-    color: $code-background;
-
-  & ul
-  & ol
-    color: $code-background;
-    margin-left: 15px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-
+    color: $blue-light;
+    margin: 35px 0 15px;
   & blockquote
-    border-left: 5px solid $link-color;
-    background-color: $quote-background;
-    font-style: italic;
+    background: $gray-bg;
+    border-left: 5px solid $pink;
+    color: $gray-dark;
     font-size: 16px;
+    font-style: italic;
     margin: 15px 0;
-    padding: 15px 30px;
-    & p
-      margin: 0;
-      padding: 0;
-      font-size: 16px;
+    padding: 15px 15px 15px 25px;
+  & pre, code
+    background: $gray-dark;
+    color: $green-bright;
+    display: block;
+    font-family: 'Consolas', Courier, monospace;
+    margin: 15px 0;
+    overflow-x: auto;
+    padding: 10px 15px;
+  & pre
+    padding: 20px 15px;
+  & img
+    margin: 8px 0;
+  & ul
+    margin: 15px 0;
+    padding-left: 30px;
+    & li
+      color: $gray-dark;
 
-ul.posts
-  & li.post
-    list-style: none;
-    & a
-      text-transform: uppercase;
-    & p
-      margin-top: 10px;
+.post-meta
+  margin-bottom: 30px;
+  padding: 0 1em;
+  & .author-avatar
+    float: left;
+    margin-right: 5px;
+    vertical-align: top;
+  & .meta-label
+    margin: 0 5px;
 
-ul.projects
-  & li.project
-    list-style: none;
-    & a
-      text-transform: uppercase;
-    & p
-      margin-top: 10px;
+.post-discussion,
+.license.small-12.columns
+  color: $gray-dark;
+  font-style: italic;
+  margin-bottom: 30px;
+  padding: 0 1em;
+
+
+@media all and (min-width: 750px) {
+  .post-meta {
+    text-align: left;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    width: 95px;
+    left: -110px;
+  }
+}

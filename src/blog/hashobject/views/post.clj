@@ -26,25 +26,30 @@
       [:link {:rel "canonical" :href (get metadata "canonical_url")}]
       (include-css "/css/app.css")
       (include-css "http://fonts.googleapis.com/css?family=PT+Sans")
-      (common/ga)]
+      ;(common/ga)
+     ]
     [:body
      (common/header)
      [:div.row
-       [:div.content
-         [:aside.post-metadata
-          [:img.avatar {:src (get metadata "author_avatar")}]
-          [:span "Written by"]
-          [:a.author {:href (get metadata "author_url")} (get metadata "author")]
-          [:span.meta-label "Published: "]
-          [:span (dates/reformat-datestr (get metadata "date_published") "YYYY-MM-dd", "MMM dd, YYYY")]
-          [:span.meta-label "Modified: "]
-          [:span (dates/reformat-datestr (get metadata "date_modified") "YYYY-MM-dd", "MMM dd, YYYY")]
-          [:span.meta-label "Published in: "]
-          [:span (get metadata "location")]]
-         [:article.post-content.columns.large-12
-          [:h1 {:itemprop "name"} (get metadata "name")]
-          (str content)
-          [:footer.post-footer
-           [:p.discussion-link "Discussion for this post available on "
-            [:a {:href (get metadata "discussion_url")} "GitHub"] "."]]]]]
+       [:div.post.small-12.columns
+         [:h1 {:itemprop "name"} (get metadata "name")]
+         (str content)
+         [:aside.post-meta.small-12.columns
+          [:img.author-avatar {:src (get metadata "author_avatar")}]
+          [:div.meta-info
+            [:div
+              [:span.meta-label "Written by"]
+              [:a.author-name {:href (get metadata "author_url")} (get metadata "author")]]
+            [:div
+              [:span.meta-label "Published: "]
+              [:span (dates/reformat-datestr (get metadata "date_published") "YYYY-MM-dd", "MMM dd, YYYY")]]
+            [:div
+              [:span.meta-label "Modified: "]
+              [:span (dates/reformat-datestr (get metadata "date_modified") "YYYY-MM-dd", "MMM dd, YYYY")]]
+            [:div
+              [:span.meta-label "Published in: "]
+              [:span (get metadata "location")]]]]]
+        [:footer.post-discussion.small-12.columns
+         [:p.discussion-link "Discussion for this post available on "
+          [:a {:href (get metadata "discussion_url")} "GitHub"] "."]]]
      (common/footer)]))
