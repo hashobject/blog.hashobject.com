@@ -15,45 +15,55 @@ body
   line-height: 1.4;
   color: #000;
 
+.top-bar
+.top-bar .name
+  height: 65px;
+
+  & .toggle-topbar.menu-icon
+    top: 0;
+    right: 25px;
+    margin-top: 0;
+    padding-left: 0;
+
 div.logo
   margin: 5px 0;
   background-image: url('/images/hashobject-logo.png');
   width: 246px;
   height: 53px;
+  &.square
+    background-image: url('/images/hashobject-logo-square.png');
+    width: 53px;
 
 
-body > header.row
-  height: 65px;
-  margin-bottom: 30px;
-  & nav
-    position: absolute;
-    right: 0;
-    top: -5px;
-    height: 100%;
-    & ul
-      height: 100%;
-      & li
-        height: 100%;
-        display: inline-block;
-        text-transform: uppercase;
-        list-style-type: none;
-        margin: 0 10px;
-        padding-top: 25px;
-        padding-left: 10px;
-        padding-right: 10px;
-        &.active
-        &:hover
-          background-color: $blue-light;
-          color: white;
-          & a
-          & a:visited
-            color: white!important;
-        & a
-        & a:visited
-          color: black!important;
-          font-weight: bold;
-          font-size: 18px;
-          line-height: 1.2;
+
+.contain-to-grid .top-bar
+  margin-bottom: 20px;
+
+.contain-to-grid
+.top-bar
+.top-bar-section ul
+.top-bar-section li
+  background: white;
+
+.top-bar-section ul li
+  padding-left: 0;
+  padding-right: 0;
+  & > a:not(.button)
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background: white;
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.2;
+    text-transform: uppercase;
+    &:visited
+      color: black;
+  &.active
+  &:hover
+    & > a:not(.button)
+      background-color: $blue-light;
+      color: white;
 
 p
   margin: 7px 0;
@@ -112,7 +122,7 @@ a
     margin-right: 5px;
     vertical-align: top;
   & .meta-label
-    margin: 0 5px;
+    display: block;
 
 .post-discussion,
 .license.small-12.columns
@@ -122,13 +132,18 @@ a
   padding: 0 1em;
 
 
-@media all and (min-width: 750px) {
-  .post-meta {
+@media all and (min-width: 750px)
+  .post-meta
     text-align: left;
     padding: 0;
     position: absolute;
     top: 0;
     width: 95px;
     left: -110px;
-  }
-}
+
+@media all and (min-width: 350px)
+  .post-meta
+    & .meta-label
+      display: inline;
+      margin-right: 5px;
+
