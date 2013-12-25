@@ -110,7 +110,27 @@ module.exports = function(grunt) {
         }
       ]
     },
+    concat: {
+      options: {
+        separator: ';'
+      },
+      vendor: {
+        src: [
+              'js/jquery.js',
+              'js/foundation.min.js',
+              'js/foundation.topbar.js'
+              ],
+        dest: '../resources/public/js/vendor.js'
+      },
+    },
 
+    uglify: {
+      my_target: {
+        files: {
+          '../resources/public/js/vendor.min.js': ['../resources/public/js/vendor.js']
+        }
+      }
+    },
     watch: {
       src: {
         files: ['styl/*.styl'],
@@ -120,11 +140,13 @@ module.exports = function(grunt) {
 
   });
 
+  grunt.loadNpmTasks('grunt-contrib-concat');
+  grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-contrib-stylus');
   grunt.loadNpmTasks('grunt-s3');
   grunt.loadNpmTasks('grunt-contrib-watch');
 
-  grunt.registerTask('build', ['stylus:compile']);
-  grunt.registerTask('deploy', ['stylus:compile', 's3:upload']);
+  grunt.registerTask('build', ['stylus:compile', 'concat:vendor']);
+  grunt.registerTask('deploy', ['stylus:compile', 'concat:vendor', 's3:upload']);
 
 };
