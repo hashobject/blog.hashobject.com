@@ -3,6 +3,7 @@
 @import "nib"
 @import "pygments.css"
 
+
 @import "code.styl"
 
 $blue-light = #1ab7ea
@@ -19,62 +20,6 @@ body
   color: #000;
 
 
-
-.top-bar
-.top-bar .name
-  height: 65px;
-
-  & .toggle-topbar.menu-icon
-    top: 0;
-    right: 25px;
-    margin-top: 0;
-    padding-left: 0;
-
-  & div.logo
-    margin: 5px 0;
-    background-image: url('/images/hashobject-logo.png');
-    width: 246px;
-    height: 53px;
-    &.square
-      background-image: url('/images/hashobject-logo-square.png');
-      width: 53px;
-      &:hover
-        opacity: 0.8;
-
-  &.expanded div.logo.square
-    transform: rotate(90deg);
-
-
-.contain-to-grid .top-bar
-  margin-bottom: 20px;
-
-.contain-to-grid
-.top-bar
-.top-bar.expanded .title-area
-.top-bar-section ul
-.top-bar-section li
-  background: white;
-
-.top-bar-section ul li
-  padding-left: 0;
-  padding-right: 0;
-  & > a:not(.button)
-    padding-top: 15px;
-    padding-bottom: 15px;
-    background: white;
-    color: black;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 1.2;
-    text-transform: uppercase;
-    &:visited
-      color: black;
-  &.active
-  &:hover
-    & > a:not(.button)
-      background-color: $blue-light;
-      color: white;
-
 p
   margin: 7px 0;
 
@@ -84,64 +29,9 @@ a
   &:visited
     color: $pink-dark;
 
-.post
-  margin-bottom: 30px;
-  padding: 0 1em;
-  position: relative;
-  & h1, h2
-    font-size: 18px;
-    font-weight: bold;
-    line-height: 1.2;
-  & h1
-    text-transform: uppercase;
-    margin-bottom: 35px;
-  & h2
-    color: $blue-light;
-    margin: 35px 0 15px;
-  & blockquote
-    background: $gray-bg;
-    border-left: 5px solid $pink;
-    color: $gray-dark;
-    font-size: 16px;
-    font-style: italic;
-    margin: 15px 0;
-    padding: 15px 15px 15px 25px;
-  & pre, code
-    background: $gray-dark;
-    color: $green-bright;
-    display: block;
-    font-family: 'Consolas', Courier, monospace;
-    margin: 15px 0;
-    overflow-x: auto;
-    padding: 10px 15px;
-  & pre
-    padding: 20px 15px;
-  & img
-    margin: 8px 0;
-  & ul
-    margin: 15px 0;
-    padding-left: 30px;
-    & li
-      color: $gray-dark;
 
-.post-meta
-  margin-bottom: 30px;
-  padding: 0 1em;
-  & .author-avatar
-    float: left;
-    margin-right: 5px;
-    vertical-align: top;
-  & .meta-label
-    display: block;
-
-.post-discussion
-.license.small-12.columns
-  color: $gray-dark;
-  font-style: italic;
-  font-size: 1.0em;
-  margin-bottom: 30px;
-  padding: 0 1em;
-
+@import "header.styl"
+@import "post.styl"
 
 
 ul.items
@@ -152,20 +42,9 @@ ul.items
     & p
       margin-top: 10px;
 
-@media all and (min-width: 750px)
-  .post-meta
-    text-align: left;
-    padding: 0;
-    position: absolute;
-    top: 0;
-    width: 95px;
-    left: -110px;
 
-@media all and (min-width: 350px)
-  .post-meta
-    & .meta-label
-      display: inline;
-      margin-right: 5px;
+
+
 
 
 

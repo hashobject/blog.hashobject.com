@@ -1,0 +1,74 @@
+.post
+  margin-bottom: 30px;
+  padding: 0 1em;
+  position: relative;
+  & h1, h2
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.2;
+  & h1
+    text-transform: uppercase;
+    margin-bottom: 35px;
+  & h2
+    color: $blue-light;
+    margin: 35px 0 15px;
+  & blockquote
+    background: $gray-bg;
+    border-left: 5px solid $pink;
+    color: $gray-dark;
+    font-size: 16px;
+    font-style: italic;
+    margin: 15px 0;
+    padding: 15px 15px 15px 25px;
+  & pre, code
+    background: $gray-dark;
+    color: $green-bright;
+    display: block;
+    font-family: 'Consolas', Courier, monospace;
+    margin: 15px 0;
+    overflow-x: auto;
+    padding: 10px 15px;
+  & pre
+    padding: 20px 15px;
+  & img
+    margin: 8px 0;
+  & ul
+    margin: 15px 0;
+    padding-left: 30px;
+    & li
+      color: $gray-dark;
+
+.post-meta
+  margin-bottom: 30px;
+  padding: 0 1em;
+  & .author-avatar
+    float: left;
+    margin-right: 5px;
+    vertical-align: top;
+  & .meta-label
+    display: block;
+
+.post-discussion
+.license.small-12.columns
+  color: $gray-dark;
+  font-style: italic;
+  font-size: 1.0em;
+  margin-bottom: 30px;
+  padding: 0 1em;
+
+
+
+@media all and (min-width: 750px)
+  .post-meta
+    text-align: left;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    width: 95px;
+    left: -110px;
+
+@media all and (min-width: 350px)
+  .post-meta
+    & .meta-label
+      display: inline;
+      margin-right: 5px;
