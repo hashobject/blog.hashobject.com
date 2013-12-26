@@ -1,6 +1,9 @@
 @import "normalize.css"
 @import "foundation.min.css"
 @import "nib"
+@import "pygments.css"
+
+@import "code.styl"
 
 $blue-light = #1ab7ea
 $pink = #eb4d94
@@ -15,6 +18,8 @@ body
   line-height: 1.4;
   color: #000;
 
+
+
 .top-bar
 .top-bar .name
   height: 65px;
@@ -25,15 +30,19 @@ body
     margin-top: 0;
     padding-left: 0;
 
-div.logo
-  margin: 5px 0;
-  background-image: url('/images/hashobject-logo.png');
-  width: 246px;
-  height: 53px;
-  &.square
-    background-image: url('/images/hashobject-logo-square.png');
-    width: 53px;
+  & div.logo
+    margin: 5px 0;
+    background-image: url('/images/hashobject-logo.png');
+    width: 246px;
+    height: 53px;
+    &.square
+      background-image: url('/images/hashobject-logo-square.png');
+      width: 53px;
+      &:hover
+        opacity: 0.8;
 
+  &.expanded div.logo.square
+    transform: rotate(90deg);
 
 
 .contain-to-grid .top-bar
@@ -157,6 +166,12 @@ ul.items
     & .meta-label
       display: inline;
       margin-right: 5px;
+
+
+
+
+
+
 
 
 
