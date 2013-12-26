@@ -130,9 +130,9 @@ module.exports = function(grunt) {
     },
 
     uglify: {
-      my_target: {
+      vendor: {
         files: {
-          '../resources/public/js/vendor.min.js': ['../resources/public/js/vendor.js']
+          '../resources/public/js/vendor.js': ['../resources/public/js/vendor.js']
         }
       }
     },
@@ -152,6 +152,6 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-watch');
 
   grunt.registerTask('build', ['stylus:compile', 'concat:vendor']);
-  grunt.registerTask('deploy', ['stylus:compile', 'concat:vendor', 's3:upload']);
+  grunt.registerTask('deploy', ['stylus:compile', 'concat:vendor', 'uglify:vendor', 's3:upload']);
 
 };

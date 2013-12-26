@@ -10,11 +10,36 @@ Inside `frontend` directory execute command:
 
 ```
   pygmentize -S default -f html > styl/pygments.css
-  lein index-html;lein posts-html;lein sitemap-xml; grunt deploy; lein sitemap
+  lein index-html;lein posts-html;lein sitemap-xml; lein sitemap
+  nvm use 0.8.26;grunt deploy
 ```
 
 This will build all html, sitemap, css and deploy it to S3.
 
+
+## CloudFront invalidation
+
+/
+/index.html
+/css/app.css
+/js/vendor.js
+/clojure-webapp-on-ubuntu-13.04/
+/clojure-webapp-on-ubuntu-13.04/index.html
+/upstart-configuration-for-clojure-apps/
+/upstart-configuration-for-clojure-apps/index.html
+/install-postgresql-9.2-on-ubuntu-13.04/index.html
+/product-launch-on-betalist/
+/product-launch-on-betalist/index.html
+/website-launch-checklist/
+/website-launch-checklist/index.html
+/payments-api-for-collaborative-consumption-apps/
+/payments-api-for-collaborative-consumption-apps/index.hmtl
+/make-static-site-with-clojure-and-host-on-amazon/
+/make-static-site-with-clojure-and-host-on-amazon/index.html
+/tips-for-running-clojure-webapp-on-amazon-beanstalk/
+/tips-for-running-clojure-webapp-on-amazon-beanstalk/index.html
+/clojure-webapp-with-https-support-on-amazon-beanstalk/
+/clojure-webapp-with-https-support-on-amazon-beanstalk/index.html
 
 ## Content License
 
