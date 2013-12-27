@@ -1,6 +1,6 @@
 <!--
 name: Hacker School vs Finnish education system
-description:
+description: Finding similarities between Hacker School and eudcation system in Finland
 author: Anton Podviaznikov
 author_email: anton@hashobject.com
 author_url: http://hashobject.com/team/anton
@@ -13,7 +13,7 @@ date_modified: 2013-12-27
 date_published: 2013-12-27
 headline:
 in_language: en
-keywords: hacker school, education
+keywords: hacker school, education, finland
 discussion_url: https://github.com/hashobject/blog.hashobject.com/issues/10
 canonical_url: http://blog.hashobject.com/hacker-school-vs-finnish-education-system
 -->
@@ -21,6 +21,7 @@ canonical_url: http://blog.hashobject.com/hacker-school-vs-finnish-education-sys
 
 I'm a big fun of Finnish education system. I like to read about it and discuss it with people passionate
 about education.
+
 Also I just spent incredible 12 weeks as student in the fall batch of Hacker School. Hacker School is
 unqiue place, I'm even more excited about it now than before applying. It was that good.
 
