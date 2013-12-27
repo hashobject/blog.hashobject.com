@@ -505,7 +505,7 @@ a:visited{color:#9e0047}
 .post-meta .author-avatar{float:left;margin-right:5px;vertical-align:top}
 .post-meta .meta-label{display:block}
 .post-discussion,.license.small-12.columns{color:#39434a;font-style:italic;font-size:1em;margin-bottom:30px;padding:0 1em}
-@media all and (min-width: 750px){.post-meta{text-align:left;padding:0;position:absolute;top:0;width:95px;left:-110px}
+@media all and (min-width: 750px){.post-meta{text-align:left;padding:0;position:absolute;top:0;width:90px;left:-90px}
 }@media all and (min-width: 350px){.post-meta .meta-label{display:inline;margin-right:5px}
 }ul.items li.item{list-style:none;}
 ul.items li.item a{text-transform:uppercase}
