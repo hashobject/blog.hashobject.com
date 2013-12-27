@@ -2,8 +2,6 @@
   (:use clojure.java.io)
   (:require [markdown.core :as markdown]
             [endophile.core :as markdown-parser]
-;            [endophile.hiccup :as endophile-hiccup]
-;            [hiccup.core :only [html]]
             [sitemap.core :as sitemap]
             [blog.hashobject.views.index :as index-view]
             [blog.hashobject.views.post :as post-view]))
@@ -11,7 +9,6 @@
 
 (defn make-dir [path]
    (.mkdir (java.io.File. path)))
-
 
 (def sources-dir (file "./resources/posts/"))
 
@@ -66,11 +63,8 @@
         metadata (parse-post-defn lines)
         content (original-md-to-html-str file)]
     (println "post md ds" post)
-;    (println "post html" (html (to-hiccup past)))
-;    (println (markdown-parser/to-html post))
     (assoc metadata :filename filename
                     :content content)))
-
 
 (defn process-posts []
   (let [files (get-files-to-process)]
@@ -85,10 +79,8 @@
 
 (defn generate-index []
   (let [posts (reverse (process-posts))]
-    (println "posts" posts)
     (spit (str "./resources/public/index.html")
           (index-view/index posts))))
-
 
 (defn posts-sitemap-definitions []
   (let [posts (process-posts)]
@@ -106,7 +98,3 @@
                          :changefreq "daily"
                          :priority 1.0})]
         (sitemap/generate-sitemap-and-save "./resources/public/sitemap.xml" all-pages)))
-
-
-
-
