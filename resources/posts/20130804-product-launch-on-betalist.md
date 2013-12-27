@@ -3,7 +3,7 @@ name: Product launch on Beta List
 description: Analysis of product launch on Beta List
 author: Anton Podviaznikov
 author_email: anton@hashobject.com
-author_url: http://hashobject.com/team/anton
+author_url: http://twitter.com/podviaznikov
 author_github: podviaznikov
 author_twitter: podviaznikov
 author_avatar: /images/anton-avatar.png

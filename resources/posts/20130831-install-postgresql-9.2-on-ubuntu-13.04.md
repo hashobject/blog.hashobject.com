@@ -3,7 +3,7 @@ name: Install PostreSQL 9.2 on Ubuntu 13.04
 description: Short guide how to install PostgreSQL 9.2 on Ubuntu 13.04
 author: Anton Podviaznikov
 author_email: anton@hashobject.com
-author_url: http://hashobject.com/team/anton
+author_url: http://twitter.com/podviaznikov
 author_github: podviaznikov
 author_twitter: podviaznikov
 author_avatar: /images/anton-avatar.png

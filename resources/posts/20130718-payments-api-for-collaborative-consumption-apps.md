@@ -3,7 +3,7 @@ name: Payments API for the collaborative consumption apps
 description: Payments API for marketplaces/collaborative consumption apps in Europe
 author: Anton Podviaznikov
 author_email: anton@hashobject.com
-author_url: http://hashobject.com/team/anton
+author_url: http://twitter.com/podviaznikov
 author_github: podviaznikov
 author_twitter: podviaznikov
 author_avatar: /images/anton-avatar.png

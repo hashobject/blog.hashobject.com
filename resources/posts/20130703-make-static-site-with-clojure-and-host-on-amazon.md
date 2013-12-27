@@ -3,7 +3,7 @@ name: Make static web site with Clojure and host it on Amazon S3 and CloudFront
 description: Short guide how to create static web site using Clojure and host it on Amazon S3 and CloudFront
 author: Anton Podviaznikov
 author_email: anton@hashobject.com
-author_url: http://hashobject.com/team/anton
+author_url: http://twitter.com/podviaznikov
 author_github: podviaznikov
 author_twitter: podviaznikov
 author_avatar: /images/anton-avatar.png
