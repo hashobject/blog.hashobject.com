@@ -47,14 +47,14 @@ There are no tuition fees in both Finland and Hacker School.
 ## No competition
 
 Finland's experience shows that it is possible to achieve excellence by focusing not on competition, but on cooperation
-[1](http://www.theatlantic.com/national/archive/2011/12/what-americans-keep-ignoring-about-finlands-school-success/250564/).
+[&#91;1&#93;](http://www.theatlantic.com/national/archive/2011/12/what-americans-keep-ignoring-about-finlands-school-success/250564/).
 
 The same principle work in Hacker School. Students constantly try to help each other.
 
 
 ## Collaborative environment
 
-In Finland they have open and collaborative environment in classes [2](http://www.nea.org/home/40991.htm):
+In Finland they have open and collaborative environment in classes [&#91;2&#93;](http://www.nea.org/home/40991.htm):
 
 >In a typical classroom, students are likely to be walking around, rotating through workshops or gathering information, asking questions of their teacher, and working with other students in small groups. They may be completing independent or group projects.
 

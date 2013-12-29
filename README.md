@@ -40,6 +40,8 @@ This will build all html, sitemap, css and deploy it to S3.
 /tips-for-running-clojure-webapp-on-amazon-beanstalk/index.html
 /clojure-webapp-with-https-support-on-amazon-beanstalk/
 /clojure-webapp-with-https-support-on-amazon-beanstalk/index.html
+/hacker-school-vs-finnish-education-system/
+/hacker-school-vs-finnish-education-system/index.html
 
 ## Content License
 
