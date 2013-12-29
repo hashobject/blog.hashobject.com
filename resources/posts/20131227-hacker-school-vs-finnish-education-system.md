@@ -72,8 +72,8 @@ Only person with master degree can teach others.
 It's hard to become teacher. Competition is big - 10 people per spot. Salaries are really good.
 This drives the best people to teach others. Best people can prepare even better next generations of students.
 
-Very similar approach is used in Hacker School. Facilitators are previous Hacker Schoolers. And they
-are really good. They are good example for students.
+Very similar approach is used in Hacker School. Facilitators are previous hacker schoolers. And they
+are really good. They set high standards for students.
 
 
 ## Social responsibility and help
