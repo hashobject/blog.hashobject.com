@@ -27,7 +27,7 @@ Basically you need to install Java, Leinigen and Git.
 
 Update repositories:
 
-`sudo apt-get update`.
+`sudo apt-get update`
 
 Install Java:
 

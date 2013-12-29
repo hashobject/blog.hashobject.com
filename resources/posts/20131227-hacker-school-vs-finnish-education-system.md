@@ -9,7 +9,7 @@ author_twitter: podviaznikov
 author_avatar: /images/anton-avatar.png
 location: New York, USA
 date_created: 2013-12-27
-date_modified: 2013-12-27
+date_modified: 2013-12-29
 date_published: 2013-12-27
 headline:
 in_language: en
@@ -19,7 +19,7 @@ canonical_url: http://blog.hashobject.com/hacker-school-vs-finnish-education-sys
 -->
 ## Intro
 
-I'm a big fun of Finnish education system. I like to read about it and discuss it with people passionate
+I'm a big fun of [Finnish education system](https://en.wikipedia.org/wiki/Education_in_Finland). I like to read about it and discuss it with people passionate
 about education.
 
 Also I just spent incredible 12 weeks as student in the fall batch of Hacker School. Hacker School is
@@ -30,14 +30,20 @@ Now let's try to find some similarities between education in Finland and Hacker 
 
 ## Minimal structure
 
-They have very minimal structure to education both in Finland and in Hacker School. It helps to focus
-on things students want to study themself, things they are passionate about. Students motivated to learn
-are the biggest advantage of any educational system.
+They have very minimal structure to education both in Finland(the national curriculum is only broad guidelines)
+and in Hacker School. It helps to focus on things students want to study themself, things they are passionate about.
+Students motivated to learn are the biggest achievement of any educational system.
 
 ## No grades
 
+During the first years of comprehensive school in Finland, grading may be limited to verbal assessments rather than formal grades.
 Why do wee need grades? It's refreshing when you can spent time leaning what you like instead of
 thinking how to get the highest grade.
+
+
+## No fees
+
+There are no tuition fee in both Finland and Hacker School.
 
 ## Collaborative environment
 
@@ -49,17 +55,18 @@ Anyone can join as many group as she/he wants (or work by herself/himself).
 
 ## Teachers
 
-Teaching is very respectfull occupation in Finland. Only person with master degree can teach others.
+Teaching is very [respectfull profession](https://en.wikipedia.org/wiki/Education_in_Finland#Teachers) in Finland.
+Only person with master degree can teach others.
 It's hard to become teacher. Competition is big - 10 people per spot. Salaries are really good.
-This drives the best people to teach others. Best people can prepare even better next generation of students.
+This drives the best people to teach others. Best people can prepare even better next generations of students.
 
 Very similar approach is used in Hacker School. Facilitators are previous Hacker Schoolers. And they
 are really good. They are good example for students.
 
 ## Respect
 
-Both Finland schools and Hacker School try to achieve environment of creativity, investigation, exploration and
-learning. In modern schools you cann feel respect between students. Everyone should respect willigness to learn.
+Both Finland schools and Hacker School try to achieve environment of creativity, exploration and
+learning. In modern schools you can feel respect between students. Everyone should respect willigness to learn.
 Bulling of smart kids is something from the past.
 
 
@@ -67,15 +74,20 @@ Bulling of smart kids is something from the past.
 
 Finland is the social responsible country. They try to support people that need support.
 Hacker School tries to bring more women to industry. They work hard and spend lot of time
-to get grants from big companies for female students who need financial support. Socialism?
+to get grants from big companies for female students who need financial support.
+
 
 ## Conslusion
 
-Personally I found lot of similarities between super modern approach to education used in Finland
+Personally I found lot of similarities between modern approach to education used in Finland
 and Hacker School.
 
-Finland students are leaders in world-wide contests. I would argue that really top-class people passionate
-about computer science and/or software engineering and/or startups go through Hacker School.
+Finland education for lot of years was ranked as the one of best in the world. I like that they are trying
+to [improve it](http://www.finnbay.com/golden-days-where-acceptance-of-finlands-success-in-education-is-over/).
+
+Same approach is used at Hacker School. There are no same batches at Hacker School. They always try to do something
+differently.
+
 
 ## Disclosure
 
