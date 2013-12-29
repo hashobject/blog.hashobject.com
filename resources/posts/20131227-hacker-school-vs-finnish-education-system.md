@@ -63,12 +63,6 @@ This drives the best people to teach others. Best people can prepare even better
 Very similar approach is used in Hacker School. Facilitators are previous Hacker Schoolers. And they
 are really good. They are good example for students.
 
-## Respect
-
-Both Finland schools and Hacker School try to achieve environment of creativity, exploration and
-learning. In modern schools you can feel respect between students. Everyone should respect willigness to learn.
-Bulling of smart kids is something from the past.
-
 
 ## Social responsibility and help
 
@@ -80,7 +74,8 @@ to get grants from big companies for female students who need financial support.
 ## Conslusion
 
 Personally I found lot of similarities between modern approach to education used in Finland
-and Hacker School.
+and Hacker School. Both Finland schools and Hacker School try to achieve environment of creativity, exploration and
+learning.
 
 Finland education for lot of years was ranked as the one of best in the world. I like that they are trying
 to [improve it](http://www.finnbay.com/golden-days-where-acceptance-of-finlands-success-in-education-is-over/).
