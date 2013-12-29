@@ -68,7 +68,7 @@ In each group students work together and try to help each other. Also seems like
 ## Teachers
 
 Teaching is very [respectfull profession](https://en.wikipedia.org/wiki/Education_in_Finland#Teachers) in Finland.
-Only person with master degree can teach others.
+Only person with the degree of master of education can teach others.
 It's hard to become teacher. Competition is big - 10 people per spot. Salaries are really good.
 This drives the best people to teach others. Best people can prepare even better next generations of students.
 
