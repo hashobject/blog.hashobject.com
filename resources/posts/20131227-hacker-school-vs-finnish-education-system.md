@@ -80,7 +80,7 @@ learning.
 Finland education for lot of years was ranked as the one of best in the world. I like that they are trying
 to [improve it](http://www.finnbay.com/golden-days-where-acceptance-of-finlands-success-in-education-is-over/).
 
-Same approach is used at Hacker School. There are no same batches at Hacker School. They always try to do something
+Same approach is used at Hacker School. There are no same batches in Hacker School. They always try to do something
 differently.
 
 
