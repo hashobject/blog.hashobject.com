@@ -62,7 +62,7 @@ According to [this article](http://www.nea.org/home/40991.htm) in Finland they h
 Same happens at Hacker School. Students self-organize themself into smaller groups by interests:
 SICP group, Machine Learning group, JavaScript learning group, Hardware group, Nand2Tetris group etc.
 Anyone can join as many group as she/he wants (or work by herself/himself).
-In each group students work together and try to help each other.
+In each group students work together and try to help each other. Also seems like main education happends in pair programming sessions.
 
 
 ## Teachers
