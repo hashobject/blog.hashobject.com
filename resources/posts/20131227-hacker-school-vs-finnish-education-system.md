@@ -9,7 +9,7 @@ author_twitter: podviaznikov
 author_avatar: /images/anton-avatar.png
 location: New York, USA
 date_created: 2013-12-27
-date_modified: 2013-12-29
+date_modified: 2013-12-30
 date_published: 2013-12-27
 headline:
 in_language: en
