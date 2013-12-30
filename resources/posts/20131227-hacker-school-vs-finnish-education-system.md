@@ -58,10 +58,11 @@ In Finland they have open and collaborative environment in classes [&#91;2&#93;]
 
 >In a typical classroom, students are likely to be walking around, rotating through workshops or gathering information, asking questions of their teacher, and working with other students in small groups. They may be completing independent or group projects.
 
-Same happens at Hacker School. Students self-organize themself into smaller groups by interests:
+Same happens at Hacker School. Students self-organize themselves into smaller groups by interests:
 SICP group, Machine Learning group, JavaScript learning group, Hardware group, Nand2Tetris group etc.
 Anyone can join as many groups as she/he wants (or work by herself/himself).
-In each group students work together and try to help each other. Also seems like main education happends in pair programming sessions.
+In each group students work together and try to help each other. Also seems like a lot of learning
+happens in pair programming sessions.
 
 
 ## Teachers
