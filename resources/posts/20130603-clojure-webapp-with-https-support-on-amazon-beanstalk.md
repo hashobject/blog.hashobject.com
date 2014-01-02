@@ -100,7 +100,7 @@ In the "Load balancer" section specify:
 
   * Secure listener port: 443
   * Protocol: HTTPS
-  * SSL Certiificate ID: Amazon Resource name that you received after certificate upload.
+  * SSL Certificate ID: Amazon Resource name that you received after certificate upload.
 
 
 ## Conclusion

@@ -28,7 +28,7 @@ you app automatically in case of crash.
 
 To use Upstart you need to create configuration file for your app inside the /etc/init directory.
 
-Pickup any good name for your app (e.x. 'mywebapp') and create file /etc/init/mywebapp.conf
+Pick up any good name for your app (e.x. 'mywebapp') and create file /etc/init/mywebapp.conf
 
 `nano /etc/init/mywebapp.conf`
 
@@ -51,12 +51,12 @@ Then /etc/init/mywebapp.conf content should look similar to this:
 
 The last 3 lines are the most important:
 
-  * chdir allows you to configure path to the sorce code
+  * chdir allows you to configure path to the source code
   * setting environment variable LEIN_ROOT disables warning that you may see if you try to run app under the root
   * exec - actually starts your ring server
 
 
-This is just sample upstart configuration file. You can refere documenatationfor more features.
+This is just sample upstart configuration file. You can refer documenatation for more features.
 
 
 After you save this configuration you can start your app using `start mywebapp`
@@ -66,9 +66,9 @@ and stop it using `stop mywebapp`
 All logs for you app will be available in /var/log/upstart/mywebapp.log file.
 
 
-## Conslusion
+## Conclusion
 
-Provided insturctions should definitely work on Ubuntu 13.04. This configuration was tested
+Provided instructions should definitely work on Ubuntu 13.04. This configuration was tested
 on [DigitalOcean](http://digitalocean.com) with Leiningen 2 and Clojure 1.5.1.
 
 In this post I described how to run Clojure web app in production using Leiningen and Upstart.

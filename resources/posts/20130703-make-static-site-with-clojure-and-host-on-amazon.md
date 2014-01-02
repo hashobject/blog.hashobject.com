@@ -54,9 +54,9 @@ Hosting your static web sites has already amazing benefits:
 
 However you can improve speed dramatically even more. For that you need [Amazon CloudFront](https://aws.amazon.com/cloudfront/).
 CloudFront is Amazon's own Content Distribution Network. Amazon basically will push your static
-site to the hundreads(thouthands?) of servers located in different parts of the world.
+site to the hundreds(thousands?) of servers located in different parts of the world.
 So e.x. if some user will visit your site from far country your site will not be served from
-e.x. US East cost but from closest server to that user.
+e.x. US East coast but from closest server to that user.
 
 
 
@@ -85,7 +85,7 @@ Then just select Alias and pickup your CloudFront distribution you just created.
 
 ## What can be improved
 
-Right now I need manually run build commands to regenerate HTML content from Markdown.
+Right now I need manually run build commands to re-generate HTML content from Markdown.
 Ideally this can be done automatically. E.x. site generator can be hosted on Heroku and
 it can be executed automatically (to generate HTML and deploy it to Amazon S3) when somebody
 pushes changes to GitHub repository where source hosted.

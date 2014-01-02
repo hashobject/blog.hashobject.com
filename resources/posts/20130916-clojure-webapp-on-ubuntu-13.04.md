@@ -45,7 +45,7 @@ Install Leiningen:
 
 ## Git installation
 
-If you need to get source code of your application on server using git few steps shuld be made.
+If you need to get source code of your application on server using git few steps should be made.
 
 Install git:
 
@@ -59,7 +59,7 @@ If you are using BitBucket follow [this instructions](https://confluence.atlassi
 
 For GitHub check [this page](https://help.github.com/articles/generating-ssh-keys).
 
-In general you need to add RSA public key and grant readonly access to this key.
+In general you need to add RSA public key and grant read only access to this key.
 
 
 ## Final steps
@@ -74,7 +74,7 @@ or
 `lein with-profile prod ring server`
 
 
-## Conslusion
+## Conclusion
 
 I tried this on [DigitalOcean](http://digitalocean.com) Ubuntu instance and it worked great.
 There is another related [blog post](http://blog.hashobject.com/upstart-configuration-for-clojure-apps/)

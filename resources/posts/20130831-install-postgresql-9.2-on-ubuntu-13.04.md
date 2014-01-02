@@ -22,7 +22,7 @@ canonical_url: http://blog.hashobject.com/install-postgresql-9.2-on-ubuntu-13.04
 It's super easy to install default version of PosgtreSQL on Ubuntu.
 Usually it is just: `apt-get install postgresql`.
 
-However if you need to install version that became availbale after Ubuntu release
+However if you need to install version that became available after Ubuntu release
 than it is a little bit more complicated. E.x. PostgreSQL 9.2 was released after Ubuntu 13.04 version.
 Read about this in [official documentation](http://www.postgresql.org/download/linux/ubuntu/).
 Also check this [StackOverflow discussion](http://askubuntu.com/questions/287786/how-to-install-postgresql-on-ubuntu-13-04).
@@ -50,10 +50,10 @@ Install PostgreSQL:
 
 `sudo apt-get -t raring install postgresql-common -t raring postgresql-9.2 postgresql-client-9.2`
 
-In this example I'm installing just PostgreSQL server and client, but you can also install additionaly
-'postgresql-contrib-9.2' package.
+In this example I'm installing just PostgreSQL server and client, but you can also install 'postgresql-contrib-9.2'
+package in addition.
 
-## Conslusion
+## Conclusion
 
 I tried this on [DigitalOcean](http://digitalocean.com) Ubuntu instance and it worked great.
-Actually this instuctions are heavily inspired by following [post](http://linuxg.net/how-to-install-postgresql-9-2-on-ubuntu-13-04-raring-ringtail/). I found other instructions that tried to solve same problem but they didn't work for me.
+Actually this instructions are heavily inspired by following [post](http://linuxg.net/how-to-install-postgresql-9-2-on-ubuntu-13-04-raring-ringtail/). I found other instructions that tried to solve same problem but they didn't work for me.

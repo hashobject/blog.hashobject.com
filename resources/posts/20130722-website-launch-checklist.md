@@ -19,7 +19,7 @@ canonical_url: http://blog.hashobject.com/website-launch-checklist
 -->
 ## Intro
 
-Here I'll try to write down list of typical activities that should be perfomed during
+Here I'll try to write down list of typical activities that should be performed during
 web site launch. Please note that all of them have different priorities and impacts.
 And not all of them should be applied to your particular site.
 
@@ -74,7 +74,7 @@ Add favicon (icon that is visible in the tab of the browser). Read [more](https:
 If you are developing web app you may think about publishing it to [Chrome Web Store](https://chrome.google.com/webstore).
 In such case you will have one more channel for discoverability - users will find your app through the store.
 It's fairly easy to publish application to Web Store. Please visit [official documentation](https://developers.google.com/chrome/web-store/docs/publish)
-for deatils guide on this topic.
+for details guide on this topic.
 
 ## pagespeed tools
 
@@ -83,7 +83,7 @@ You will get a lot of information and tips about performance on your new web res
 
 ## humans.txt
 
-Your site should have humans.txt file in the root which will provide infomation about people responsible
+Your site should have humans.txt file in the root which will provide information about people responsible
 for the site: developers, designers etc.
 Check out [official documentation](http://humanstxt.org/). If you will add such file guys from
 [http://humanstxt.org](http://humanstxt.org) will put link to your site in their directory.

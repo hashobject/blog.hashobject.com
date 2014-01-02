@@ -47,8 +47,7 @@ Before submitting our product to Beta List we didn't know what to expect:
   * how many people will subscribe?
   * how many tweets and other social intereactions we will get?
 
-Basically it was the black box for us. That's why we want to share information that we found out from our personal
-experience.
+Basically it was the black box for us. That's why we want to share information that we found out from our personal experience.
 
 
 ## Stats
@@ -56,7 +55,7 @@ experience.
 We submitted our site on July 16, 2013 (you can do the same for free
 [here](http://betali.st/submit), your page will look similar to [ours](http://betali.st/startups/communist).
 After submission we got a message that typical time for review and approval in most cases is around 5 weeks
-(we were shocked!), and that you can speedup process with some money. We were very surprised when on July 21
+(we were shocked!), and that you can speed up process with some money. We were very surprised when on July 21
 (it was Sunday) after just 5(!) days [Communist](http://communi.st) was published to Beta List.
 
 The cool thing about Beta List is that after the new entry is published on the site, there are around 250
@@ -95,7 +94,7 @@ We got following users distribution across the countries:
 
 Launching site just on Beta List was a very interesting experiment.
 We got some statistics, which may help you when you are planning your launch. We also recommend
-reading these posts on why and how to prelaunch your product:
+reading these posts on why and how to pre launch your product:
 
-  * [why you should prelaunch your startup idea](http://www.bogdannedelcu.com/why-you-should-pre-launch-your-startup-idea.html)
+  * [why you should pre launch your startup idea](http://www.bogdannedelcu.com/why-you-should-pre-launch-your-startup-idea.html)
   * [what I learned building](https://medium.com/what-i-learned-building/63fa3e5603b)

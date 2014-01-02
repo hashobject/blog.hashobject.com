@@ -32,19 +32,19 @@ may solve that problem for most apps (especially SaaS):
 
 But we had few very specific requirements:
 
-  * solution should be ideal for markeplaces
+  * solution should be ideal for marketplaces
   * it should work in Europe
 
 
-## Payments for markeplaces
+## Payments for marketplaces
 
 
 If you are trying to build online marketplace there are basically two types of customers:
 
   * buyers - people who buy stuff. You want to be able to process their payments
-  * sellers - people who sell stuff. They should be able to get earned money out of the markeplace on their personal/business accounts
+  * sellers - people who sell stuff. They should be able to get earned money out of the marketplace on their personal/business accounts
 
-Online markeplace usually works within following steps:
+Online marketplace usually works within following steps:
 
   1. process payment from buyer
   2. cut procent from transaction as service fee
@@ -68,7 +68,7 @@ immediately after reservation).
 
 ## US vs Europe
 
-Turns our that if your company is based in US there are already few options,
+Turns out that if your company is based in US there are already few options,
 but [Balanced](https://www.balancedpayments.com/) seems to be the best one.
 These guys are really amazing. They are building an open company.
 Read about [it](http://www.fastcolabs.com/3008944/open-company/why-i-made-my-payments-startup-an-open-company).
