@@ -14,19 +14,28 @@
 
 
 (defn header []
-  [:header.contain-to-grid
-    [:nav.top-bar {:role "navigation" :data-topbar ""}
+  [:div.contain-to-grid
+    [:nav.top-bar.hide-for-small {:role "navigation" :data-topbar ""}
      [:ul.title-area
        [:li.name
-        [:h1.hide-for-small-only
-         [:a {:href "http://blog.hashobject.com"}[:div.logo]]]]
-       [:li.toggle-topbar.menu-icon
-        [:a {:href "#"} [:div.logo.square]]]]
+        [:h1
+         [:a {:href "http://blog.hashobject.com"}[:div.logo]]]]]
      [:section.top-bar-section
        [:ul.right
         [:li [:a {:href "http://hashobject.com"} "Home"]]
         [:li.active [:a {:href "http://blog.hashobject.com"} "Blog"]]
-        [:li [:a {:href "http://os.hashobject.com"} "Open Source"]]]]]])
+        [:li [:a {:href "http://os.hashobject.com"} "Open Source"]]]]]
+
+     [:nav.tab-bar.show-for-small
+      [:a.left-off-canvas-toggle.menu-icon
+       [:span "Hashblog"]]]
+     [:a.exit-off-canvas]
+     [:aside.left-off-canvas-menu
+      [:ul
+        [:li [:label "Hashobject"]]
+        [:li [:a {:href "http://hashobject.com"} "Home"]]
+        [:li.active [:a {:href "http://blog.hashobject.com"} "Blog"]]
+        [:li [:a {:href "http://os.hashobject.com"} "Open Source"]]]]])
 
 (defn footer []
   [:footer.row

@@ -35,8 +35,10 @@
       ;(common/ga)
      ]
     [:body
-     (common/header)
-     [:div.row
-       [:ul.items.columns.small-12
-        (for [post posts] (render-post post))]]]
-     (common/footer)))
+     [:div.off-canvas-wrap
+       [:div.inner-wrap
+         (common/header)
+         [:div.row
+           [:ul.items.columns.small-12
+            (for [post posts] (render-post post))]]
+         (common/footer)]]]))

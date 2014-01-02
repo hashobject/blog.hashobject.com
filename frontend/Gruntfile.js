@@ -132,7 +132,8 @@ module.exports = function(grunt) {
         src: [
               'js/jquery.js',
               'js/foundation.min.js',
-              'js/foundation.topbar.js'
+              'js/foundation.topbar.js',
+              'js/foundation.offcanvas.js'
               ],
         dest: '../resources/public/js/vendor.js'
       },

@@ -13,21 +13,13 @@
     background-image: url('/images/hashobject-logo.png');
     width: 246px;
     height: 53px;
-    &.square
-      background-image: url('/images/hashobject-logo-square.png');
-      width: 34px;
-      height: 34px;
-      background-size: 100%;
-      background-repeat: no-repeat;
-      &:hover
-        opacity: 0.8;
 
-  &.expanded div.logo.square
-    transform: rotate(90deg);
 
 
 .contain-to-grid .top-bar
+.contain-to-grid .tab-bar
   margin-bottom: 20px;
+
 
 .contain-to-grid
 .top-bar
@@ -35,6 +27,7 @@
 .top-bar-section ul
 .top-bar-section li
   background: white;
+
 
 .top-bar-section ul li
   padding-left: 0;
@@ -55,3 +48,54 @@
     & > a:not(.button)
       background-color: $blue-light;
       color: white;
+
+
+nav.tab-bar
+.left-off-canvas-menu
+.right-off-canvas-menu
+  background-color: #1ab7ea;
+  color: #fff;
+  text-transform: uppercase;
+
+
+.menu-icon:hover span
+  box-shadow:0 10px 0 1px #b3b3b3,0 16px 0 1px #b3b3b3,0 22px 0 1px $gray-dark;
+
+.move-right a.exit-off-canvas
+  box-shadow: initial;
+
+.left-off-canvas-menu
+  & ul
+    list-style: none;
+    margin: 0;
+
+    & li
+      padding-left: 20px;
+      padding-right: 0;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      border-top: 1px solid white;
+      border-bottom: 1 solid white;
+      &:first-child
+        border-top: 0px solid white;
+      &:last-child
+        border-bottom: 1px solid white;
+      & > label
+        font-size: 1em;
+        margin-bottom: 0;
+        color: white;
+        font-weight: bold;
+        text-transform: uppercase;
+      & > a
+        color: black;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 1.2;
+        text-transform: uppercase;
+        &:visited
+          color: black;
+      &.active
+      &:hover
+        & > a
+          background-color: $blue-light;
+          color: white;
