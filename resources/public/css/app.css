@@ -514,9 +514,10 @@ nav.tab-bar,.left-off-canvas-menu,.right-off-canvas-menu{background-color:#1ab7e
 .post-meta .meta-label{display:block}
 .post-discussion,.license.small-12.columns{color:#39434a;font-style:italic;font-size:1em;margin-bottom:30px;padding:0 1em}
 @media all and (min-width: 750px){.post-meta{text-align:left;padding:0;position:absolute;top:0;width:90px;left:-90px}
-}@media all and (min-width: 350px){.post-meta .meta-label{display:inline;margin-right:5px}
+}@media all and (min-width: 250px){.post-meta .meta-label{display:inline;margin-right:5px}
 .post-meta .author-avatar{margin-bottom:10px}
-}ul.items li.item{list-style:none;margin-bottom:20px;}
+}ul.items{margin-left:0;}
+ul.items li.item{list-style:none;margin-bottom:20px;}
 ul.items li.item a.title{text-transform:uppercase}
 ul.items li.item div.item-meta{font-size:smaller;}
 ul.items li.item div.item-meta img{width:26px;-webkit-border-radius:13px;border-radius:13px;margin-right:13px}
