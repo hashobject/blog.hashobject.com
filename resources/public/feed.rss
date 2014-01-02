@@ -1,0 +1,217 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss version='2.0'>
+<channel>
+<generator>
+clj-rss
+</generator>
+<link>
+http://blog.hashobject.com
+</link>
+<title>
+Hashobject team blog
+</title>
+<description>
+Hashobject - software engineering, design and application development
+</description>
+<item>
+<link>
+http://blog.hashobject.com/clojure-webapp-with-https-support-on-amazon-beanstalk
+</link>
+<guid>
+http://blog.hashobject.com/clojure-webapp-with-https-support-on-amazon-beanstalk
+</guid>
+<pubDate>
+Wed, 26 Jun 2013 03:00:00 +0300
+</pubDate>
+<title>
+Configure Clojure web app to run with HTTPS support on Amazon Beanstalk
+</title>
+<description>
+Short guide how to deploy Clojure web app on Amazon Beanstalk with HTTPS support with almost no cost
+</description>
+<author>
+anton@hashobject.com
+</author>
+</item>
+<item>
+<link>
+http://blog.hashobject.com/tips-for-running-clojure-webapp-on-amazon-beanstalk
+</link>
+<guid>
+http://blog.hashobject.com/tips-for-running-clojure-webapp-on-amazon-beanstalk
+</guid>
+<pubDate>
+Wed, 26 Jun 2013 03:00:00 +0300
+</pubDate>
+<title>
+Tips for running Clojure web app on Amazon Beanstalk
+</title>
+<description>
+Bunch of small advises for running Clojure web app on Amazon Beanstalk
+</description>
+<author>
+anton@hashobject.com
+</author>
+</item>
+<item>
+<link>
+http://blog.hashobject.com/make-static-site-with-clojure-and-host-on-amazon
+</link>
+<guid>
+http://blog.hashobject.com/make-static-site-with-clojure-and-host-on-amazon
+</guid>
+<pubDate>
+Sat, 06 Jul 2013 03:00:00 +0300
+</pubDate>
+<title>
+Make static web site with Clojure and host it on Amazon S3 and CloudFront
+</title>
+<description>
+Short guide how to create static web site using Clojure and host it on Amazon S3 and CloudFront
+</description>
+<author>
+anton@hashobject.com
+</author>
+</item>
+<item>
+<link>
+http://blog.hashobject.com/payments-api-for-collaborative-consumption-apps
+</link>
+<guid>
+http://blog.hashobject.com/payments-api-for-collaborative-consumption-apps
+</guid>
+<pubDate>
+Fri, 19 Jul 2013 03:00:00 +0300
+</pubDate>
+<title>
+Payments API for the collaborative consumption apps
+</title>
+<description>
+Payments API for marketplaces/collaborative consumption apps in Europe
+</description>
+<author>
+anton@hashobject.com
+</author>
+</item>
+<item>
+<link>
+http://blog.hashobject.com/website-launch-checklist
+</link>
+<guid>
+http://blog.hashobject.com/website-launch-checklist
+</guid>
+<pubDate>
+Mon, 22 Jul 2013 03:00:00 +0300
+</pubDate>
+<title>
+Website launch checklist
+</title>
+<description>
+List of activities to do while launching website
+</description>
+<author>
+anton@hashobject.com
+</author>
+</item>
+<item>
+<link>
+http://blog.hashobject.com/product-launch-on-betalist
+</link>
+<guid>
+http://blog.hashobject.com/product-launch-on-betalist
+</guid>
+<pubDate>
+Mon, 22 Jul 2013 03:00:00 +0300
+</pubDate>
+<title>
+Product launch on Beta List
+</title>
+<description>
+Analysis of product launch on Beta List
+</description>
+<author>
+anton@hashobject.com
+</author>
+</item>
+<item>
+<link>
+http://blog.hashobject.com/install-postgresql-9.2-on-ubuntu-13.04
+</link>
+<guid>
+http://blog.hashobject.com/install-postgresql-9.2-on-ubuntu-13.04
+</guid>
+<pubDate>
+Sat, 31 Aug 2013 03:00:00 +0300
+</pubDate>
+<title>
+Install PostreSQL 9.2 on Ubuntu 13.04
+</title>
+<description>
+Short guide how to install PostgreSQL 9.2 on Ubuntu 13.04
+</description>
+<author>
+anton@hashobject.com
+</author>
+</item>
+<item>
+<link>
+http://blog.hashobject.com/upstart-configuration-for-clojure-apps
+</link>
+<guid>
+http://blog.hashobject.com/upstart-configuration-for-clojure-apps
+</guid>
+<pubDate>
+Sun, 01 Sep 2013 03:00:00 +0300
+</pubDate>
+<title>
+Upstart configuration for Clojure apps
+</title>
+<description>
+Short guide how to create Ubuntu Upstart configuration for Clojure apps using Leiningen
+</description>
+<author>
+anton@hashobject.com
+</author>
+</item>
+<item>
+<link>
+http://blog.hashobject.com/clojure-webapp-on-ubuntu-13.04
+</link>
+<guid>
+http://blog.hashobject.com/clojure-webapp-on-ubuntu-13.04
+</guid>
+<pubDate>
+Mon, 16 Sep 2013 03:00:00 +0300
+</pubDate>
+<title>
+Configure Clojure web app to run on Ubuntu 13.04
+</title>
+<description>
+Short guide how to deploy Clojure web app on Ubuntu 13.04 with HTTPS support with almost no cost
+</description>
+<author>
+anton@hashobject.com
+</author>
+</item>
+<item>
+<link>
+http://blog.hashobject.com/hacker-school-vs-finnish-education-system
+</link>
+<guid>
+http://blog.hashobject.com/hacker-school-vs-finnish-education-system
+</guid>
+<pubDate>
+Fri, 27 Dec 2013 02:00:00 +0200
+</pubDate>
+<title>
+Hacker School vs Finnish education system
+</title>
+<description>
+Finding similarities between Hacker School and education system in Finland
+</description>
+<author>
+anton@hashobject.com
+</author>
+</item>
+</channel>
+</rss>

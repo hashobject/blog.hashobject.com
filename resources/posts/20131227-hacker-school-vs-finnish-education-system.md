@@ -1,6 +1,6 @@
 <!--
 name: Hacker School vs Finnish education system
-description: Finding similarities between Hacker School and eudcation system in Finland
+description: Finding similarities between Hacker School and education system in Finland
 author: Anton Podviaznikov
 author_email: anton@hashobject.com
 author_url: http://twitter.com/podviaznikov

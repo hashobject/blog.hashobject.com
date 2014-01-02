@@ -115,6 +115,10 @@ module.exports = function(grunt) {
           dest: 'sitemap.xml'
         },
         {
+          src: '../resources/public/feed.rss',
+          dest: 'feed.rss'
+        },
+        {
           src: '../resources/public/favicon.ico',
           dest: 'favicon.ico'
         }

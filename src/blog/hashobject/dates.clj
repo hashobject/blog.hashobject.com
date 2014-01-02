@@ -1,5 +1,6 @@
 (ns blog.hashobject.dates
   (:require [clj-time.core :as clj-time]
+            [clj-time.coerce :as clj-time-coerce]
             [clj-time.format :as clj-time-format]))
 
 
@@ -8,3 +9,6 @@
         (clj-time-format/unparse (clj-time-format/formatter final-format) date)))
 
 
+
+(defn str-to-date [string]
+  (clj-time-coerce/to-date (clj-time-format/parse string)))

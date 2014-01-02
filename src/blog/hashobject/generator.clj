@@ -3,8 +3,11 @@
   (:require [markdown.core :as markdown]
             [endophile.core :as markdown-parser]
             [sitemap.core :as sitemap]
+            [clj-rss.core :as rss]
+            [blog.hashobject.dates :as dates]
             [blog.hashobject.views.index :as index-view]
             [blog.hashobject.views.post :as post-view]))
+
 
 
 (defn make-dir [path]
@@ -89,6 +92,37 @@
        :lastmod (get post "date_modified")
        :changefreq "weekly"
        :priority 0.8})))
+
+
+(defn posts-rss-definitions []
+  (let [posts (process-posts)]
+    (for [post posts]
+      {:link (get post "canonical_url")
+       :guid (get post "canonical_url")
+       :pubDate (dates/str-to-date (get post "date_published"))
+       :title (get post "name")
+       :description (get post "description")
+       :author (get post "author_email")})))
+
+
+
+
+
+
+
+(defn generate-rss []
+  (let [items (posts-rss-definitions)
+        rss (apply rss/channel-xml {:title "Hashobject team blog"
+                                    ;:image "http://blog.hashobject.com/images/hashobject-logo.png"
+                                    :link "http://blog.hashobject.com"
+                                    :description "Hashobject - software engineering, design and application development"} items)]
+    (spit
+       (str "./resources/public/feed.rss")
+       rss)))
+
+
+;(generate-rss)
+
 
 (defn generate-sitemap []
   (let [posts-pages (posts-sitemap-definitions)
