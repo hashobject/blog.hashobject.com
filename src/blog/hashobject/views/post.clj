@@ -27,7 +27,7 @@
       [:link {:rel "canonical" :href (get metadata "canonical_url")}]
       (include-css "/css/app.css")
       (include-css "http://fonts.googleapis.com/css?family=PT+Sans")
-      (common/ga)
+      ;(common/ga)
      ]
     [:body
      (common/header)
@@ -36,7 +36,7 @@
          [:h1 {:itemprop "name"} (get metadata "name")]
          (str content)
          [:aside.post-meta.small-12.columns
-          [:img.author-avatar {:src (get metadata "author_avatar")}]
+          [:img.author-avatar {:src (get metadata "author_avatar") :title (get metadata "author")}]
           [:div.meta-info
             [:div
               [:span.meta-label "Written by"]

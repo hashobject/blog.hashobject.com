@@ -8,8 +8,11 @@
 
 (defn render-post [post]
   [:li.item {:itemprop "blogPost" :itemscope "" :itemtype "http://schema.org/BlogPosting"}
-   [:meta {:itemprop "author" :content (str (get post "author") " (" (get post "author_email") ")" )}]
-   [:a {:href (str (:filename post)) :itemprop "name"} (get post "name")]
+   [:a.title {:href (str (:filename post)) :itemprop "name"} (get post "name")]
+   [:div.item-meta
+    [:meta {:itemprop "author" :content (str (get post "author") " (" (get post "author_email") ")" )}]
+    [:img.author-avatar {:src (get post "author_avatar") :title (get post "author")}]
+    (str (dates/reformat-datestr (get post "date_published") "YYYY-MM-dd", "MMM dd, YYYY") ", by " (get post "author"))]
    [:p {:itemprop "description"} (get post "description")]])
 
 
@@ -29,7 +32,7 @@
       [:link {:rel "alternate" :type "application/rss+xml" :title "RSS" :href "/feed.rss"}]
       (include-css "/css/app.css")
       (include-css "http://fonts.googleapis.com/css?family=PT+Sans")
-      (common/ga)
+      ;(common/ga)
      ]
     [:body
      (common/header)
