@@ -32,7 +32,7 @@
       [:link {:rel "alternate" :type "application/rss+xml" :title "RSS" :href "/feed.rss"}]
       (include-css "/css/app.css")
       (include-css "http://fonts.googleapis.com/css?family=PT+Sans")
-      ;(common/ga)
+      (common/ga)
      ]
     [:body
      [:div.off-canvas-wrap

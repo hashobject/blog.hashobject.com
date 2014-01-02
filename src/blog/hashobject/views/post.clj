@@ -27,7 +27,7 @@
       [:link {:rel "canonical" :href (get metadata "canonical_url")}]
       (include-css "/css/app.css")
       (include-css "http://fonts.googleapis.com/css?family=PT+Sans")
-      ;(common/ga)
+      (common/ga)
      ]
     [:body
      [:div.off-canvas-wrap
