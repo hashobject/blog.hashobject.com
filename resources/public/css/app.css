@@ -485,7 +485,7 @@ a:visited{color:#9e0047}
 .contain-to-grid .top-bar,.contain-to-grid .tab-bar{margin-bottom:20px}
 .contain-to-grid,.top-bar,.top-bar.expanded .title-area,.top-bar-section ul,.top-bar-section li{background:#fff}
 .top-bar-section ul li{padding-left:0;padding-right:0;}
-.top-bar-section ul li > a:not(.button){padding-top:15px;padding-bottom:15px;background:#fff;color:#000;font-weight:bold;font-size:16px;line-height:1.2;text-transform:uppercase;}
+.top-bar-section ul li > a:not(.button){padding-top:15px;padding-bottom:20px;background:#fff;color:#000;font-weight:bold;font-size:16px;line-height:1.2;text-transform:uppercase;}
 .top-bar-section ul li > a:not(.button):visited{color:#000}
 .top-bar-section ul li.active > a:not(.button),.top-bar-section ul li:hover > a:not(.button){background-color:#1ab7ea;color:#fff}
 nav.tab-bar,.left-off-canvas-menu,.right-off-canvas-menu{background-color:#1ab7ea;color:#fff;text-transform:uppercase}
