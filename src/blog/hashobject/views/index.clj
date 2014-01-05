@@ -12,7 +12,8 @@
    [:div.item-meta
     [:meta {:itemprop "author" :content (str (get post "author") " (" (get post "author_email") ")" )}]
     [:img.author-avatar {:src (get post "author_avatar") :title (get post "author")}]
-    (str (dates/reformat-datestr (get post "date_published") "YYYY-MM-dd", "MMM dd, YYYY") ", by " (get post "author"))]
+    (str (dates/reformat-datestr (get post "date_published") "YYYY-MM-dd", "MMM dd, YYYY") ", by " (get post "author"))
+    [:span.reading-time (str " " (:ttr post) " mins read")]]
    [:p {:itemprop "description"} (get post "description")]])
 
 

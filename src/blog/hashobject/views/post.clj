@@ -51,7 +51,10 @@
                   [:span (dates/reformat-datestr (get metadata "date_modified") "YYYY-MM-dd", "MMM dd, YYYY")]]
                 [:div
                   [:span.meta-label "Published in: "]
-                  [:span (get metadata "location")]]]]]
+                  [:span (get metadata "location")]]
+                [:div
+                  [:span.meta-label "Reading time: "]
+                  [:span (str (:ttr metadata) " mins")]]]]]
             [:footer.post-discussion.small-12.columns  "Discussion for this post available on "
               [:a {:href (get metadata "discussion_url")} "GitHub"] "."]]
          (common/footer)]]]))

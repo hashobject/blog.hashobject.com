@@ -4,6 +4,7 @@
             [endophile.core :as markdown-parser]
             [sitemap.core :as sitemap]
             [clj-rss.core :as rss]
+            [time-to-read.core :as ttr]
             [blog.hashobject.dates :as dates]
             [blog.hashobject.views.index :as index-view]
             [blog.hashobject.views.post :as post-view]))
@@ -64,9 +65,11 @@
         lines (clojure.string/split data #"\n")
         filename (generate-post-url file)
         metadata (parse-post-defn lines)
-        content (original-md-to-html-str file)]
+        content (original-md-to-html-str file)
+        time-to-read (ttr/estimate-for-text content)]
     (println "post md ds" post)
     (assoc metadata :filename filename
+                    :ttr time-to-read
                     :content content)))
 
 (defn process-posts []
