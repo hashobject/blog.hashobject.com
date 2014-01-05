@@ -27,6 +27,7 @@ This will build all html, sitemap, rss, js, css and deploy it to S3.
 /clojure-webapp-on-ubuntu-13.04/index.html
 /upstart-configuration-for-clojure-apps/
 /upstart-configuration-for-clojure-apps/index.html
+/install-postgresql-9.2-on-ubuntu-13.04/
 /install-postgresql-9.2-on-ubuntu-13.04/index.html
 /product-launch-on-betalist/
 /product-launch-on-betalist/index.html
@@ -51,6 +52,6 @@ and code samples are licensed under the [Eclipse Public License 1.0](http://open
 
 ## Code License
 
-Copyright © 2013 Hashobject Ltd (team@hashobject.com).
+Copyright © 2013-2014 Hashobject Ltd (team@hashobject.com).
 
 Distributed under the [Eclipse Public License](http://opensource.org/licenses/eclipse-1.0).
