@@ -7,7 +7,7 @@ author_url: http://twitter.com/podviaznikov
 author_github: podviaznikov
 author_twitter: podviaznikov
 author_avatar: /images/anton-avatar.png
-location: Nicaragua, Leon
+location: Leon, Nicaragua
 date_created: 2013-07-18
 date_modified: 2013-07-18
 date_published: 2013-07-19
