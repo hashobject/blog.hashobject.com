@@ -43,6 +43,8 @@ This will build all html, sitemap, rss, js, css and deploy it to S3.
 /clojure-webapp-with-https-support-on-amazon-beanstalk/index.html
 /hacker-school-vs-finnish-education-system/
 /hacker-school-vs-finnish-education-system/index.html
+/places-to-hangout-with-hackers-around-the-world/
+/places-to-hangout-with-hackers-around-the-world/index.html
 
 ## Content License
 

@@ -84,6 +84,12 @@ module.exports = function(grunt) {
           gzip: true
         },
         {
+          src: '../resources/public/places-to-hangout-with-hackers-around-the-world/index.html',
+          dest: 'places-to-hangout-with-hackers-around-the-world/index.html',
+          gzip: true
+        },
+
+        {
           src: '../resources/public/css/app.css',
           dest: 'css/app.css',
           gzip: true
