@@ -508,7 +508,7 @@ nav.tab-bar,.left-off-canvas-menu,.right-off-canvas-menu{background-color:#1ab7e
 .post-meta .author-avatar{float:left;margin-right:5px;vertical-align:top}
 .post-meta .meta-label{display:block}
 .post-discussion,.license.small-12.columns{color:#39434a;font-style:italic;font-size:1em;margin-bottom:30px;padding:0 1em}
-@media all and (min-width: 750px){.post-meta{text-align:left;padding:0;position:absolute;top:0;width:90px;left:-90px}
+@media all and (min-width: 750px){.post-meta{text-align:left;padding:0;position:absolute;top:0;width:90px;left:-75px}
 }@media all and (min-width: 250px){.post-meta .meta-label{display:inline;margin-right:5px}
 .post-meta .author-avatar{margin-bottom:10px}
 }.post p > code{margin-left:15px;margin-right:15px}
