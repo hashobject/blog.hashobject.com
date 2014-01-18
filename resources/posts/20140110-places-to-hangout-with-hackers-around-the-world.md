@@ -25,7 +25,6 @@ That is why I decided to create (and update over time) the list of places I pers
 over years. This list includes coworking spaces, cafes etc.
 
 
-
 ## Mountain View, USA
 
 In the heart of Silicon Valley [Red Rock](http://redrockcoffee.org/) cafe is the place to go. Most visitors there will be people talking about technologies, startups. You will meet hacker, investors there.
@@ -35,8 +34,7 @@ In the heart of Silicon Valley [Red Rock](http://redrockcoffee.org/) cafe is the
 
 [St. Oberholtz](http://www.sanktoberholz.de/?page_id=27&lang=en) is an amazing place in Berlin. It's great cafe with proper food and coffee. It has two stores and very working-friendly. It's place for hackathons, meetups and just meeting point in Berlin tech scene.
 
-Another good option that I like in Berlin is [mobilsuite](http://www2.mobilesuite.de/en/berlin-prenzlauer-berg) coworking space. Some good meetups are
-using this great space.
+Another good option that I like in Berlin is [mobilsuite](http://www2.mobilesuite.de/en/berlin-prenzlauer-berg) coworking space. Some good meetups are using this great space.
 
 ## Rio de Janeiro, Brazil
 
