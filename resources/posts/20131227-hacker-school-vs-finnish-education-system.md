@@ -13,7 +13,7 @@ date_modified: 2013-12-30
 date_published: 2013-12-27
 headline:
 in_language: en
-keywords: hacker school, education, finland
+keywords: hacker school, education, finland, modern education
 discussion_url: https://github.com/hashobject/blog.hashobject.com/issues/10
 canonical_url: http://blog.hashobject.com/hacker-school-vs-finnish-education-system
 -->

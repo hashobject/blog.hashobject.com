@@ -13,7 +13,7 @@ date_modified: 2014-01-10
 date_published: 2014-01-10
 headline:
 in_language: en
-keywords: hacker cafes, coworking spaces
+keywords: hacker cafes, coworking spaces, meetups
 discussion_url: https://github.com/hashobject/blog.hashobject.com/issues/11
 canonical_url: http://blog.hashobject.com/places-to-hangout-with-hackers-around-the-world
 -->
