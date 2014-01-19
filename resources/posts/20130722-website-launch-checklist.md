@@ -25,7 +25,7 @@ And not all of them should be applied to your particular site.
 
 ## robots.txt
 
-In this file you should specify what pages should be crawlable by web spiders.
+In this file you need to specify what pages should be crawlable by web spiders.
 Please visit [documentation site](http://www.robotstxt.org/robotstxt.html) for more details. Basically
 you are specifying private (will not be available on Google and other search engines) and public URLs.
 
@@ -41,7 +41,7 @@ much more options, e.x. [Mixpanel](http://mixpanel.com/), [KISSMetricks](https:/
 ## sitemap.xml
 
 This file defines structure of your site. You should enumerate all pages
-that are available on your resource. Listing all pages will help web spiders(e.x. Google bot) faster
+that are available on your resource. Listing all pages will help web spiders (e.x. Google bot) faster
 index your content. See [documentation](http://www.sitemaps.org/) for more details.
 
 ## google webmaster tools
