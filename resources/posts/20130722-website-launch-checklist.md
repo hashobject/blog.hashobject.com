@@ -9,7 +9,7 @@ author_twitter: podviaznikov
 author_avatar: /images/anton-avatar.png
 location: San Jose, Costa Rica
 date_created: 2013-07-22
-date_modified: 2013-08-03
+date_modified: 2014-01-20
 date_published: 2013-07-22
 headline:
 in_language: en
@@ -61,8 +61,7 @@ schema - [http://schema.org/Hotel](http://schema.org/Hotel), if it's blog post p
 
 ## metatags
 
-Fill proper data in 'head' tag of your html pages.
-At leats don't forget to specify following 'meta' tags: author, keywords,
+Fill proper data in 'head' tag of your html pages. At leats don't forget to specify following meta tags: author, keywords,
 description.
 
 ## favicon
@@ -72,9 +71,8 @@ Add favicon (icon that is visible in the tab of the browser). Read [more](https:
 ## chrome web store
 
 If you are developing web app you may think about publishing it to [Chrome Web Store](https://chrome.google.com/webstore).
-In such case you will have one more channel for discoverability - users will find your app through the store.
-It's fairly easy to publish application to Web Store. Please visit [official documentation](https://developers.google.com/chrome/web-store/docs/publish)
-for details guide on this topic.
+In such case you will have one more additional channel for discoverability - users will find your app through the store.
+It's fairly easy to publish application to Web Store. Please visit [official documentation](https://developers.google.com/chrome/web-store/docs/publish) for details guide on this topic.
 
 ## pagespeed tools
 
@@ -94,6 +92,6 @@ Adding humans.txt file is not very common practice, but I like the idea and I th
 
 There are a lot of ways how tow to make your web site better.
 You should optimize for speed, SEO, content, usability, discoverability and so on.
-There is no such thing as ideal web site. Everything can be improved and done better.
+Optimizations is an continious process. Everything can be improved and done better over time.
 In this post I tried to cover some basic steps that can be done very easily while publishing new
 site.
