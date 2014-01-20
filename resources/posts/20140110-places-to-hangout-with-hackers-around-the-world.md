@@ -19,8 +19,7 @@ canonical_url: http://blog.hashobject.com/places-to-hangout-with-hackers-around-
 -->
 ## Intro
 
-Everytime I visit new city I want to know the place where all hackers/startupers/bright minds
-hangout.
+Everytime I visit new city I want to know the place where all hackers/startupers/bright minds hangout.
 That is why I decided to create (and update over time) the list of places I personally visited
 over years. This list includes coworking spaces, cafes etc.
 

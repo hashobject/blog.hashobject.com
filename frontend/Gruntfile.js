@@ -88,7 +88,11 @@ module.exports = function(grunt) {
           dest: 'places-to-hangout-with-hackers-around-the-world/index.html',
           gzip: true
         },
-
+        {
+          src: '../resources/public/5-tech-videos-collections/index.html',
+          dest: '5-tech-videos-collections/index.html',
+          gzip: true
+        },
         {
           src: '../resources/public/css/app.css',
           dest: 'css/app.css',

@@ -45,6 +45,8 @@ This will build all html, sitemap, rss, js, css and deploy it to S3.
 /hacker-school-vs-finnish-education-system/index.html
 /places-to-hangout-with-hackers-around-the-world/
 /places-to-hangout-with-hackers-around-the-world/index.html
+/5-tech-videos-collections/
+/5-tech-videos-collections/index.html
 
 ## Content License
 

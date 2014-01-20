@@ -37,7 +37,7 @@
            [:div.post.small-12.columns
              [:h1 {:itemprop "name"} (get metadata "name")]
              (str content)
-             [:aside.post-meta.small-12.columns
+             [:aside.post-meta.small-12.medium-12.columns
               [:img.author-avatar {:src (get metadata "author_avatar") :title (get metadata "author")}]
               [:div.meta-info
                 [:div
