@@ -519,6 +519,6 @@ nav.tab-bar,.left-off-canvas-menu,.right-off-canvas-menu{background-color:#1ab7e
 ul.items{margin-left:0;}
 ul.items li.item{list-style:none;margin-bottom:20px;}
 ul.items li.item a.title{text-transform:uppercase}
-ul.items li.item div.item-meta{font-size:smaller;}
+ul.items li.item div.item-meta{font-size:smaller;margin-top:10px;}
 ul.items li.item div.item-meta img{width:26px;-webkit-border-radius:13px;border-radius:13px;margin-right:13px}
-ul.items li.item item-meta{margin-top:10px}
+ul.items li.item div.item-meta .pub-data{font-size:.8em;display:inline-block}
