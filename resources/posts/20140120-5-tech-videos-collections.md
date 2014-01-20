@@ -42,10 +42,10 @@ thinker in these fields.
 
 ## Foundation
 
-[Kevin Rose](Dependencies Status) over years produced loads of great interviews with enterpreneurs, programmers on his [Foundation](http://foundation.bz/) series. At the moment (January 20, 2014) he has
+[Kevin Rose](Dependencies Status) over years produced loads of great interviews with entrepreneurs, programmers on his [Foundation](http://foundation.bz/) series. At the moment (January 20, 2014) he has
 35 interviews with the people like Elon Musk, Ben Horowitz, Jack Dorsey, Ev Williams, Phil Libin, Dave Morin,
 Kevin Systrom etc. Some of the interviews reveal fascinating biographical facts and stories from these
-successful people. Light watch taht doesn't require lot of mental enegry from you.
+successful people. Light watch that doesn't require lot of mental energy from you.
 
 
 ## Small empires
@@ -55,7 +55,7 @@ successful people. Light watch taht doesn't require lot of mental enegry from yo
 
 ## Shots of Awe
 
-[Jason Silva](https://twitter.com/JasonSilva)'s work was a mindblowing discovery for me. Futurism, philosophy, life questions wrapped in short, high-quality (picture, sound) videos. Absolutely lowed it and can watch each video several times. The density of information is so high in his works! Definitely recommend
+[Jason Silva](https://twitter.com/JasonSilva)'s work was a mind blowing discovery for me. Futurism, philosophy, life questions wrapped in short, high-quality (picture, sound) videos. Absolutely loved it and can watch each video several times. The density of information is so high in his works! Definitely recommend
 [Shots of Awe](http://testtube.com/shotsofawe).
 
 ## Conclusion
