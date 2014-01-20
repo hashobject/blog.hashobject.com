@@ -28,22 +28,24 @@ This is a [gem](https://www.youtube.com/watch?v=2Op3QLzMgSY&list=PL8FE88AA54363B
 discovered during [Hacker School](http://hackerschool.com). I never heard about
 [Structure and Interpretation of Computer Programs](http://mitpress.mit.edu/sicp/full-text/book/book.html)
 book before fall 2013. I was able to work just through beginning of the book and videos lectures
-but that was enough to open my eyes on some fundamentals of programming.
+but that was enough to open my eyes on some fundamentals of programming. Definitely going to continue with
+these lectures.
 
 
 ## Bret Victor
 
 I watched my first video from [Bret Victor](http://worrydream.com/) two years ago. In 2013 he made more talks.
 I highly recommend watching [all of them](https://vimeo.com/worrydream/videos). That will inspire you,
-provoke some thoughts on programming, computer science, education.
+provoke some thoughts on programming, computer science, education. For me Bret is the biggest out-of-the-box
+thinker in these fields.
 
 
 ## Foundation
 
-[Kevin Rose](Dependencies Status) over years produced loads of great interviews with enterpreneurs, programmers on his [Foundation](http://foundation.bz/) series. At the moment (January 20, 2014) it has
+[Kevin Rose](Dependencies Status) over years produced loads of great interviews with enterpreneurs, programmers on his [Foundation](http://foundation.bz/) series. At the moment (January 20, 2014) he has
 35 interviews with the people like Elon Musk, Ben Horowitz, Jack Dorsey, Ev Williams, Phil Libin, Dave Morin,
 Kevin Systrom etc. Some of the interviews reveal fascinating biographical facts and stories from these
-successful people.
+successful people. Light watch taht doesn't require lot of mental enegry from you.
 
 
 ## Small empires
