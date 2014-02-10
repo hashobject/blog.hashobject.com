@@ -114,6 +114,11 @@ module.exports = function(grunt) {
           rel: '../resources/public/images'
         },
         {
+          src: '../resources/public/images/*.jpg',
+          dest: 'images/',
+          rel: '../resources/public/images'
+        },
+        {
           src: '../resources/public/google235235bcbf7ddb0d.html',
           dest: 'google235235bcbf7ddb0d.html'
         },
