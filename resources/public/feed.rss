@@ -253,5 +253,25 @@ Five tech videos collections
 anton@hashobject.com
 </author>
 </item>
+<item>
+<link>
+http://blog.hashobject.com/tinychat
+</link>
+<guid>
+http://blog.hashobject.com/tinychat
+</guid>
+<pubDate>
+Mon, 10 Feb 2014 02:00:00 +0200
+</pubDate>
+<title>
+tinyChat
+</title>
+<description>
+Making tinyChat during 48 hours of hackathon
+</description>
+<author>
+anton@hashobject.com
+</author>
+</item>
 </channel>
 </rss>
