@@ -9,7 +9,7 @@ author_twitter: podviaznikov
 author_avatar: /images/anton-avatar.png
 location: Panama City, Panama
 date_created: 2013-08-04
-date_modified: 2013-08-05
+date_modified: 2014-02-10
 date_published: 2013-07-22
 headline:
 in_language: en
@@ -59,7 +59,7 @@ After submission we got a message that typical time for review and approval in m
 (it was Sunday) after just 5(!) days [Communist](http://communi.st) was published to Beta List.
 
 The cool thing about Beta List is that after the new entry is published on the site, there are around 250
-[tweets](https://twitter.com/search?q=%23communi.st) are sent automatically (some Beta List users set up
+[tweets](https://twitter.com/search?q=%23communi.st) sent automatically (some Beta List users set up
 their profiles to automatically tweet about every new entry).
 
 On Monday (July 22) our site was in the Beta List's daily email.
