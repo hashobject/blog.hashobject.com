@@ -66,7 +66,7 @@ On Monday (July 22) our site was in the Beta List's daily email.
 
 Here are our results from Google Analytics:
 
-![Google Analtics results](/images/product-launch-on-betalist-fig-1.png)
+![Google Analytics results](/images/product-launch-on-betalist-fig-1.png)
 
 You can see, during the first two days we got more than 200 visits. It's not a huge number, but remember,
 that lots of these users are more likely to sign up for your site, because they already read about you on
