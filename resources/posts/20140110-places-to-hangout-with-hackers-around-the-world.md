@@ -31,7 +31,7 @@ In the heart of Silicon Valley [Red Rock](http://redrockcoffee.org/) cafe is the
 
 ## Berlin, Germany
 
-[St. Oberholtz](http://www.sanktoberholz.de/?page_id=27&lang=en) is an amazing place in Berlin. It's great cafe with proper food and coffee. It has two stores and very working-friendly. It's place for hackathons, meetups and just meeting point in Berlin tech scene.
+[St. Oberholz](http://www.sanktoberholz.de/?page_id=27&lang=en) is an amazing place in Berlin. It's great cafe with proper food and coffee. It has two stores and very working-friendly. It's place for hackathons, meetups and just meeting point in Berlin tech scene.
 
 Another good option that I like in Berlin is [mobilsuite](http://www2.mobilesuite.de/en/berlin-prenzlauer-berg) coworking space. Some good meetups are using this great space.
 
