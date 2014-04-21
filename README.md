@@ -49,6 +49,8 @@ This will build all html, sitemap, rss, js, css and deploy it to S3.
 /5-tech-videos-collections/index.html
 /tinychat/
 /tinychat/index.html
+/3rd-party-tools-and-services
+/3rd-party-tools-and-services/index.html
 
 ## Content License
 

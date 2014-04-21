@@ -99,6 +99,11 @@ module.exports = function(grunt) {
           gzip: true
         },
         {
+          src: '../resources/public/3rd-party-tools-and-services/index.html',
+          dest: '3rd-party-tools-and-services/index.html',
+          gzip: true
+        },
+        {
           src: '../resources/public/css/app.css',
           dest: 'css/app.css',
           gzip: true

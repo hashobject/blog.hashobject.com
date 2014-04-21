@@ -21,7 +21,7 @@ http://blog.hashobject.com/clojure-webapp-with-https-support-on-amazon-beanstalk
 http://blog.hashobject.com/clojure-webapp-with-https-support-on-amazon-beanstalk
 </guid>
 <pubDate>
-Wed, 26 Jun 2013 03:00:00 +0300
+Wed, 26 Jun 2013 02:00:00 +0200
 </pubDate>
 <title>
 Configure Clojure web app to run with HTTPS support on Amazon Beanstalk
@@ -41,7 +41,7 @@ http://blog.hashobject.com/tips-for-running-clojure-webapp-on-amazon-beanstalk
 http://blog.hashobject.com/tips-for-running-clojure-webapp-on-amazon-beanstalk
 </guid>
 <pubDate>
-Wed, 26 Jun 2013 03:00:00 +0300
+Wed, 26 Jun 2013 02:00:00 +0200
 </pubDate>
 <title>
 Tips for running Clojure web app on Amazon Beanstalk
@@ -61,7 +61,7 @@ http://blog.hashobject.com/make-static-site-with-clojure-and-host-on-amazon
 http://blog.hashobject.com/make-static-site-with-clojure-and-host-on-amazon
 </guid>
 <pubDate>
-Sat, 06 Jul 2013 03:00:00 +0300
+Sat, 06 Jul 2013 02:00:00 +0200
 </pubDate>
 <title>
 Make static web site with Clojure and host it on Amazon S3 and CloudFront
@@ -81,7 +81,7 @@ http://blog.hashobject.com/payments-api-for-collaborative-consumption-apps
 http://blog.hashobject.com/payments-api-for-collaborative-consumption-apps
 </guid>
 <pubDate>
-Fri, 19 Jul 2013 03:00:00 +0300
+Fri, 19 Jul 2013 02:00:00 +0200
 </pubDate>
 <title>
 Payments API for the collaborative consumption apps
@@ -101,7 +101,7 @@ http://blog.hashobject.com/website-launch-checklist
 http://blog.hashobject.com/website-launch-checklist
 </guid>
 <pubDate>
-Mon, 22 Jul 2013 03:00:00 +0300
+Mon, 22 Jul 2013 02:00:00 +0200
 </pubDate>
 <title>
 Website launch checklist
@@ -121,7 +121,7 @@ http://blog.hashobject.com/product-launch-on-betalist
 http://blog.hashobject.com/product-launch-on-betalist
 </guid>
 <pubDate>
-Mon, 22 Jul 2013 03:00:00 +0300
+Mon, 22 Jul 2013 02:00:00 +0200
 </pubDate>
 <title>
 Product launch on Beta List
@@ -141,7 +141,7 @@ http://blog.hashobject.com/install-postgresql-9.2-on-ubuntu-13.04
 http://blog.hashobject.com/install-postgresql-9.2-on-ubuntu-13.04
 </guid>
 <pubDate>
-Sat, 31 Aug 2013 03:00:00 +0300
+Sat, 31 Aug 2013 02:00:00 +0200
 </pubDate>
 <title>
 Install PostreSQL 9.2 on Ubuntu 13.04
@@ -161,7 +161,7 @@ http://blog.hashobject.com/upstart-configuration-for-clojure-apps
 http://blog.hashobject.com/upstart-configuration-for-clojure-apps
 </guid>
 <pubDate>
-Sun, 01 Sep 2013 03:00:00 +0300
+Sun, 01 Sep 2013 02:00:00 +0200
 </pubDate>
 <title>
 Upstart configuration for Clojure apps
@@ -181,7 +181,7 @@ http://blog.hashobject.com/clojure-webapp-on-ubuntu-13.04
 http://blog.hashobject.com/clojure-webapp-on-ubuntu-13.04
 </guid>
 <pubDate>
-Mon, 16 Sep 2013 03:00:00 +0300
+Mon, 16 Sep 2013 02:00:00 +0200
 </pubDate>
 <title>
 Configure Clojure web app to run on Ubuntu 13.04
@@ -201,7 +201,7 @@ http://blog.hashobject.com/hacker-school-vs-finnish-education-system
 http://blog.hashobject.com/hacker-school-vs-finnish-education-system
 </guid>
 <pubDate>
-Fri, 27 Dec 2013 02:00:00 +0200
+Fri, 27 Dec 2013 01:00:00 +0100
 </pubDate>
 <title>
 Hacker School vs Finnish education system
@@ -221,7 +221,7 @@ http://blog.hashobject.com/places-to-hangout-with-hackers-around-the-world
 http://blog.hashobject.com/places-to-hangout-with-hackers-around-the-world
 </guid>
 <pubDate>
-Fri, 10 Jan 2014 02:00:00 +0200
+Fri, 10 Jan 2014 01:00:00 +0100
 </pubDate>
 <title>
 Places to hangout with hackers around the world
@@ -241,7 +241,7 @@ http://blog.hashobject.com/5-tech-videos-collections
 http://blog.hashobject.com/5-tech-videos-collections
 </guid>
 <pubDate>
-Mon, 20 Jan 2014 02:00:00 +0200
+Mon, 20 Jan 2014 01:00:00 +0100
 </pubDate>
 <title>
 Five tech videos collections
@@ -261,13 +261,33 @@ http://blog.hashobject.com/tinychat
 http://blog.hashobject.com/tinychat
 </guid>
 <pubDate>
-Mon, 10 Feb 2014 02:00:00 +0200
+Mon, 10 Feb 2014 01:00:00 +0100
 </pubDate>
 <title>
 tinyChat
 </title>
 <description>
 Making tinyChat during 48 hours hackathon
+</description>
+<author>
+anton@hashobject.com
+</author>
+</item>
+<item>
+<link>
+http://blog.hashobject.com/3rd-party-tools-and-services
+</link>
+<guid>
+http://blog.hashobject.com/3rd-party-tools-and-services
+</guid>
+<pubDate>
+Mon, 21 Apr 2014 02:00:00 +0200
+</pubDate>
+<title>
+3rd Party Tools and Services
+</title>
+<description>
+List of 3d party tools and services building your own application
 </description>
 <author>
 anton@hashobject.com
