@@ -42,7 +42,7 @@ thinker in these fields.
 
 ## Foundation
 
-[Kevin Rose](Dependencies Status) over years produced loads of great interviews with entrepreneurs, programmers on his [Foundation](http://foundation.bz/) series. At the moment (January 20, 2014) he has
+[Kevin Rose](http://twitter.com/kevinrose) over years produced loads of great interviews with entrepreneurs, programmers on his [Foundation](http://foundation.bz/) series. At the moment (January 20, 2014) he has
 35 interviews with the people like Elon Musk, Ben Horowitz, Jack Dorsey, Ev Williams, Phil Libin, Dave Morin,
 Kevin Systrom etc. Some of the interviews reveal fascinating biographical facts and stories from these
 successful people. Light watch that doesn't require lot of mental energy from you.

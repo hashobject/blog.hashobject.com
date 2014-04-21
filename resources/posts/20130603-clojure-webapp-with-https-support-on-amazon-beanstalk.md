@@ -73,7 +73,7 @@ You will get from them (after registration and applying for certificate) two fil
 You shouldn't share these files.
 
 
-## How to setup custom domain(naked domain) for Beanstalk application
+## How to setup custom domain (naked domain) for Beanstalk application
 
 I recommend to use [Amazon Route 53](http://aws.amazon.com/route53/) for managing DNS records.
 If you have a hosted zone on Amazon Route 53 for your domain name, then you need just to create new Record set
