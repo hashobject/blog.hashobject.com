@@ -24,7 +24,6 @@ This will build all html, sitemap, rss, js, css and deploy it to S3.
   /
   /index.html
   /css/app.css
-  /js/vendor.js
   /clojure-webapp-on-ubuntu-13.04/
   /clojure-webapp-on-ubuntu-13.04/index.html
   /upstart-configuration-for-clojure-apps/
