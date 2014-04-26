@@ -104,6 +104,11 @@ module.exports = function(grunt) {
           gzip: true
         },
         {
+          src: '../resources/public/first-timers/index.html',
+          dest: 'first-timers/index.html',
+          gzip: true
+        },
+        {
           src: '../resources/public/css/app.css',
           dest: 'css/app.css',
           gzip: true

@@ -51,6 +51,8 @@ This will build all html, sitemap, rss, js, css and deploy it to S3.
 /tinychat/index.html
 /3rd-party-tools-and-services
 /3rd-party-tools-and-services/index.html
+/first-timers
+/first-timers/index.html
 
 ## Content License
 
