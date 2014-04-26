@@ -32,7 +32,7 @@ In July, 2012 in Croatia we tried sailing for the first time in our lifes. It wa
 
 ## New Wonder of the world
 
-First time we saw one of the New 7 Wonders of the World was in Rio de Janeiro. It was in December 2012. It was our first time in the Southern Hemisphere. We obviously visited [Cristo Redentor](http://en.wikipedia.org/wiki/Christ_the_Redeemer_(statue)) statue.
+First time we saw one of the New 7 Wonders of the World was in Rio de Janeiro. It was in December 2012. It was our first time in the Southern Hemisphere. We obviously visited [Cristo Redentor](http://en.wikipedia.org/wiki/Corcovado) statue.
 
 ![New wonder of the world in Brazil](/images/rio-new-wonder.jpg)
 

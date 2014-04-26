@@ -39,15 +39,17 @@
       color: $gray-dark;
 
 .post-meta
-  margin-bottom: 30px;
-  padding: 0 1em;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
   & .author-avatar
-    float: left;
-    margin-right: 5px;
-
+    display: inline-block;
+    margin-right: 1rem;
     vertical-align: top;
+  & .meta-info
+    display: inline-block;
   & .meta-label
-    display: block;
+    display: inline-block;
+    min-width: 100px;
 
 .post-discussion
 .license.small-12.columns
@@ -56,22 +58,3 @@
   font-size: 1.0em;
   margin-bottom: 30px;
   padding: 0 1em;
-
-
-
-@media all and (min-width: 750px)
-  .post-meta
-    text-align: left;
-    padding: 0;
-    position: absolute;
-    top: 0;
-    width: 90px;
-    left: -90px;
-
-@media all and (min-width: 250px)
-  .post-meta
-    & .meta-label
-      display: inline;
-      margin-right: 5px;
-    & .author-avatar
-      margin-bottom: 10px;
