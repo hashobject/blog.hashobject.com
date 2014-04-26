@@ -14,7 +14,7 @@ date_published: 2014-04-26
 headline:
 in_language: en
 keywords: digital nomads, travel
-discussion_url: https://github.com/hashobject/blog.hashobject.com/issues/16
+discussion_url: https://github.com/hashobject/blog.hashobject.com/issues/15
 canonical_url: http://blog.hashobject.com/first-timers
 -->
 ## Intro
