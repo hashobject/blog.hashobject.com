@@ -97,6 +97,7 @@ There were a lot of other things that happened to us for the first time somewher
 
 E.x. first time we rent a car was in Nicaragua, first time we played tennis was in Montenegro, our first robbery
 happened in Rio de Janeiro, first visit to Asia was in January 2014 when we arrived to Instabul.
+First internation star concert was in Buenos Aires, when we visited Alicia Keys show.
 
 ## Conclusion
 

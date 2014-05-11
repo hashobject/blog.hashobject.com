@@ -9,7 +9,7 @@ author_twitter: podviaznikov
 author_avatar: /images/anton-avatar.png
 location: Guatemala City, Guatemala
 date_created: 2013-06-03
-date_modified: 2013-09-16
+date_modified: 2014-04-28
 date_published: 2013-06-26
 headline:
 in_language: en
@@ -91,7 +91,7 @@ There is a nice [article](http://docs.aws.amazon.com/elasticbeanstalk/latest/dg/
 in Amazon docs about how to add HTTPS support for your Beanstalk application.
 
 You need to upload your SSL certificate using command
-`iam-servercertupload -b server.crt -k ssl.key -s server`
+`aws iam upload-server-certificate --server-certificate-name $NAME --certificate-body file://$FILE_NAME.crt --private-key file://$FILE_NAME.key`
 You will get Amazon Resource name for your certificate similar to
 `arn:aws:iam::123456789012:server-certificate/cert`
 
