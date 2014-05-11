@@ -54,6 +54,8 @@ This will build all html, sitemap, rss, js, css and deploy it to S3.
   /3rd-party-tools-and-services/index.html
   /first-timers/
   /first-timers/index.html
+  /is-history-harmful/
+  /is-history-harmful/index.html
 
 ```
 
