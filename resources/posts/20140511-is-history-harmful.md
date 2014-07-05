@@ -1,6 +1,6 @@
 <!--
 name: Is history harmful?
-description: is history harmful and teaching it causes some serious problems in the long run
+description: Is history harmful and teaching it causes some serious problems in the long run
 author: Anton Podviaznikov
 author_email: anton@hashobject.com
 author_url: http://twitter.com/podviaznikov
@@ -50,6 +50,8 @@ What is interesting that for me average Finnish people are more intelligent, cle
 
 and so on. Finnish people have much more reasons to be proud of themselves because of their achievements in the last generations then people who are proud of achievements decades and centuries ago.
 
+
+## Questions
 
 Those are the questions that pop up periodically in my mind:
 
