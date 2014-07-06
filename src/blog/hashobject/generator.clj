@@ -50,11 +50,12 @@
         filename))
 
 (defn generate-post-html [metadata]
-  (println "generate post html" (:filename metadata))
-  (make-dir (str "./resources/public/" (:filename metadata)))
-  (spit
-   (str "./resources/public/" (:filename metadata) "/index.html")
-   (post-view/index metadata (:content metadata))))
+  (do
+    (make-dir (str "./resources/public/" (:filename metadata)))
+    (spit
+     (str "./resources/public/" (:filename metadata) "/index.html")
+     (post-view/index metadata (:content metadata)))
+      ["x" 1]))
 
 (defn original-md-to-html-str [file]
   (markdown/md-to-html-string (slurp (str "./resources/posts/" file))))
@@ -67,7 +68,7 @@
         metadata (parse-post-defn lines)
         content (original-md-to-html-str file)
         time-to-read (ttr/estimate-for-text content)]
-    (println "post md ds" post)
+    (println "post md ds" filename)
     (assoc metadata :filename filename
                     :ttr time-to-read
                     :content content)))
@@ -80,8 +81,9 @@
 
 (defn generate-posts []
   (let [posts (process-posts)]
-    (for [post posts]
-       (generate-post-html post))))
+    (dorun
+      (for [post posts]
+        (generate-post-html post)))))
 
 (defn generate-index []
   (let [posts (reverse (process-posts))]
