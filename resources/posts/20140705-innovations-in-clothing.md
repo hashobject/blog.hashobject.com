@@ -1,6 +1,6 @@
 <!--
 name: Innovations in clothing
-description:
+description: Innovations in fashion/clothing industry are coming
 author: Anton Podviaznikov
 author_email: anton@hashobject.com
 author_url: http://twitter.com/podviaznikov
@@ -20,15 +20,40 @@ canonical_url: http://blog.hashobject.com/innovations-in-clothing
 
 ## Intro
 
+I felt for some time now that nothing new is happening in the fashion/clothing industry.
+We still wear conceptully same clothes as people decades ago. The quality usually is not good for
+mass market brands. Most of the companies are focused on consumption these days. Probably few brands care
+about quality, design, innovation, ecology, sustainability, health of cosumers.
+Not many companies are using technology to succeed.
 
 
-## Problems
+## Hope
 
+But there is hope. I was keeping an eye on the companies that are doing something cool.
+Here is my list of companies to keep an eye on:
+
+  * [Atheist](http://www.atheistberlin.com/atheist) - they launched on reddit and kickstarter.
+  It's just a great story how can you start international brand nowadays. And they are a good company
+  with *correct* motivations.
+  * [ACRONYM](http://www.acrnm.com/) - another interesting company from Germany. Checkout their videos.
+  They basically do a lot of cool clothes that can be transformed. It's quite a shame that they are so pricey though.
+  * [UpCouture](http://upcouture.com/en/content/14-concept) - French company that designed affordable
+  good looking T-Shirts that helps you to improve your posture.
+  * [Betabrand](http://www.betabrand.com/) - online community from San Francisco that helps to design and
+  manufacture new products.
+  * [Nasty Gal](http://www.nastygal.com/) - great story of making huge brand in under the decade. Read Sophia Amoruso story in the [Wikipedia](http://en.wikipedia.org/wiki/Nasty_Gal). I find it pretty impressive and
+  hopefully motivating for new people wanting to contribute to this industry.
 
 
 
 ## Conclusion
 
-Can we imagine what will happen if we just "forget" all the history? Wars between the nations, slavery, genocides etc.  How we will treat every new person we meet? Will his nationality, origin, skin color matter to us?
+Feels like our clothes will look differently in few years.
+Mass customization will replace mass production. People should be able uniquely express themselves though
+clothes using customization. There should be Tumblr for this industry.
+I hope to see smaller startups/brands distrupting huge corporations. Crodwfunding will play a big role in this change. Someone will solve prolem with production of new clothes and distributions. It would be much easier and cheaper to start own fashion brands. And new brands would be able to innovate on design, technology, quality,
+usability etc.
 
-Does history protect us from repeating mistakes of the past or does it influence our attitude to each other?
+
+
+

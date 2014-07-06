@@ -56,7 +56,8 @@ This will build all html, sitemap, rss, js, css and deploy it to S3.
   /first-timers/index.html
   /is-history-harmful/
   /is-history-harmful/index.html
-
+  /innovations-in-clothing/
+  /innovations-in-clothing/index.html
 ```
 
 ## Content License

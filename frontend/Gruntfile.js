@@ -113,6 +113,11 @@ module.exports = function(grunt) {
           dest: 'is-history-harmful/index.html',
           gzip: true
         },
+        {
+          src: '../resources/public/innovations-in-clothing/index.html',
+          dest: 'innovations-in-clothing/index.html',
+          gzip: true
+        },
 
         {
           src: '../resources/public/css/app.css',

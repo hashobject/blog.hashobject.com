@@ -21,7 +21,7 @@ http://blog.hashobject.com/clojure-webapp-with-https-support-on-amazon-beanstalk
 http://blog.hashobject.com/clojure-webapp-with-https-support-on-amazon-beanstalk
 </guid>
 <pubDate>
-Wed, 26 Jun 2013 02:00:00 +0200
+Tue, 25 Jun 2013 17:00:00 -0700
 </pubDate>
 <title>
 Configure Clojure web app to run with HTTPS support on Amazon Beanstalk
@@ -41,7 +41,7 @@ http://blog.hashobject.com/tips-for-running-clojure-webapp-on-amazon-beanstalk
 http://blog.hashobject.com/tips-for-running-clojure-webapp-on-amazon-beanstalk
 </guid>
 <pubDate>
-Wed, 26 Jun 2013 02:00:00 +0200
+Tue, 25 Jun 2013 17:00:00 -0700
 </pubDate>
 <title>
 Tips for running Clojure web app on Amazon Beanstalk
@@ -61,7 +61,7 @@ http://blog.hashobject.com/make-static-site-with-clojure-and-host-on-amazon
 http://blog.hashobject.com/make-static-site-with-clojure-and-host-on-amazon
 </guid>
 <pubDate>
-Sat, 06 Jul 2013 02:00:00 +0200
+Fri, 05 Jul 2013 17:00:00 -0700
 </pubDate>
 <title>
 Make static web site with Clojure and host it on Amazon S3 and CloudFront
@@ -81,7 +81,7 @@ http://blog.hashobject.com/payments-api-for-collaborative-consumption-apps
 http://blog.hashobject.com/payments-api-for-collaborative-consumption-apps
 </guid>
 <pubDate>
-Fri, 19 Jul 2013 02:00:00 +0200
+Thu, 18 Jul 2013 17:00:00 -0700
 </pubDate>
 <title>
 Payments API for the collaborative consumption apps
@@ -101,7 +101,7 @@ http://blog.hashobject.com/website-launch-checklist
 http://blog.hashobject.com/website-launch-checklist
 </guid>
 <pubDate>
-Mon, 22 Jul 2013 02:00:00 +0200
+Sun, 21 Jul 2013 17:00:00 -0700
 </pubDate>
 <title>
 Website launch checklist
@@ -121,7 +121,7 @@ http://blog.hashobject.com/product-launch-on-betalist
 http://blog.hashobject.com/product-launch-on-betalist
 </guid>
 <pubDate>
-Mon, 22 Jul 2013 02:00:00 +0200
+Sun, 21 Jul 2013 17:00:00 -0700
 </pubDate>
 <title>
 Product launch on Beta List
@@ -141,7 +141,7 @@ http://blog.hashobject.com/install-postgresql-9.2-on-ubuntu-13.04
 http://blog.hashobject.com/install-postgresql-9.2-on-ubuntu-13.04
 </guid>
 <pubDate>
-Sat, 31 Aug 2013 02:00:00 +0200
+Fri, 30 Aug 2013 17:00:00 -0700
 </pubDate>
 <title>
 Install PostreSQL 9.2 on Ubuntu 13.04
@@ -161,7 +161,7 @@ http://blog.hashobject.com/upstart-configuration-for-clojure-apps
 http://blog.hashobject.com/upstart-configuration-for-clojure-apps
 </guid>
 <pubDate>
-Sun, 01 Sep 2013 02:00:00 +0200
+Sat, 31 Aug 2013 17:00:00 -0700
 </pubDate>
 <title>
 Upstart configuration for Clojure apps
@@ -181,7 +181,7 @@ http://blog.hashobject.com/clojure-webapp-on-ubuntu-13.04
 http://blog.hashobject.com/clojure-webapp-on-ubuntu-13.04
 </guid>
 <pubDate>
-Mon, 16 Sep 2013 02:00:00 +0200
+Sun, 15 Sep 2013 17:00:00 -0700
 </pubDate>
 <title>
 Configure Clojure web app to run on Ubuntu 13.04
@@ -201,7 +201,7 @@ http://blog.hashobject.com/hacker-school-vs-finnish-education-system
 http://blog.hashobject.com/hacker-school-vs-finnish-education-system
 </guid>
 <pubDate>
-Fri, 27 Dec 2013 01:00:00 +0100
+Thu, 26 Dec 2013 16:00:00 -0800
 </pubDate>
 <title>
 Hacker School vs Finnish education system
@@ -221,7 +221,7 @@ http://blog.hashobject.com/places-to-hangout-with-hackers-around-the-world
 http://blog.hashobject.com/places-to-hangout-with-hackers-around-the-world
 </guid>
 <pubDate>
-Fri, 10 Jan 2014 01:00:00 +0100
+Thu, 09 Jan 2014 16:00:00 -0800
 </pubDate>
 <title>
 Places to hangout with hackers around the world
@@ -241,7 +241,7 @@ http://blog.hashobject.com/5-tech-videos-collections
 http://blog.hashobject.com/5-tech-videos-collections
 </guid>
 <pubDate>
-Mon, 20 Jan 2014 01:00:00 +0100
+Sun, 19 Jan 2014 16:00:00 -0800
 </pubDate>
 <title>
 Five tech videos collections
@@ -261,7 +261,7 @@ http://blog.hashobject.com/tinychat
 http://blog.hashobject.com/tinychat
 </guid>
 <pubDate>
-Mon, 10 Feb 2014 01:00:00 +0100
+Sun, 09 Feb 2014 16:00:00 -0800
 </pubDate>
 <title>
 tinyChat
@@ -281,7 +281,7 @@ http://blog.hashobject.com/3rd-party-tools-and-services
 http://blog.hashobject.com/3rd-party-tools-and-services
 </guid>
 <pubDate>
-Mon, 21 Apr 2014 02:00:00 +0200
+Sun, 20 Apr 2014 17:00:00 -0700
 </pubDate>
 <title>
 3rd Party Tools and Services
@@ -301,7 +301,7 @@ http://blog.hashobject.com/first-timers
 http://blog.hashobject.com/first-timers
 </guid>
 <pubDate>
-Sat, 26 Apr 2014 02:00:00 +0200
+Fri, 25 Apr 2014 17:00:00 -0700
 </pubDate>
 <title>
 First timers
@@ -321,13 +321,33 @@ http://blog.hashobject.com/is-history-harmful
 http://blog.hashobject.com/is-history-harmful
 </guid>
 <pubDate>
-Sun, 11 May 2014 02:00:00 +0200
+Sat, 10 May 2014 17:00:00 -0700
 </pubDate>
 <title>
 Is history harmful?
 </title>
 <description>
-is history harmful and teaching it causes some serious problems in the long run
+Is history harmful and teaching it causes some serious problems in the long run
+</description>
+<author>
+anton@hashobject.com
+</author>
+</item>
+<item>
+<link>
+http://blog.hashobject.com/innovations-in-clothing
+</link>
+<guid>
+http://blog.hashobject.com/innovations-in-clothing
+</guid>
+<pubDate>
+Fri, 04 Jul 2014 17:00:00 -0700
+</pubDate>
+<title>
+Innovations in clothing
+</title>
+<description>
+Innovations in fashion/clothing industry are coming
 </description>
 <author>
 anton@hashobject.com
