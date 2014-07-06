@@ -44,7 +44,6 @@ Here is my list of companies to keep an eye on:
   hopefully motivating for new people wanting to contribute to this industry.
 
 
-
 ## Conclusion
 
 Feels like our clothes will look differently in few years.
