@@ -58,6 +58,8 @@ This will build all html, sitemap, rss, js, css and deploy it to S3.
   /is-history-harmful/index.html
   /innovations-in-clothing/
   /innovations-in-clothing/index.html
+  /no-russian-rebound/
+  /no-russian-rebound/index.html
 ```
 
 ## Content License

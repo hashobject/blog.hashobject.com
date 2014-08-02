@@ -118,6 +118,11 @@ module.exports = function(grunt) {
           dest: 'innovations-in-clothing/index.html',
           gzip: true
         },
+        {
+          src: '../resources/public/no-russian-rebound/index.html',
+          dest: 'no-russian-rebound/index.html',
+          gzip: true
+        },
 
         {
           src: '../resources/public/css/app.css',
