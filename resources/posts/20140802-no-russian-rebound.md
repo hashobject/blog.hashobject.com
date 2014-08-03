@@ -35,8 +35,6 @@ Can you say that Danes are "Swedes"? Can you say that Croats are "Serbs"? Can yo
 
 Max refers to the distance between Kyiv and Moscow as indicator of equality between two nations (and gives distance between two US cities as an example). Just for the record distance between Kyiv and Moscow (851.8 km) is bigger than between Kyiv and Warsaw (772.6 km), Paris and London (449.9 km),  Warsaw and Berlin (566.8 km), Lisbon and Madrid (625.2 km). In general, applying US (American, African, Asian) absolute distances to Europe never works because Europe is much more compact.
 
-E.x. fun fact: Ecuador (one of the smallest countries in South America) is larger than Ukraine (biggest country in Europe).
-
 
 ## History
 
