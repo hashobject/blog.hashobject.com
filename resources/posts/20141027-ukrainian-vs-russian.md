@@ -47,27 +47,27 @@ Our progam was simple but we were still shocked with the result.
 We used Ukrainian dictionary with *110180* words, Russian dictionary with *170335* words.
 And we found that only **9193** (approximately **8.4%** of all Ukrainian words) have the same transliteration.
 
-Obviosly after some improvements to the algorithms that number will go up. Also some changes might drive those numbers down. E.x. word "milk" spelled in both languages using same symbols but they are prononced very different:
+Obviosly after some improvements to the algorithms that number will go up. Also some changes might drive those numbers down. E.x. word "milk" spelled same way in both languages, but they are prononced very different:
 "малако" in Russian and "молоко" in Ukrainian. But even at this point I doubt that
-Ukrainian and Russian languages are super similar (Serbian and Croatian type similar).
+Ukrainian and Russian languages are super similar (I mean Serbian and Croatian type of similarity).
 
 You can find our [code](http://github/hashobject/ukr-vs-rus) on github.
 
 
 ## Next
 
-How research should be improved:
+How research have to be improved:
 
-  1. we should calculate levenstein distance between words too. Most words would be almost the same and the difference would be just in one sound.
-  2. ideally we should take meaning of the word into the account. Some words are spelled in Ukrainian and Russian in same way but have different meaning
-  3. I would like to make similar research for other languages. E.x. how close are Ukrainian and Polish, Ukrainian and Croatian and in the future e.x. Spanish and Portuguese.
+  1. [Levenshtein distance](http://en.wikipedia.org/wiki/Levenshtein_distance) between words may be calculated. It's interesting to find how many words are different with just one or two sounds. E.x. word "sun" - in Russian it's spelled "солнце", while in Ukrainian "сонце", but pronunciation of both words is the same (In Russian you just skip that additional "л" in the middle).
+  2. ideally, meaning of the word should be taken into account. Some words are spelled in both languages same way, but have different meaning. E.x. words "неделя" in Russian and "неділя" in Ukrainian - both of them sounds very similar, but Russian word means "week", while Ukrainian means "Sunday".
+  3. similar research can be done for other languages. E.x. how close are Ukrainian and Polish, Ukrainian and Croatian and in the future e.x. Spanish and Portuguese.
 
-Also differences dictionaries is not exclusive metric for comparing languages. If you want to improve research you can take into account grammar rules and maybe something more. It feels for me like a good PhD research topic. If somebody did it I would like to read about results and see the code.
+Also comparison of dictionaries is not exclusive metric for comparing languages. If you want to improve research you can take grammar rules into account, maybe something else. It feels like a good topic for scientific research. If somebody did it I would like to read about results and see the code.
 
 
 
 ## Conclusion
 
-A lot of things can be accomplished using simple programming skills. We can get answers for questions that bugged as for years, we can destroy myths and find truths. There is another [research](http://elms.wordpress.com/2008/03/04/lexical-distance-among-languages-of-europe/) that shows that Ukrainian is much closer to Polish that to Russian.
-I don't have any formal prove for that but to be honest that result wouldn't surpise me. My intuition about "distance" between two languages changed a lot.
+A lot of things can be accomplished using simple programming skills. We can get answers for questions that bugged us for years, we can destroy myths and find truths. There is another [research](http://elms.wordpress.com/2008/03/04/lexical-distance-among-languages-of-europe/) that shows that Ukrainian is much closer to Polish than to Russian.
+I don't have any formal prove for that but to be honest the result doesn't surpise me. My intuition about "distance" between two languages changed a lot.
 Eventually I would like to see open source tool kit that can programmatically calculate distance between any two languages. If you know someone who is working on that - let me know.
