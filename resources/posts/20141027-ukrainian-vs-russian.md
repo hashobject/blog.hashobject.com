@@ -22,34 +22,32 @@ canonical_url: http://blog.hashobject.com/ukrainian-vs-russian
 
 After leaving Ukraine 4 years ago I was often asked by people whether Ukrainian and Russian languages are the same?
 Initially I didn’t have good intuition to answer that question since I’m (as lot of Ukrainians) bi-lingual - I can speak, think, read, write in both languages.
-Than I realized that it’s very difficult question if you ask Ukrainian. But it’s much easier if you ask Russian. Most Russians wouldn’t be able even understand Ukrainian without big effort. A lot of words would be unfamiliar, pronunciation would be different etc.
+Then I realized that it’s very difficult question if you ask Ukrainians. But it’s much easier if you ask Russians. Most Russians wouldn’t be able to even understand Ukrainian without big effort. Lots of words would be unfamiliar, pronunciation would be different etc.
 
 ## Political context
 
-Many things happened in Ukraine in the last year (since November 2013). Before we were taught through media and education that Russians are the “closest” nation to Ukraine. It smelled like Russian propaganda to me.
-It made sense that Russians were spreading that information but was that true? I had serious doubts. Especially after living in the Balkans region for two years of my life, visiting Poland and Czech Republic I started to noticed pretty big
-similarities between those languages and Ukrainian.
+Many things happened in Ukraine in the last year (since November 2013). Before, we were taught through media and education that Russians are the “closest” nation to Ukraine - "they are our brothers" - and Ukrainian is the closest language to Russian. It smells like Russian propaganda to me now. They definitely had an interest to spred such information, but was that information true? I started to have serious doubts. Especially after living in the Balkans region for two years of my life, visiting Poland and Czech Republic I started to notice many similarities between those languages and Ukrainian.
 
 
 ## Investigation
 
 So I had some questions and some doubts over the years about my previous beliefs. I teamed up with [Maryna](twitter.com/m_aleksandrova) and we decided to write simple program that will calculate programmatically how close are Ukrainian and Russian languages.
 
-We started with the most simple possible approach:
+We started with the simplest approach:
 
   1. find dictionary with Ukrainian and Russian words
   2. transliterate those words to neutral alphabet (we transliterated to English)
   3. find how manu words are would be the same from two dictionaries
 
 We initially decided to use pronunciation as the rule for transliteration.
-That was important because Ukrainian letter "е" spelled in the same way as Russian "е" but they sound very different.
-In fact Russian "е" would be replaced with two sounds in Ukrainian "йе".
+That was important because Ukrainian letter "е" written the same way as Russian "е" but they sound very different.
+In fact Russian "е" would be replaced with two sounds ("йе") in Ukrainian.
 
 Our progam was simple but we were still shocked with the result.
 We used Ukrainian dictionary with *110180* words, Russian dictionary with *170335* words.
-We found out that only **9193** or approximately **8.4%** from all Ukrainian words.
+And we found that only **9193** (approximately **8.4%** of all Ukrainian words) have the same transliteration.
 
-Obviosly after some improvements to the algorithms that number will go up. But even at this point I doubpt that
+Obviosly after some improvements to the algorithms that number will go up. But even at this point I doubt that
 Ukrainian and Russian languages are super similar (Serbian and Croatian type similar).
 
 You can find our [code](http://github/hashobject/ukr-vs-rus) on github.
