@@ -47,7 +47,8 @@ Our progam was simple but we were still shocked with the result.
 We used Ukrainian dictionary with *110180* words, Russian dictionary with *170335* words.
 And we found that only **9193** (approximately **8.4%** of all Ukrainian words) have the same transliteration.
 
-Obviosly after some improvements to the algorithms that number will go up. But even at this point I doubt that
+Obviosly after some improvements to the algorithms that number will go up. Also some changes might drive those numbers down. E.x. word "milk" spelled in both languages using same symbols but they are prononced very different:
+"малако" in Russian and "молоко" in Ukrainian. But even at this point I doubt that
 Ukrainian and Russian languages are super similar (Serbian and Croatian type similar).
 
 You can find our [code](http://github/hashobject/ukr-vs-rus) on github.
