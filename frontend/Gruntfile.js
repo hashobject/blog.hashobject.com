@@ -133,11 +133,7 @@ module.exports = function(grunt) {
           dest: 'css/app.css',
           gzip: true
         },
-        {
-          src: '../resources/public/images/*.png',
-          dest: 'images/',
-          rel: '../resources/public/images'
-        },
+
         {
           src: '../resources/public/images/*.jpg',
           dest: 'images/',
