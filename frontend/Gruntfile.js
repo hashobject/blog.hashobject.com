@@ -123,7 +123,11 @@ module.exports = function(grunt) {
           dest: 'no-russian-rebound/index.html',
           gzip: true
         },
-
+        {
+          src: '../resources/public/ukrainian-vs-russian/index.html',
+          dest: 'ukrainian-vs-russian/index.html',
+          gzip: true
+        },
         {
           src: '../resources/public/css/app.css',
           dest: 'css/app.css',

@@ -60,6 +60,8 @@ This will build all html, sitemap, rss, js, css and deploy it to S3.
   /innovations-in-clothing/index.html
   /no-russian-rebound/
   /no-russian-rebound/index.html
+  /ukrainian-vs-russian/
+  /ukrainian-vs-russian/index.html
 ```
 
 ## Content License
