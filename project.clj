@@ -18,5 +18,4 @@
             "posts-html" ["trampoline" "run" "-m" "blog.hashobject.generator/generate-posts"]
             "sitemap-xml" ["trampoline" "run" "-m" "blog.hashobject.generator/generate-sitemap"]
             "rss" ["trampoline" "run" "-m" "blog.hashobject.generator/generate-rss"]
-            "site-build" ["shell" "./frontend/node_modules/grunt-cli/bin/grunt" "--gruntfile" "frontend/Gruntfile.js" "build"]
-            "site-deploy" ["shell" "./frontend/node_modules/grunt-cli/bin/grunt" "--gruntfile" "frontend/Gruntfile.js" "deploy"]})
+            "site-deploy" ["shell" "gulp" "deploy"]})
