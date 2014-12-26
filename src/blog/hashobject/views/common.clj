@@ -23,7 +23,8 @@
        [:ul
         [:li [:a {:href "http://hashobject.com"} "Home"]]
         [:li.active [:a {:href "http://blog.hashobject.com"} "Blog"]]
-        [:li [:a {:href "http://os.hashobject.com"} "Open Source"]]]]])
+        [:li [:a {:href "http://os.hashobject.com"} "Open Source"]]
+        [:li [:a {:href "http://labs.hashobject.com"} "Labs"]]]]])
 
 (defn footer []
   [:footer.row
