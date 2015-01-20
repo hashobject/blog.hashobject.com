@@ -69,5 +69,5 @@ Also comparison of dictionaries is not exclusive metric for comparing languages.
 ## Conclusion
 
 A lot of things can be accomplished using simple programming skills. We can get answers for questions that bugged us for years, we can destroy myths and find truths. There is another [research](http://elms.wordpress.com/2008/03/04/lexical-distance-among-languages-of-europe/) that shows that Ukrainian is much closer to Polish than to Russian.
-I don't have any formal prove for that but to be honest the result doesn't surpise me. My intuition about "distance" between two languages changed a lot.
+I don't have any formal prove for that but to be honest the result doesn't surprise me. My intuition about "distance" between two languages changed a lot.
 Eventually I would like to see open source tool kit that can programmatically calculate distance between any two languages. If you know someone who is working on that - let me know.
