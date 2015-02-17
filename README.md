@@ -62,6 +62,8 @@ This will build all html, sitemap, rss, js, css and deploy it to S3.
   /no-russian-rebound/index.html
   /ukrainian-vs-russian/
   /ukrainian-vs-russian/index.html
+  /meeting-famous-people/
+  /meeting-famous-people/index.html
 ```
 
 ## Content License
