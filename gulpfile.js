@@ -16,13 +16,12 @@ gulp.task('deploy', function() {
 
   // define custom headers
   var headers = {
-     'Cache-Control': 'max-age=315360000, no-transform, public'
+    'Cache-Control': 'max-age=315360000, no-transform, public'
   };
 
   return gulp.src('./resources/public/**/*.*')
-
-     // gzip, Set Content-Encoding headers and add .gz extension
-   // .pipe(awspublish.gzip({ ext: '.gz' }))
+    // gzip, Set Content-Encoding headers and add .gz extension
+    // .pipe(awspublish.gzip({ ext: '.gz' }))
 
     // publisher will add Content-Length, Content-Type and  headers specified above
     // If not specified it will set x-amz-acl to public-read by default
@@ -42,6 +41,6 @@ gulp.task('deploy', function() {
 
 
 var watcher = gulp.watch('src/**/*.*', ['build']);
-watcher.on('change', function(event) {
-  console.log('File ' + event.path + ' was ' + event.type + ', running tasks...');
+watcher.on('change', function(ev) {
+  console.log('File ' + ev.path + ' was ' + ev.type + ', running tasks...');
 });

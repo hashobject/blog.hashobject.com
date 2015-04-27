@@ -3,12 +3,14 @@
   "version": "1.0.0",
   "description": "blog.hashobject.com",
   "private": true,
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
-    "stylus": "~0.32.1",
     "gulp": "^3.8.10",
-    "gulp-awspublish": "0.0.23"
+    "gulp-awspublish": "0.0.23",
+    "react": "^0.13.0",
+    "react-count": "^0.2.1",
+    "stylus": "~0.32.1",
+    "webpack": "^1.7.3"
   },
   "repository": {
     "type": "git",
