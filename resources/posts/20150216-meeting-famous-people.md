@@ -55,7 +55,7 @@ I first went to Berlin in Nov 2011. During this visit, I saw [Angela_Merkel](htt
 In summer 2012 I went to Croatia. I managed to meet [Jerko Leko](http://en.wikipedia.org/wiki/Jerko_Leko) twice(!) on the streets of Zagreb. I liked him a lot as a player and made sure to tell him that.
 
 
-## Cliwe Ower
+## Clive Owen
 
 Another strange thing happened during my 3 months stay in New York in 2013.
 [Steven Soderbergh](http://en.wikipedia.org/wiki/Steven_Soderbergh) was shooting The Knick series starring [Clive Owen](http://en.wikipedia.org/wiki/Clive_Owen) right on my street in Brooklyn. The funny thing is that I meet Clive Owen later in the bar in Manhattan. What are the chances  that you can meet the same person in NYC in 3 months?
