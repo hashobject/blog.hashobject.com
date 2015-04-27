@@ -9,7 +9,7 @@
                  [endophile "0.1.2"]
                  [sitemap "0.2.4"]
                  [clj-time "0.9.0"]
-                 [clj-rss "0.1.3"]
+                 [clj-rss "0.1.9"]
                  [time-to-read "0.1.0"]]
   :plugins [[lein-shell "0.4.0"]
             [lein-sitemap "0.1.1"]]
