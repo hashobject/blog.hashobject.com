@@ -10,8 +10,7 @@ Inside `frontend` directory execute command:
 
 ```
   pygmentize -S default -f html > styl/pygments.css
-  lein index-html;lein posts-html;lein sitemap-xml; lein sitemap; lein rss
-  nvm use 0.8.26;grunt deploy
+  lein index-html;lein posts-html;lein sitemap-xml; lein sitemap; lein rss;gulp deploy
 ```
 
 This will build all html, sitemap, rss, js, css and deploy it to S3.

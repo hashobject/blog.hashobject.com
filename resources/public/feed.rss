@@ -4,15 +4,15 @@
 <generator>
 clj-rss
 </generator>
-<link>
-http://blog.hashobject.com
-</link>
-<title>
-Hashobject team blog
-</title>
 <description>
 Hashobject - software engineering, design and application development
 </description>
+<title>
+Hashobject team blog
+</title>
+<link>
+http://blog.hashobject.com
+</link>
 <item>
 <link>
 http://blog.hashobject.com/clojure-webapp-with-https-support-on-amazon-beanstalk
@@ -388,6 +388,26 @@ Ukrainian-vs-Russain
 </title>
 <description>
 Are Ukrainian and Russian are the same language?
+</description>
+<author>
+anton@hashobject.com
+</author>
+</item>
+<item>
+<link>
+http://blog.hashobject.com/meeting-famous-people
+</link>
+<guid>
+http://blog.hashobject.com/meeting-famous-people
+</guid>
+<pubDate>
+Sun, 15 Feb 2015 16:00:00 -0800
+</pubDate>
+<title>
+Meeting famous people
+</title>
+<description>
+Meeting famous people traveling as digital nomand
 </description>
 <author>
 anton@hashobject.com
