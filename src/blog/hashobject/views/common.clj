@@ -41,4 +41,9 @@
                 } else {
                   nav.classList.remove('open')
                 }
-              });"]])
+              });"]
+    [:script {:src "//my.hellobar.com/e7784fac20054cc1170db3e6417786f1a864a9aa.js"
+              :type "text/javascript"
+              :charset "utf-8" :async "async"}]
+
+])
