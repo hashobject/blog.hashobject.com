@@ -9,7 +9,7 @@ author_twitter: podviaznikov
 author_avatar: /images/anton-avatar.png
 location: San Francisco, USA
 date_created: 2014-07-05
-date_modified: 2015-05-08
+date_modified: 2015-05-09
 date_published: 2014-07-05
 headline:
 in_language: en
@@ -51,6 +51,7 @@ Here is my list of companies to keep an eye on:
   clever use of social media with Instagram campaigns. I do like a lot that friends of founders are models:
   you can see real normal people wearing Pistol Lake clothes.
 
+  * [IguanEye](http://en.iguaneye.com/) - shoes company that uses combinations of ancient Indians technique with modern technology.
 
 
 
