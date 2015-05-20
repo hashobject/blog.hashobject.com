@@ -6,9 +6,6 @@ var awspublish = require('gulp-awspublish');
 
 var aws = JSON.parse(fs.readFileSync('./aws.json'));
 
-
-
-
 gulp.task('deploy', function() {
 
   // create a new publisher
@@ -19,7 +16,7 @@ gulp.task('deploy', function() {
     'Cache-Control': 'max-age=315360000, no-transform, public'
   };
 
-  return gulp.src('./resources/public/**/*.*')
+  return gulp.src('./target/public/**/*.*')
     // gzip, Set Content-Encoding headers and add .gz extension
     // .pipe(awspublish.gzip({ ext: '.gz' }))
 
