@@ -55,7 +55,7 @@
     (spit
      (str "./resources/public/" (:filename metadata) "/index.html")
      (post-view/index metadata (:content metadata)))
-      ["x" 1]))
+      metadata))
 
 (defn original-md-to-html-str [file]
   (markdown/md-to-html-string (slurp (str "./resources/posts/" file))))
@@ -90,50 +90,4 @@
     (spit (str "./resources/public/index.html")
           (index-view/index posts))))
 
-(defn posts-sitemap-definitions []
-  (let [posts (process-posts)]
-    (for [post posts]
-      {:loc (str "http://blog.hashobject.com/" (:filename post))
-       :lastmod (get post "date_modified")
-       :changefreq "weekly"
-       :priority 0.8})))
 
-
-(defn posts-rss-definitions []
-  (let [posts (process-posts)]
-    (for [post posts]
-      {:link (get post "canonical_url")
-       :guid (get post "canonical_url")
-       :pubDate (dates/str-to-date (get post "date_published"))
-       :title (get post "name")
-       :description (get post "description")
-       :author (get post "author_email")})))
-
-
-
-
-
-
-
-(defn generate-rss []
-  (let [items (posts-rss-definitions)
-        rss (apply rss/channel-xml {:title "Hashobject team blog"
-                                    ;:image "http://blog.hashobject.com/images/hashobject-logo.png"
-                                    :link "http://blog.hashobject.com"
-                                    :description "Hashobject - software engineering, design and application development"} items)]
-    (spit
-       (str "./resources/public/feed.rss")
-       rss)))
-
-
-;(generate-rss)
-
-
-(defn generate-sitemap []
-  (let [posts-pages (posts-sitemap-definitions)
-        all-pages (conj posts-pages
-                        {:loc (str "http://blog.hashobject.com/")
-                         :lastmod "2013-06-26"
-                         :changefreq "daily"
-                         :priority 1.0})]
-        (sitemap/generate-sitemap-and-save "./resources/public/sitemap.xml" all-pages)))

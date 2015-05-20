@@ -4,8 +4,6 @@
   (:require [blog.hashobject.dates :as dates]
           [blog.hashobject.views.common :as common]))
 
-
-
 (defn render-post [post]
   [:li.item {:itemprop "blogPost" :itemscope "" :itemtype "http://schema.org/BlogPosting"}
    [:a.title {:href (str (:filename post)) :itemprop "name"} (get post "name")]
