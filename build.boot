@@ -32,7 +32,7 @@
         (ttr)
         (permalink)
         (render :renderer 'post-view/render)
-        (collection :renderer 'index-view/render :page "index.html")
+        (collection :renderer 'index-view/render :page "index.html" :comparator (fn [i1 i2] (compare i2 i1)))
         (sitemap :filename "sitemap.xml")
         (rss :title "Hashobject" :description "Hashobject blog" :link "http://blog.hashobject.com")
         (notify)))

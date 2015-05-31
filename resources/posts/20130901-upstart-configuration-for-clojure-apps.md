@@ -9,7 +9,7 @@ author_twitter: podviaznikov
 author_avatar: /images/anton-avatar.png
 location: Quito, Ecuador
 date_created: 2013-09-01
-date_modified: 2013-09-01
+date_modified: 2015-05-31
 date_published: 2013-09-01
 headline:
 in_language: en
@@ -56,7 +56,7 @@ The last 3 lines are the most important:
   * exec - actually starts your ring server
 
 
-This is just sample upstart configuration file. You can refer documenatation for more features.
+This is just sample upstart configuration file. You can refer documentation for more features.
 
 
 After you save this configuration you can start your app using `start mywebapp`
