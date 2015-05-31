@@ -9,7 +9,7 @@ author_twitter: podviaznikov
 author_avatar: /images/anton-avatar.png
 location: San Salvador, El Salvador
 date_created: 2013-06-15
-date_modified: 2013-06-15
+date_modified: 2015-05-31
 date_published: 2013-06-26
 headline:
 in_language: en
@@ -40,9 +40,9 @@ I described how to get HTTPS support for Clojure web app deployed on Amazon Bean
 Sometimes you need to force HTTPS traffic for everything. So e.x. if user requests page on
 http://example.com you want to redirect him on https://example.com.
 
-You can setup proxy to do that.
+You can setup proxy to do just that.
 
-I was able to achieve that with this sample ring middleware:
+I was able to achieve this with a sample ring middleware:
 
 ```clojure
 

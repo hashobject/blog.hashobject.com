@@ -9,7 +9,7 @@ author_twitter: podviaznikov
 author_avatar: /images/anton-avatar.png
 location: Ohrid, Macedonia
 date_created: 2014-04-26
-date_modified: 2015-04-07
+date_modified: 2015-05-31
 date_published: 2014-04-26
 headline:
 in_language: en
@@ -103,4 +103,4 @@ First international star concert was in Buenos Aires, when we visited Alicia Key
 
 After being a digital nomad for the past 2.5 years I must say that I never regret that decision. It's eye-opening,
 it's inspiring, it's actually not expensive, it's not difficult but it is also not for everyone. I'm going to write about it in the next few upcoming blog posts. The idea was to explore just one side of such lifestyle in this post.
-Travelling allowed me to do and try a lot of new things in a very short period of time.
+Traveling allowed me to do and try a lot of new things in a very short period of time.

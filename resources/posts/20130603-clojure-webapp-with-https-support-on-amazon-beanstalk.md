@@ -9,7 +9,7 @@ author_twitter: podviaznikov
 author_avatar: /images/anton-avatar.png
 location: Guatemala City, Guatemala
 date_created: 2013-06-03
-date_modified: 2014-04-28
+date_modified: 2015-05-31
 date_published: 2013-06-26
 headline:
 in_language: en
@@ -106,6 +106,6 @@ In the "Load balancer" section specify:
 ## Conclusion
 
 In this post I tried to describe steps needed to have Clojure web app deployed to Amazon Beanstalk
-and available behind your own secure naked domain.
+and make it available behind your own secure naked domain.
 
 Described setup will cost almost nothing for the first year.

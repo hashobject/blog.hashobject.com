@@ -9,7 +9,7 @@ author_twitter: podviaznikov
 author_avatar: /images/anton-avatar.png
 location: Leon, Nicaragua
 date_created: 2013-07-18
-date_modified: 2013-07-18
+date_modified: 2015-05-31
 date_published: 2013-07-19
 headline:
 in_language: en
@@ -55,12 +55,12 @@ Online marketplace usually works within following steps:
 Collaborative consumption apps (think [AirBnB](http://airbnb.com)) have just one additional step:
 
   1. process payment from buyer
-  2. cut procent from transaction as service fee
+  2. cut percent from transaction as service fee
   3. hold money on virtual escrow account
   4. put money on virtual account of the seller
   5. seller transfers money to his personal account (using e.x. bank wire transfer)
 
-The only difference is that usually in crowdfunding apps sellers will not get money immediately
+The only difference is that usually in crowd funding apps sellers will not get money immediately
 (on AirBnB owner of the place will get money after you move in, but money itself will be locked on your account
 immediately after reservation).
 
@@ -83,7 +83,7 @@ After some investigation for us we found new promising solution called [Mangopay
 Mangopay is product of [Leetchi.com](http://leetchi.com) and they claim to be
 >the European leading service for group payments
 
-In general there are two typical apps that you can built on top of their payments:
+In general there are two typical types of application  that you can built on top of their payments:
 
   * marketplaces and collaborative consumption platforms
   * crowdfunding platforms
@@ -93,8 +93,7 @@ And that was exactly what we needed.
 
 ## Conclusion
 
-We still not using Mangopay API in production, but so far it looks that it fits our needs.
-API itself is well designed and [documentation](http://www.mangopay.com/api-references/)
-is full and has good examples.
+We still not using Mangopay API in production, but so far it looks like it will fit our needs.
+API itself is well-designed and [documentation](http://www.mangopay.com/api-references/) and has good examples.
 
 We even created [Clojure library](http://os.hashobject.com/mangopay/) for it.
