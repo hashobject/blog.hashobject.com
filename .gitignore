@@ -18,3 +18,4 @@ resources/public/**/*.html.gz
 aws.json
 node_modules
 .awspublish-blog.hashobject.com
+.nrepl-history

@@ -6,16 +6,16 @@
 
 (defn render-post [post]
   [:li.item {:itemprop "blogPost" :itemscope "" :itemtype "http://schema.org/BlogPosting"}
-   [:a.title {:href (str (:filename post)) :itemprop "name"} (get post "name")]
+   [:a.title {:href (str (:filename post)) :itemprop "name"} (:name post)]
    [:div.item-meta
-    [:meta {:itemprop "author" :content (str (get post "author") " (" (get post "author_email") ")" )}]
-    [:img.author-avatar {:src (get post "author_avatar") :title (get post "author")}]
-    [:p.pub-data (str (dates/reformat-datestr (get post "date_published") "YYYY-MM-dd", "MMM dd, YYYY") ", by " (get post "author"))
+    [:meta {:itemprop "author" :content (str (:author post) " (" (:author_email post) ")" )}]
+    [:img.author-avatar {:src (:author_avatar post) :title (:author post)}]
+    [:p.pub-data (str (dates/reformat-datestr (:date_published post) "YYYY-MM-dd", "MMM dd, YYYY") ", by " (:author post))
      [:span.reading-time (str " " (:ttr post) " mins read")]]
-     [:p {:itemprop "description"} (get post "description")]]])
+     [:p {:itemprop "description"} (:description post)]]])
 
 
-(defn index [posts]
+(defn render [posts]
   (html5 {:lang "en" :itemtype "http://schema.org/Blog"}
     [:head
       [:meta {:charset "utf-8"}]

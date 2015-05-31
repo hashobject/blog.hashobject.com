@@ -3,32 +3,36 @@
   :resource-paths #{"resources"}
   :dependencies '[[org.clojure/clojure "1.6.0"]
                  [hiccup "1.0.5"]
-                 [markdown-clj "0.9.40"]
-                 [endophile "0.1.2"]
-                 [sitemap "0.2.4"]
+                 [perun "0.1.0-SNAPSHOT"]
                  [clj-time "0.9.0"]
-                 [clj-rss "0.1.9"]
-                 [time-to-read "0.1.0"]
                  [jeluard/boot-notify "0.1.2" :scope "test"]])
 
 (task-options!
   pom {:project 'blog.hashobject.com
        :version "0.2.0"})
 
+(require '[io.perun.markdown :refer :all])
+(require '[io.perun.ttr :refer :all])
+(require '[io.perun.draft :refer :all])
+(require '[io.perun.permalink :refer :all])
+(require '[io.perun.sitemap :refer :all])
+(require '[io.perun.rss :refer :all])
+(require '[io.perun.render :refer :all])
+(require '[io.perun.collection :refer :all])
+(require '[blog.hashobject.views.index :as index-view])
+(require '[blog.hashobject.views.post :as post-view])
 
-(require '[blog.hashobject.markdown :refer :all])
-(require '[blog.hashobject.ttr :refer :all])
-(require '[blog.hashobject.sitemap :refer :all])
-(require '[blog.hashobject.rss :refer :all])
-(require '[blog.hashobject.posts :refer :all])
 (require '[jeluard.boot-notify :refer [notify]])
 
 (deftask build
   "Build blog."
   []
-  (comp (parse-markdown)
-        (calc-ttr)
-        (generate-sitemap)
-        (generate-rss)
-        (generate-posts)
+  (comp (markdown)
+        (draft)
+        (ttr)
+        (permalink)
+        (render :renderer 'post-view/render)
+        (collection :renderer 'index-view/render :page "index.html")
+        (sitemap :filename "sitemap.xml")
+        (rss :title "Hashobject" :description "Hashobject blog" :link "http://blog.hashobject.com")
         (notify)))
