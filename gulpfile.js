@@ -31,12 +31,6 @@ gulp.task('deploy', function() {
     .pipe(awspublish.reporter());
 });
 
-
-
-
-
-
-
 var watcher = gulp.watch('src/**/*.*', ['build']);
 watcher.on('change', function(ev) {
   console.log('File ' + ev.path + ' was ' + ev.type + ', running tasks...');

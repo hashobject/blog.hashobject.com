@@ -9,7 +9,7 @@ author_twitter: podviaznikov
 author_avatar: /images/anton-avatar.png
 location: Ohrid, Macedonia
 date_created: 2014-05-11
-date_modified: 2014-05-11
+date_modifie5: 2014-05-31
 date_published: 2014-05-11
 headline:
 in_language: en
@@ -21,7 +21,7 @@ canonical_url: http://blog.hashobject.com/is-history-harmful
 ## Intro
 
 
-I love history, it’s fun, it’s interesting, it has a lot of "answers" for a lot of questions. You can pick any today's problem, find something similar in history and propose solution or explanation or even predict the future.
+I love history, it’s fun, it’s interesting, it has a lot of "answers" to a lot of questions. You can pick any today's problem, find something similar in history and propose solution or explanation or even predict the future.
 History is a powerful tool. But it is also a dangerous tool (especially in the hands of people that try to use it for manipulation).
 
 
