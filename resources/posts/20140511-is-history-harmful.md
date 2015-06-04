@@ -9,7 +9,7 @@ author_twitter: podviaznikov
 author_avatar: /images/anton-avatar.png
 location: Ohrid, Macedonia
 date_created: 2014-05-11
-date_modifie5: 2014-05-31
+date_modified: 2014-05-31
 date_published: 2014-05-11
 headline:
 in_language: en
