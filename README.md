@@ -6,11 +6,9 @@ Hashobject team technical blog. Generated using Clojure. Hosted on Amazon S3.
 
 ## Full deploy
 
-Inside `frontend` directory execute command:
-
 ```
   pygmentize -S default -f html > styl/pygments.css
-  boot build; gulp deploy
+  boot build
 ```
 
 This will build all html, sitemap, rss, js, css and deploy it to S3.
