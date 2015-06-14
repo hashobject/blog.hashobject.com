@@ -7,23 +7,18 @@
                  [hashobject/boot-s3 "0.1.0-SNAPSHOT"]
                  [clj-time "0.9.0"]
                  [pandeiro/boot-http "0.6.2"]
-                 [jeluard/boot-notify "0.1.2" :scope "test"]])
+                 [jeluard/boot-notify "0.1.2"]
+                 ;[deraen/boot-livereload "0.1.0-SNAPSHOT"]
+                 [pandeiro/boot-http "0.6.3-SNAPSHOT"]])
 
 
-(require '[io.perun.markdown :refer :all])
-(require '[io.perun.ttr :refer :all])
-(require '[io.perun.draft :refer :all])
-(require '[io.perun.permalink :refer :all])
-(require '[io.perun.sitemap :refer :all])
-(require '[io.perun.rss :refer :all])
-(require '[io.perun.render :refer :all])
-(require '[io.perun.collection :refer :all])
-(require '[blog.hashobject.views.index :as index-view])
-(require '[blog.hashobject.views.post :as post-view])
+(require '[io.perun :refer :all]
+         '[blog.hashobject.views.index :as index-view]
+         '[blog.hashobject.views.post :as post-view]
+         '[pandeiro.boot-http :refer [serve]]
+         '[hashobject.boot-s3 :refer :all]
+         '[jeluard.boot-notify :refer [notify]])
 
-(require '[hashobject.boot-s3 :refer :all])
-(require '[pandeiro.boot-http :refer :all])
-(require '[jeluard.boot-notify :refer [notify]])
 
 (task-options!
   pom {:project 'blog.hashobject.com
@@ -48,3 +43,10 @@
         (rss :title "Hashobject" :description "Hashobject blog" :link "http://blog.hashobject.com")
         (s3-sync)
         (notify)))
+
+(deftask dev
+  []
+  (comp (watch)
+        (build)
+        ;(livereload :asset-path "public")
+        (serve :resource-root "public")))
