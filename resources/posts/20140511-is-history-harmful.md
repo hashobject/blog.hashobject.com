@@ -57,7 +57,7 @@ Those are the questions that pop up periodically in my mind:
 
   * Why do people still so obsessed over countries, sizes, borders, power?
   * Why do people celebrate war heroes and not great scientists?
-  * Why do people celebrate people from the past but not people who are working on improving our lives now? Don’t you think that Elon Musk is doing more positive things to humanity that some crazy dictator from huge country in Eurasia?
+  * Why do people celebrate people from the past but not people who are working on improving our lives now? Don’t you think that Elon Musk is doing more positive things to humanity than some crazy dictator from huge country in Eurasia?
   * Why do people divide humankind on "us" and "them"? What makes "us" good and "them" bad?
   * Why do people admire "strong" and "firm" leaders but not people with the intellect, with the vision for the future of the humanity?
   * Why don't we celebrate intellectual victories and scientific breakthroughs but we celebrate military "victories days"?
