@@ -1,4 +1,4 @@
-<!--
+---
 name: Traveling and diversity
 description: Traveling and diversity
 author: Anton Podviaznikov
@@ -16,7 +16,7 @@ in_language: en
 keywords: traveling, diversity, cultures
 discussion_url: https://github.com/hashobject/blog.hashobject.com/issues/21
 canonical_url: http://blog.hashobject.com/traveling-and-diversity
--->
+---
 
 ## Intro
 

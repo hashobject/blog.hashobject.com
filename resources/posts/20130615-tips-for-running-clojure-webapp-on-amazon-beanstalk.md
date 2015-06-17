@@ -1,4 +1,4 @@
-<!--
+---
 name: Tips for running Clojure web app on Amazon Beanstalk
 description: Bunch of small advises for running Clojure web app on Amazon Beanstalk
 author: Anton Podviaznikov
@@ -16,7 +16,7 @@ in_language: en
 keywords: clojure, amazon beanstalk, https, aws, logs, tips, logging, web app
 discussion_url: https://github.com/hashobject/blog.hashobject.com/issues/2
 canonical_url: http://blog.hashobject.com/tips-for-running-clojure-webapp-on-amazon-beanstalk
--->
+---
 ## Logging
 
 If you are using `clojure.tools.logging` in the app for logging, the following snippet will

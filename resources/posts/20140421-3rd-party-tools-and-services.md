@@ -1,4 +1,4 @@
-<!--
+---
 name: 3rd Party Tools and Services
 description: List of 3d party tools and services building your own application
 author: Anton Podviaznikov
@@ -16,7 +16,7 @@ in_language: en
 keywords: 3d party tools, 3d party services
 discussion_url: https://github.com/hashobject/blog.hashobject.com/issues/14
 canonical_url: http://blog.hashobject.com/3rd-party-tools-and-services
--->
+---
 ## Intro
 
 If you are starting to work on the new web project there is huge amount of tools and services

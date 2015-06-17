@@ -1,4 +1,4 @@
-<!--
+---
 name: No Russian rebound
 description: Rebound on "No Russian" post from Max Skibinsky
 author: Anton Podviaznikov
@@ -16,7 +16,7 @@ in_language: en
 keywords: history, politics, ukraine, education
 discussion_url: https://github.com/hashobject/blog.hashobject.com/issues/18
 canonical_url: http://blog.hashobject.com/no-russian-rebound
--->
+---
 
 ## Intro
 

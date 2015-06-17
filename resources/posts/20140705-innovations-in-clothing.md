@@ -1,4 +1,4 @@
-<!--
+---
 name: Innovations in clothing
 description: Innovations in fashion/clothing industry are coming
 author: Anton Podviaznikov
@@ -16,7 +16,7 @@ in_language: en
 keywords: clothing, fashion, technology, startups
 discussion_url: https://github.com/hashobject/blog.hashobject.com/issues/17
 canonical_url: http://blog.hashobject.com/innovations-in-clothing
--->
+---
 
 ## Intro
 

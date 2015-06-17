@@ -1,4 +1,4 @@
-<!--
+---
 name: Ukrainian-vs-Russain
 description: Are Ukrainian and Russian are the same language?
 author: Anton Podviaznikov
@@ -16,7 +16,7 @@ in_language: en
 keywords: history, politics, ukraine, education
 discussion_url: https://github.com/hashobject/blog.hashobject.com/issues/19
 canonical_url: http://blog.hashobject.com/ukrainian-vs-russian
--->
+---
 
 ## Intro
 

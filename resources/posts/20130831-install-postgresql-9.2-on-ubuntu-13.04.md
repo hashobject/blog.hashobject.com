@@ -1,4 +1,4 @@
-<!--
+---
 name: Install PostreSQL 9.2 on Ubuntu 13.04
 description: Short guide how to install PostgreSQL 9.2 on Ubuntu 13.04
 author: Anton Podviaznikov
@@ -16,7 +16,7 @@ in_language: en
 keywords: postgresql 9.2, ubuntu 13.04, digitalocean
 discussion_url: https://github.com/hashobject/blog.hashobject.com/issues/7
 canonical_url: http://blog.hashobject.com/install-postgresql-9.2-on-ubuntu-13.04
--->
+---
 ## Intro
 
 It's super easy to install default version of PosgtreSQL on Ubuntu.

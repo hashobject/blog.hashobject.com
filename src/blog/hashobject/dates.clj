@@ -8,7 +8,8 @@
   (let [date (clj-time-format/parse (clj-time-format/formatter initial-format) date-str)]
         (clj-time-format/unparse (clj-time-format/formatter final-format) date)))
 
-
+(defn reformat-date [date final-format]
+  (clj-time-format/unparse (clj-time-format/formatter final-format) (clj-time-coerce/from-date date)))
 
 (defn str-to-date [string]
   (clj-time-coerce/to-date (clj-time-format/parse string)))

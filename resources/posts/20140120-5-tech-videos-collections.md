@@ -1,4 +1,4 @@
-<!--
+---
 name: Five tech videos collections
 description: Five tech videos collections
 author: Anton Podviaznikov
@@ -16,7 +16,7 @@ in_language: en
 keywords: tech videos, videos collections, 2013 videos
 discussion_url: https://github.com/hashobject/blog.hashobject.com/issues/12
 canonical_url: http://blog.hashobject.com/5-tech-videos-collections
--->
+---
 ## Intro
 
 I would like to make compilation of cool tech videos resources I discovered during 2013.

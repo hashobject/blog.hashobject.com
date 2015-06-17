@@ -1,4 +1,4 @@
-<!--
+---
 name: Hacker School vs Finnish education system
 description: Finding similarities between Hacker School and education system in Finland
 author: Anton Podviaznikov
@@ -16,7 +16,7 @@ in_language: en
 keywords: hacker school, education, finland, modern education
 discussion_url: https://github.com/hashobject/blog.hashobject.com/issues/10
 canonical_url: http://blog.hashobject.com/hacker-school-vs-finnish-education-system
--->
+---
 ## Intro
 
 I'm a big fan of the [Finnish education system](https://en.wikipedia.org/wiki/Education_in_Finland). I like to read about it and discuss it with people passionate about education.

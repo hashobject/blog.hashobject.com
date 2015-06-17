@@ -42,10 +42,10 @@
                 [:a.author-name {:href (:author_url metadata)} (:author metadata)]]
               [:div
                 [:span.meta-label "Published: "]
-                [:span (dates/reformat-datestr (:date_published metadata) "YYYY-MM-dd", "MMM dd, YYYY")]]
+                [:span (dates/reformat-date (:date_published metadata) "MMM dd, YYYY")]]
               [:div
                 [:span.meta-label "Modified: "]
-                [:span (dates/reformat-datestr (:date_modified metadata) "YYYY-MM-dd", "MMM dd, YYYY")]]
+                [:span (dates/reformat-date (:date_modified metadata) "MMM dd, YYYY")]]
               [:div
                 [:span.meta-label "Published in: "]
                 [:span (:location metadata)]]

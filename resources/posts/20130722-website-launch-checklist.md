@@ -1,4 +1,4 @@
-<!--
+---
 name: Website launch checklist
 description: List of activities to do while launching website
 author: Anton Podviaznikov
@@ -16,7 +16,7 @@ in_language: en
 keywords: web site, web app, lauch checklist
 discussion_url: https://github.com/hashobject/blog.hashobject.com/issues/5
 canonical_url: http://blog.hashobject.com/website-launch-checklist
--->
+---
 ## Intro
 
 Here I'll try to write down list of typical activities that should be performed during

@@ -1,15 +1,13 @@
 (set-env!
   :source-paths #{"src"}
   :resource-paths #{"resources"}
-  :dependencies '[[org.clojure/clojure "1.6.0"]
-                 [hiccup "1.0.5"]
-                 [perun "0.1.0-SNAPSHOT"]
-                 [hashobject/boot-s3 "0.1.0-SNAPSHOT"]
-                 [clj-time "0.9.0"]
-                 [pandeiro/boot-http "0.6.2"]
-                 [jeluard/boot-notify "0.2.0"]
-                 ;[deraen/boot-livereload "0.1.0-SNAPSHOT"]
-                 [pandeiro/boot-http "0.6.3-SNAPSHOT"]])
+  :dependencies '[[hiccup "1.0.5"]
+                  [perun "0.1.1-SNAPSHOT"]
+                  [hashobject/boot-s3 "0.1.0-SNAPSHOT"]
+                  [clj-time "0.9.0"]
+                  [pandeiro/boot-http "0.6.2"]
+                  [jeluard/boot-notify "0.2.0"]
+                  [pandeiro/boot-http "0.6.3-SNAPSHOT"]])
 
 
 (require '[io.perun :refer :all]
@@ -32,21 +30,20 @@
 
 (deftask build
   "Build blog."
-  []
+  [p prod  bool "Build rss, sitemap, deploy to S3"]
   (comp (markdown)
         (draft)
         (ttr)
         (permalink)
         (render :renderer post-view/render)
         (collection :renderer index-view/render :page "index.html" :comparator (fn [i1 i2] (compare i2 i1)))
-        (sitemap :filename "sitemap.xml")
-        (rss :title "Hashobject" :description "Hashobject blog" :link "http://blog.hashobject.com")
-        (s3-sync)
+        (if prod (sitemap :filename "sitemap.xml") identity)
+        (if prod (rss :title "Hashobject" :description "Hashobject blog" :link "http://blog.hashobject.com") identity)
+        (if prod (s3-sync) identity)
         (notify)))
 
 (deftask dev
   []
   (comp (watch)
         (build)
-        ;(livereload :asset-path "public")
         (serve :resource-root "public")))

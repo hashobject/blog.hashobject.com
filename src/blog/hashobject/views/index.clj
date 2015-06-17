@@ -10,7 +10,7 @@
    [:div.item-meta
     [:meta {:itemprop "author" :content (str (:author post) " (" (:author_email post) ")" )}]
     [:img.author-avatar {:src (:author_avatar post) :title (:author post)}]
-    [:p.pub-data (str (dates/reformat-datestr (:date_published post) "YYYY-MM-dd", "MMM dd, YYYY") ", by " (:author post))
+    [:p.pub-data (str (dates/reformat-date (:date_published post) "MMM dd, YYYY") ", by " (:author post))
      [:span.reading-time (str " " (:ttr post) " mins read")]]
      [:p {:itemprop "description"} (:description post)]]])
 

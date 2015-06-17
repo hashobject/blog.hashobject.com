@@ -1,4 +1,4 @@
-<!--
+---
 name: Product launch on Beta List
 description: Analysis of product launch on Beta List
 author: Anton Podviaznikov
@@ -16,7 +16,7 @@ in_language: en
 keywords: web site, web app, launch on Beta List, betalist, launcg analysis, communi.st, MailChimp
 discussion_url: https://github.com/hashobject/blog.hashobject.com/issues/6
 canonical_url: http://blog.hashobject.com/product-launch-on-betalist
--->
+---
 ## Intro
 
 Recently we launched simple signup page for the marketplace, we are working on

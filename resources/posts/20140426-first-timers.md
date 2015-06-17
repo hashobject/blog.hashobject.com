@@ -1,4 +1,4 @@
-<!--
+---
 name: First timers
 description: What I did first time in my life while travelling around the world
 author: Anton Podviaznikov
@@ -16,7 +16,7 @@ in_language: en
 keywords: digital nomads, travel
 discussion_url: https://github.com/hashobject/blog.hashobject.com/issues/15
 canonical_url: http://blog.hashobject.com/first-timers
--->
+---
 ## Intro
 
 For the last 2.5 years [Maryna](http://twitter.com/m_aleksandrova) and I are living the

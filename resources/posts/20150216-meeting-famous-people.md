@@ -1,4 +1,4 @@
-<!--
+---
 name: Meeting famous people
 description: Meeting famous people traveling as digital nomand
 author: Anton Podviaznikov
@@ -16,7 +16,7 @@ in_language: en
 keywords: famous people, celebrities
 discussion_url: https://github.com/hashobject/blog.hashobject.com/issues/20
 canonical_url: http://blog.hashobject.com/meeting-famous-people
--->
+---
 
 ## Intro
 

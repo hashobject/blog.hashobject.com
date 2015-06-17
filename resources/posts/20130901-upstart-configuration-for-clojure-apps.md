@@ -1,4 +1,4 @@
-<!--
+---
 name: Upstart configuration for Clojure apps
 description: Short guide how to create Ubuntu Upstart configuration for Clojure apps using Leiningen
 author: Anton Podviaznikov
@@ -16,7 +16,7 @@ in_language: en
 keywords: clojure, upstart, ubuntu, leiningen
 discussion_url: https://github.com/hashobject/blog.hashobject.com/issues/8
 canonical_url: http://blog.hashobject.com/upstart-configuration-for-clojure-apps
--->
+---
 ## Intro
 
 If you are deploying any app to production you want to run it as Linux daemon.

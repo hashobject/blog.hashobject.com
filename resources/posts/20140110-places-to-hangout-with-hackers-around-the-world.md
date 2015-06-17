@@ -1,4 +1,4 @@
-<!--
+---
 name: Places to hangout with hackers around the world
 description: List of hacker/coworkings spaces around the world
 author: Anton Podviaznikov
@@ -16,7 +16,7 @@ in_language: en
 keywords: hacker cafes, coworking spaces, meetups
 discussion_url: https://github.com/hashobject/blog.hashobject.com/issues/11
 canonical_url: http://blog.hashobject.com/places-to-hangout-with-hackers-around-the-world
--->
+---
 ## Intro
 
 Everytime I visit new city I want to know the place where all hackers/startupers/bright minds hangout.

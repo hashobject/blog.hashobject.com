@@ -1,4 +1,4 @@
-<!--
+---
 name: Payments API for the collaborative consumption apps
 description: Payments API for marketplaces/collaborative consumption apps in Europe
 author: Anton Podviaznikov
@@ -16,7 +16,7 @@ in_language: en
 keywords: payments, marketplaces, collaborative consuption, web apps,clojure, mangopay
 discussion_url: https://github.com/hashobject/blog.hashobject.com/issues/4
 canonical_url: http://blog.hashobject.com/payments-api-for-collaborative-consumption-apps
--->
+---
 ## Intro
 
 We were looking recently for good solution to process payments for
