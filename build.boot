@@ -18,6 +18,7 @@
          '[org.martinklepsch.boot-gzip :refer [gzip]])
 
 
+
 (task-options!
   pom {:project 'blog.hashobject.com
        :version "0.2.0"}
@@ -38,7 +39,7 @@
         (collection :renderer 'blog.hashobject.views.index/render :page "index.html")
         (if dev identity (sitemap :filename "sitemap.xml"))
         (if dev identity (rss :title "Hashobject" :description "Hashobject blog" :link "http://blog.hashobject.com"))
-        (gzip :regex [#".html$" #".css$" #".js$"])
+        (if dev identity (gzip :regex [#".html$" #".css$" #".js$"]))
         (if dev identity (s3-sync :access-key (System/getenv "AWS_ACCESS_KEY")
                                   :secret-key (System/getenv "AWS_SECRET_KEY")))))
 
