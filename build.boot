@@ -40,8 +40,14 @@
         (collection :renderer 'blog.hashobject.views.index/render :page "index.html")
         (if prod (sitemap :filename "sitemap.xml") identity)
         (if prod (rss :title "Hashobject" :description "Hashobject blog" :link "http://blog.hashobject.com") identity)
-        (if prod (s3-sync) identity)
-        (gzip :regex [#".html$" #".css$" #".js$"])))
+        (gzip :regex [#".html$" #".css$" #".js$"])
+        (if prod (s3-sync) identity)))
+
+
+(deftask build-heroku
+  "Build production version"
+  []
+  (build :prod true))
 
 (deftask dev
   []
