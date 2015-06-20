@@ -2,7 +2,7 @@
   :source-paths #{"src"}
   :resource-paths #{"resources"}
   :dependencies '[[hiccup "1.0.5"]
-                  [perun "0.1.1-SNAPSHOT"]
+                  [perun "0.1.3-SNAPSHOT"]
                   [hashobject/boot-s3 "0.1.0-SNAPSHOT"]
                   [clj-time "0.9.0"]
                   [pandeiro/boot-http "0.6.2"]
@@ -34,9 +34,10 @@
   (comp (markdown)
         (draft)
         (ttr)
+        (slug)
         (permalink)
-        (render :renderer post-view/render)
-        (collection :renderer index-view/render :page "index.html" :comparator (fn [i1 i2] (compare i2 i1)))
+        (render :renderer 'blog.hashobject.views.post/render)
+        (collection :renderer 'blog.hashobject.views.index/render :page "index.html")
         (if prod (sitemap :filename "sitemap.xml") identity)
         (if prod (rss :title "Hashobject" :description "Hashobject blog" :link "http://blog.hashobject.com") identity)
         (if prod (s3-sync) identity)
