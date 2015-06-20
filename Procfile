@@ -1,1 +1,1 @@
-worker: boot build-heroku
+worker: boot build

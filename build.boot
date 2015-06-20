@@ -30,7 +30,7 @@
 
 (deftask build
   "Build blog."
-  [p prod  bool "Build rss, sitemap, deploy to S3"]
+  [d dev  bool "Don't build rss, sitemap, deploy to S3"]
   (comp (markdown)
         (draft)
         (ttr)
@@ -38,16 +38,10 @@
         (permalink)
         (render :renderer 'blog.hashobject.views.post/render)
         (collection :renderer 'blog.hashobject.views.index/render :page "index.html")
-        (if prod (sitemap :filename "sitemap.xml") identity)
-        (if prod (rss :title "Hashobject" :description "Hashobject blog" :link "http://blog.hashobject.com") identity)
+        (if dev identity (sitemap :filename "sitemap.xml"))
+        (if dev identity (rss :title "Hashobject" :description "Hashobject blog" :link "http://blog.hashobject.com"))
         (gzip :regex [#".html$" #".css$" #".js$"])
-        (if prod (s3-sync) identity)))
-
-
-(deftask build-heroku
-  "Build production version"
-  []
-  (build :prod true))
+        (if dev identity (s3-sync))))
 
 (deftask dev
   []
