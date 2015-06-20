@@ -6,7 +6,6 @@
                   [hashobject/boot-s3 "0.1.0-SNAPSHOT"]
                   [clj-time "0.9.0"]
                   [pandeiro/boot-http "0.6.2"]
-                  [jeluard/boot-notify "0.2.0"]
                   [pandeiro/boot-http "0.6.3-SNAPSHOT"]
                   [org.martinklepsch/boot-gzip "0.1.1"]])
 
@@ -16,8 +15,7 @@
          '[blog.hashobject.views.post :as post-view]
          '[pandeiro.boot-http :refer [serve]]
          '[hashobject.boot-s3 :refer :all]
-         '[org.martinklepsch.boot-gzip :refer [gzip]]
-         '[jeluard.boot-notify :refer [notify]])
+         '[org.martinklepsch.boot-gzip :refer [gzip]])
 
 
 (task-options!
@@ -43,8 +41,7 @@
         (if prod (sitemap :filename "sitemap.xml") identity)
         (if prod (rss :title "Hashobject" :description "Hashobject blog" :link "http://blog.hashobject.com") identity)
         (if prod (s3-sync) identity)
-        (gzip :regex [#".html$" #".css$" #".js$"])
-        (notify)))
+        (gzip :regex [#".html$" #".css$" #".js$"])))
 
 (deftask dev
   []
