@@ -9,15 +9,12 @@
                   [pandeiro/boot-http "0.6.3-SNAPSHOT"]
                   [org.martinklepsch/boot-gzip "0.1.1"]])
 
-
 (require '[io.perun :refer :all]
          '[blog.hashobject.views.index :as index-view]
          '[blog.hashobject.views.post :as post-view]
          '[pandeiro.boot-http :refer [serve]]
          '[hashobject.boot-s3 :refer :all]
          '[org.martinklepsch.boot-gzip :refer [gzip]])
-
-
 
 (task-options!
   pom {:project 'blog.hashobject.com
