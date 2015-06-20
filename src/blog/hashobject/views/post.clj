@@ -4,7 +4,6 @@
   (:require [blog.hashobject.dates :as dates]
             [blog.hashobject.views.common :as common]))
 
-
 (defn render [metadata]
   (html5 {:lang (:in_language metadata) :itemscope "" :itemtype "http://schema.org/BlogPosting"}
     [:head
