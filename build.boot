@@ -27,6 +27,7 @@
 (deftask build
   "Build blog."
   [d dev  bool "Don't build rss, sitemap, deploy to S3"]
+  (println "temp logs" (System/getenv "AWS_ACCESS_KEY") (System/getenv "AWS_SECRET_KEY"))
   (comp (markdown)
         (draft)
         (ttr)
