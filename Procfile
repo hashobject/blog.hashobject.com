@@ -1,1 +1,1 @@
-worker: boot build
+worker: boot build -p
