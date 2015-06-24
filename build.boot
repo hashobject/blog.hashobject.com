@@ -23,24 +23,29 @@
     :source "resources/public/"
     :options {"Cache-Control" "max-age=315360000, no-transform, public"}})
 
-(deftask build
-  "Build blog."
-  [d dev  bool "Don't build rss, sitemap, deploy to S3"]
+(deftask build-dev
+  "Build blog dev version"
+  []
   (comp (markdown)
         (draft)
         (ttr)
         (slug)
         (permalink)
         (render :renderer 'blog.hashobject.views.post/render)
-        (collection :renderer 'blog.hashobject.views.index/render :page "index.html")
-        (if dev identity (sitemap :filename "sitemap.xml"))
-        (if dev identity (rss :title "Hashobject" :description "Hashobject blog" :link "http://blog.hashobject.com"))
-        (if dev identity (gzip :regex [#".html$" #".css$" #".js$"]))
-        (if dev identity (s3-sync :access-key (System/getenv "AWS_ACCESS_KEY")
-                                  :secret-key (System/getenv "AWS_SECRET_KEY")))))
+        (collection :renderer 'blog.hashobject.views.index/render :page "index.html")))
+
+(deftask build
+  "Build blog prod version."
+  []
+  (comp (build-dev)
+        (sitemap :filename "sitemap.xml")
+        (rss :title "Hashobject" :description "Hashobject blog" :link "http://blog.hashobject.com")
+        (gzip :regex [#".html$" #".css$" #".js$"])
+        (s3-sync :access-key (System/getenv "AWS_ACCESS_KEY")
+                                  :secret-key (System/getenv "AWS_SECRET_KEY"))))
 
 (deftask dev
   []
   (comp (watch)
-        (build :dev true)
+        (build-dev)
         (serve :resource-root "public")))
