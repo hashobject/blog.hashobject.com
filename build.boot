@@ -20,7 +20,9 @@
        :version "0.2.0"}
   s3-sync {
     :bucket "blog.hashobject.com"
-    :source "resources/public/"
+    :access-key (System/getenv "AWS_ACCESS_KEY")
+    :secret-key (System/getenv "AWS_SECRET_KEY")
+    :source "target/public/"
     :options {"Cache-Control" "max-age=315360000, no-transform, public"}})
 
 (deftask build-dev
@@ -37,12 +39,14 @@
 (deftask build
   "Build blog prod version."
   []
+  (println "X" (System/getenv "AWS_ACCESS_KEY"))
+  (println "Y" (System/getenv "AWS_SECRET_KEY"))
   (comp (build-dev)
         (sitemap :filename "sitemap.xml")
         (rss :title "Hashobject" :description "Hashobject blog" :link "http://blog.hashobject.com")
         (gzip :regex [#".html$" #".css$" #".js$"])
-        (s3-sync :access-key (System/getenv "AWS_ACCESS_KEY")
-                 :secret-key (System/getenv "AWS_SECRET_KEY"))))
+        ;(s3-sync)
+        ))
 
 (deftask dev
   []
