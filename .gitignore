@@ -1,5 +1,5 @@
-/target
 !/target/public/.gitignore
+/target
 /lib
 /classes
 /checkouts
