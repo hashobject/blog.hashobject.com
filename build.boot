@@ -39,8 +39,6 @@
 (deftask build
   "Build blog prod version."
   []
-  (println "X" (System/getenv "AWS_ACCESS_KEY"))
-  (println "Y" (System/getenv "AWS_SECRET_KEY"))
   (comp (build-dev)
         (sitemap :filename "sitemap.xml")
         (rss :title "Hashobject" :description "Hashobject blog" :link "http://blog.hashobject.com")
