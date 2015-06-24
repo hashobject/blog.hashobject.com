@@ -18,7 +18,6 @@ discussion_url: https://github.com/hashobject/blog.hashobject.com/issues/21
 canonical_url: http://blog.hashobject.com/traveling-and-diversity
 ---
 
-
 ## Intro
 
 One of the best part of traveling for me were meeting people from different cultures, ethnicities, backgrounds, professions.
