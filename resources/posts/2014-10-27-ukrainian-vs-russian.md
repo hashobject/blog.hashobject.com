@@ -17,7 +17,6 @@ keywords: history, politics, ukraine, education
 discussion_url: https://github.com/hashobject/blog.hashobject.com/issues/19
 canonical_url: http://blog.hashobject.com/ukrainian-vs-russian
 ---
-
 ## Intro
 
 After leaving Ukraine 4 years ago I was often asked by people whether Ukrainian and Russian languages are the same?

@@ -17,7 +17,6 @@ keywords: famous people, celebrities
 discussion_url: https://github.com/hashobject/blog.hashobject.com/issues/20
 canonical_url: http://blog.hashobject.com/meeting-famous-people
 ---
-
 ## Intro
 
 Right after I've decided to start traveling outside of Ukraine I began to meet very famous and relatively famous people.

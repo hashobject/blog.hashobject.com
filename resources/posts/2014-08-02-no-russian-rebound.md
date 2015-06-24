@@ -17,7 +17,6 @@ keywords: history, politics, ukraine, education
 discussion_url: https://github.com/hashobject/blog.hashobject.com/issues/18
 canonical_url: http://blog.hashobject.com/no-russian-rebound
 ---
-
 ## Intro
 
 Recently I read interesting [post](https://www.evernote.com/shard/s3/sh/64926e07-83b7-47f2-8d66-42519ca42e42/56cd665b9cd6ebc659ed7a79b4dd770a) about Russia from Max Skibinsky.

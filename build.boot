@@ -42,7 +42,7 @@
         (rss :title "Hashobject" :description "Hashobject blog" :link "http://blog.hashobject.com")
         (gzip :regex [#".html$" #".css$" #".js$"])
         (s3-sync :access-key (System/getenv "AWS_ACCESS_KEY")
-                                  :secret-key (System/getenv "AWS_SECRET_KEY"))))
+                 :secret-key (System/getenv "AWS_SECRET_KEY"))))
 
 (deftask dev
   []

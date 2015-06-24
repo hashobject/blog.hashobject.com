@@ -17,7 +17,6 @@ keywords: clothing, fashion, technology, startups
 discussion_url: https://github.com/hashobject/blog.hashobject.com/issues/17
 canonical_url: http://blog.hashobject.com/innovations-in-clothing
 ---
-
 ## Intro
 
 I felt for some time now that nothing new is happening in the fashion/clothing industry.
