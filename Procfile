@@ -1,1 +1,1 @@
-worker: boot build
+web: boot build
