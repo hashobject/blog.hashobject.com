@@ -45,8 +45,7 @@
         (sitemap :filename "sitemap.xml")
         (rss :title "Hashobject" :description "Hashobject blog" :link "http://blog.hashobject.com")
         (gzip :regex [#".html$" #".css$" #".js$"])
-        ;(s3-sync)
-        ))
+        (s3-sync)))
 
 (deftask dev
   []
