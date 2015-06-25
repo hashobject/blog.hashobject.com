@@ -3,7 +3,7 @@
   :resource-paths #{"resources"}
   :dependencies '[[hiccup "1.0.5"]
                   [perun "0.1.3-SNAPSHOT"]
-                  [hashobject/boot-s3 "0.1.1-SNAPSHOT"]
+                  [hashobject/boot-s3 "0.1.2-SNAPSHOT"]
                   [clj-time "0.9.0"]
                   [pandeiro/boot-http "0.6.3-SNAPSHOT"]
                   [org.martinklepsch/boot-gzip "0.1.1"]])
@@ -42,12 +42,8 @@
   (comp (build-dev)
         (sitemap :filename "sitemap.xml")
         (rss :title "Hashobject" :description "Hashobject blog" :link "http://blog.hashobject.com")
-        (gzip :regex [#".html$" #".css$" #".js$"])))
-
-(deftask deploy
-  "Deploy to S3"
-  []
-  (s3-sync))
+        (gzip :regex [#".html$" #".css$" #".js$"])
+        (s3-sync)))
 
 (deftask dev
   []
