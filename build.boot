@@ -22,7 +22,7 @@
     :bucket "blog.hashobject.com"
     :access-key (System/getenv "AWS_ACCESS_KEY")
     :secret-key (System/getenv "AWS_SECRET_KEY")
-    :source "target/public/"
+    :source "/app/target/public"
     :options {"Cache-Control" "max-age=315360000, no-transform, public"}})
 
 (deftask build-dev
