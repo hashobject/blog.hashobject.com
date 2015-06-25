@@ -17,8 +17,7 @@ keywords: history, education, rant
 discussion_url: https://github.com/hashobject/blog.hashobject.com/issues/16
 canonical_url: http://blog.hashobject.com/is-history-harmful
 ---
-## Intro
-
+## Introduction
 
 I love history, it’s fun, it’s interesting, it has a lot of "answers" to a lot of questions. You can pick any today's problem, find something similar in history and propose solution or explanation or even predict the future.
 History is a powerful tool. But it is also a dangerous tool (especially in the hands of people that try to use it for manipulation).
