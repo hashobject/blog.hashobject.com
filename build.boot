@@ -22,7 +22,7 @@
     :bucket "blog.hashobject.com"
     :access-key (System/getenv "AWS_ACCESS_KEY")
     :secret-key (System/getenv "AWS_SECRET_KEY")
-    :source "/app/target/public"
+    :source "target/public"
     :options {"Cache-Control" "max-age=315360000, no-transform, public"}})
 
 (deftask build-dev
@@ -42,11 +42,12 @@
   (comp (build-dev)
         (sitemap :filename "sitemap.xml")
         (rss :title "Hashobject" :description "Hashobject blog" :link "http://blog.hashobject.com")
-        (gzip :regex [#".html$" #".css$" #".js$"])
-        (show :fileset true)
-        (show :env true)
-        (show :classpath true)
-        (s3-sync)))
+        (gzip :regex [#".html$" #".css$" #".js$"])))
+
+(deftask deploy
+  "Deploy to S3"
+  []
+  (s3-sync))
 
 (deftask dev
   []
