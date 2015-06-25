@@ -17,7 +17,7 @@ keywords: digital nomads, travel
 discussion_url: https://github.com/hashobject/blog.hashobject.com/issues/15
 canonical_url: http://blog.hashobject.com/first-timers
 ---
-## Intro
+## Introduction
 
 For the last 2.5 years [Maryna](http://twitter.com/m_aleksandrova) and I are living the
 [digital nomad](http://en.wikipedia.org/wiki/Digital_nomad) lifestyle. We are travelling around the world while
