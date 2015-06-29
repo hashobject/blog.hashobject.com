@@ -2,20 +2,20 @@
 name: First timers
 description: What I did first time in my life while travelling around the world
 author: Anton Podviaznikov
-author_email: anton@hashobject.com
-author_url: http://twitter.com/podviaznikov
-author_github: podviaznikov
-author_twitter: podviaznikov
-author_avatar: /images/anton-avatar.png
+author-email: anton@hashobject.com
+author-url: http://twitter.com/podviaznikov
+author-github: podviaznikov
+author-twitter: podviaznikov
+author-avatar: /images/anton-avatar.png
 location: Ohrid, Macedonia
-date_created: 2014-04-26
-date_modified: 2015-05-31
-date_published: 2014-04-26
+date-created: 2014-04-26
+date-modified: 2015-05-31
+date-published: 2014-04-26
 headline:
-in_language: en
+in-language: en
 keywords: digital nomads, travel
-discussion_url: https://github.com/hashobject/blog.hashobject.com/issues/15
-canonical_url: http://blog.hashobject.com/first-timers
+discussion-url: https://github.com/hashobject/blog.hashobject.com/issues/15
+canonical-url: http://blog.hashobject.com/first-timers
 ---
 ## Intro
 

@@ -2,20 +2,20 @@
 name: Is history harmful?
 description: Is history harmful and teaching it causes some serious problems in the long run
 author: Anton Podviaznikov
-author_email: anton@hashobject.com
-author_url: http://twitter.com/podviaznikov
-author_github: podviaznikov
-author_twitter: podviaznikov
-author_avatar: /images/anton-avatar.png
+author-email: anton@hashobject.com
+author-url: http://twitter.com/podviaznikov
+author-github: podviaznikov
+author-twitter: podviaznikov
+author-avatar: /images/anton-avatar.png
 location: Ohrid, Macedonia
-date_created: 2014-05-11
-date_modified: 2014-05-31
-date_published: 2014-05-11
+date-created: 2014-05-11
+date-modified: 2014-05-31
+date-published: 2014-05-11
 headline:
-in_language: en
+in-language: en
 keywords: history, education, rant
-discussion_url: https://github.com/hashobject/blog.hashobject.com/issues/16
-canonical_url: http://blog.hashobject.com/is-history-harmful
+discussion-url: https://github.com/hashobject/blog.hashobject.com/issues/16
+canonical-url: http://blog.hashobject.com/is-history-harmful
 ---
 ## Intro
 

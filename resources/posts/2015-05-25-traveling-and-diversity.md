@@ -2,20 +2,20 @@
 name: Traveling and diversity
 description: Traveling and diversity
 author: Anton Podviaznikov
-author_email: anton@hashobject.com
-author_url: http://twitter.com/podviaznikov
-author_github: podviaznikov
-author_twitter: podviaznikov
-author_avatar: /images/anton-avatar.png
+author-email: anton@hashobject.com
+author-url: http://twitter.com/podviaznikov
+author-github: podviaznikov
+author-twitter: podviaznikov
+author-avatar: /images/anton-avatar.png
 location: Los Angeles, USA
-date_created: 2015-05-25
-date_modified: 2015-06-23
-date_published: 2015-05-25
+date-created: 2015-05-25
+date-modified: 2015-06-23
+date-published: 2015-05-25
 headline:
-in_language: en
+in-language: en
 keywords: traveling, diversity, cultures
-discussion_url: https://github.com/hashobject/blog.hashobject.com/issues/21
-canonical_url: http://blog.hashobject.com/traveling-and-diversity
+discussion-url: https://github.com/hashobject/blog.hashobject.com/issues/21
+canonical-url: http://blog.hashobject.com/traveling-and-diversity
 ---
 ## Intro
 

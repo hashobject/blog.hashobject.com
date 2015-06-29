@@ -6,7 +6,7 @@
 
 (defn render-post [post]
   [:li.item {:itemprop "blogPost" :itemscope "" :itemtype "http://schema.org/BlogPosting"}
-   [:a.title {:href (str (:filename post)) :itemprop "name"} (:name post)]
+   [:a.title {:href (str (:slug post)) :itemprop "name"} (:name post)]
    [:div.item-meta
     [:meta {:itemprop "author" :content (str (:author post) " (" (:author-email post) ")" )}]
     [:img.author-avatar {:src (:author-avatar post) :title (:author post)}]

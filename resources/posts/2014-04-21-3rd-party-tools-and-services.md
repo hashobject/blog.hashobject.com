@@ -2,20 +2,20 @@
 name: 3rd Party Tools and Services
 description: List of 3d party tools and services building your own application
 author: Anton Podviaznikov
-author_email: anton@hashobject.com
-author_url: http://twitter.com/podviaznikov
-author_github: podviaznikov
-author_twitter: podviaznikov
-author_avatar: /images/anton-avatar.png
+author-email: anton@hashobject.com
+author-url: http://twitter.com/podviaznikov
+author-github: podviaznikov
+author-twitter: podviaznikov
+author-avatar: /images/anton-avatar.png
 location: Skopje, Macedonia
-date_created: 2014-04-21
-date_modified: 2014-04-21
-date_published: 2014-04-21
+date-created: 2014-04-21
+date-modified: 2014-04-21
+date-published: 2014-04-21
 headline:
-in_language: en
+in-language: en
 keywords: 3d party tools, 3d party services
-discussion_url: https://github.com/hashobject/blog.hashobject.com/issues/14
-canonical_url: http://blog.hashobject.com/3rd-party-tools-and-services
+discussion-url: https://github.com/hashobject/blog.hashobject.com/issues/14
+canonical-url: http://blog.hashobject.com/3rd-party-tools-and-services
 ---
 ## Intro
 

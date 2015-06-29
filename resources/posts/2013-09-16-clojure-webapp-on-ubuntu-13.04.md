@@ -2,20 +2,20 @@
 name: Configure Clojure web app to run on Ubuntu 13.04
 description:  Short guide how to deploy Clojure web app on Ubuntu 13.04 with HTTPS support with almost no cost
 author: Anton Podviaznikov
-author_email: anton@hashobject.com
-author_url: http://twitter.com/podviaznikov
-author_github: podviaznikov
-author_twitter: podviaznikov
-author_avatar: /images/anton-avatar.png
+author-email: anton@hashobject.com
+author-url: http://twitter.com/podviaznikov
+author-github: podviaznikov
+author-twitter: podviaznikov
+author-avatar: /images/anton-avatar.png
 location: Buenos Aires, Argentina
-date_created: 2013-09-16
-date_modified: 2013-09-16
-date_published: 2013-09-16
+date-created: 2013-09-16
+date-modified: 2013-09-16
+date-published: 2013-09-16
 headline:
-in_language: en
+in-language: en
 keywords: clojure web app, ubuntu 13.04, Digital Ocean, leiningen, git
-discussion_url: https://github.com/hashobject/blog.hashobject.com/issues/9
-canonical_url: http://blog.hashobject.com/clojure-webapp-on-ubuntu-13.04
+discussion-url: https://github.com/hashobject/blog.hashobject.com/issues/9
+canonical-url: http://blog.hashobject.com/clojure-webapp-on-ubuntu-13.04
 ---
 ## Intro
 

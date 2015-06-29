@@ -2,20 +2,20 @@
 name: Configure Clojure web app to run with HTTPS support on Amazon Beanstalk
 description: Short guide how to deploy Clojure web app on Amazon Beanstalk with HTTPS support with almost no cost
 author: Anton Podviaznikov
-author_email: anton@hashobject.com
-author_url: http://twitter.com/podviaznikov
-author_github: podviaznikov
-author_twitter: podviaznikov
-author_avatar: /images/anton-avatar.png
+author-email: anton@hashobject.com
+author-url: http://twitter.com/podviaznikov
+author-github: podviaznikov
+author-twitter: podviaznikov
+author-avatar: /images/anton-avatar.png
 location: Guatemala City, Guatemala
-date_created: 2013-06-03
-date_modified: 2015-05-31
-date_published: 2013-06-26
+date-created: 2013-06-03
+date-modified: 2015-05-31
+date-published: 2013-06-26
 headline:
-in_language: en
+in-language: en
 keywords: clojure, amazon beanstalk, https, ssl, aws, heroku, deploy, web app, amazon route 53, naked domain
-discussion_url: https://github.com/hashobject/blog.hashobject.com/issues/1
-canonical_url: http://blog.hashobject.com/clojure-webapp-with-https-support-on-amazon-beanstalk
+discussion-url: https://github.com/hashobject/blog.hashobject.com/issues/1
+canonical-url: http://blog.hashobject.com/clojure-webapp-with-https-support-on-amazon-beanstalk
 ---
 
 ## Intro

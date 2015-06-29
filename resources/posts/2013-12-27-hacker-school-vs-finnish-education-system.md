@@ -2,20 +2,20 @@
 name: Hacker School vs Finnish education system
 description: Finding similarities between Hacker School and education system in Finland
 author: Anton Podviaznikov
-author_email: anton@hashobject.com
-author_url: http://twitter.com/podviaznikov
-author_github: podviaznikov
-author_twitter: podviaznikov
-author_avatar: /images/anton-avatar.png
+author-email: anton@hashobject.com
+author-url: http://twitter.com/podviaznikov
+author-github: podviaznikov
+author-twitter: podviaznikov
+author-avatar: /images/anton-avatar.png
 location: New York, USA
-date_created: 2013-12-27
-date_modified: 2013-12-30
-date_published: 2013-12-27
+date-created: 2013-12-27
+date-modified: 2013-12-30
+date-published: 2013-12-27
 headline:
-in_language: en
+in-language: en
 keywords: hacker school, education, finland, modern education
-discussion_url: https://github.com/hashobject/blog.hashobject.com/issues/10
-canonical_url: http://blog.hashobject.com/hacker-school-vs-finnish-education-system
+discussion-url: https://github.com/hashobject/blog.hashobject.com/issues/10
+canonical-url: http://blog.hashobject.com/hacker-school-vs-finnish-education-system
 ---
 ## Intro
 

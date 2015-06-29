@@ -2,20 +2,20 @@
 name: Tips for running Clojure web app on Amazon Beanstalk
 description: Bunch of small advises for running Clojure web app on Amazon Beanstalk
 author: Anton Podviaznikov
-author_email: anton@hashobject.com
-author_url: http://twitter.com/podviaznikov
-author_github: podviaznikov
-author_twitter: podviaznikov
-author_avatar: /images/anton-avatar.png
+author-email: anton@hashobject.com
+author-url: http://twitter.com/podviaznikov
+author-github: podviaznikov
+author-twitter: podviaznikov
+author-avatar: /images/anton-avatar.png
 location: San Salvador, El Salvador
-date_created: 2013-06-15
-date_modified: 2015-05-31
-date_published: 2013-06-26
+date-created: 2013-06-15
+date-modified: 2015-05-31
+date-published: 2013-06-26
 headline:
-in_language: en
+in-language: en
 keywords: clojure, amazon beanstalk, https, aws, logs, tips, logging, web app
-discussion_url: https://github.com/hashobject/blog.hashobject.com/issues/2
-canonical_url: http://blog.hashobject.com/tips-for-running-clojure-webapp-on-amazon-beanstalk
+discussion-url: https://github.com/hashobject/blog.hashobject.com/issues/2
+canonical-url: http://blog.hashobject.com/tips-for-running-clojure-webapp-on-amazon-beanstalk
 ---
 ## Logging
 

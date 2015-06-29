@@ -2,20 +2,20 @@
 name: Innovations in clothing
 description: Innovations in fashion/clothing industry are coming
 author: Anton Podviaznikov
-author_email: anton@hashobject.com
-author_url: http://twitter.com/podviaznikov
-author_github: podviaznikov
-author_twitter: podviaznikov
-author_avatar: /images/anton-avatar.png
+author-email: anton@hashobject.com
+author-url: http://twitter.com/podviaznikov
+author-github: podviaznikov
+author-twitter: podviaznikov
+author-avatar: /images/anton-avatar.png
 location: San Francisco, USA
-date_created: 2014-07-05
-date_modified: 2015-05-09
-date_published: 2014-07-05
+date-created: 2014-07-05
+date-modified: 2015-05-09
+date-published: 2014-07-05
 headline:
-in_language: en
+in-language: en
 keywords: clothing, fashion, technology, startups
-discussion_url: https://github.com/hashobject/blog.hashobject.com/issues/17
-canonical_url: http://blog.hashobject.com/innovations-in-clothing
+discussion-url: https://github.com/hashobject/blog.hashobject.com/issues/17
+canonical-url: http://blog.hashobject.com/innovations-in-clothing
 ---
 ## Intro
 

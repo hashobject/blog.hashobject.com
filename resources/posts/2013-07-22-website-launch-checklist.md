@@ -2,20 +2,20 @@
 name: Website launch checklist
 description: List of activities to do while launching website
 author: Anton Podviaznikov
-author_email: anton@hashobject.com
-author_url: http://twitter.com/podviaznikov
-author_github: podviaznikov
-author_twitter: podviaznikov
-author_avatar: /images/anton-avatar.png
+author-email: anton@hashobject.com
+author-url: http://twitter.com/podviaznikov
+author-github: podviaznikov
+author-twitter: podviaznikov
+author-avatar: /images/anton-avatar.png
 location: San Jose, Costa Rica
-date_created: 2013-07-22
-date_modified: 2014-01-20
-date_published: 2013-07-22
+date-created: 2013-07-22
+date-modified: 2014-01-20
+date-published: 2013-07-22
 headline:
-in_language: en
+in-language: en
 keywords: web site, web app, lauch checklist
-discussion_url: https://github.com/hashobject/blog.hashobject.com/issues/5
-canonical_url: http://blog.hashobject.com/website-launch-checklist
+discussion-url: https://github.com/hashobject/blog.hashobject.com/issues/5
+canonical-url: http://blog.hashobject.com/website-launch-checklist
 ---
 ## Intro
 

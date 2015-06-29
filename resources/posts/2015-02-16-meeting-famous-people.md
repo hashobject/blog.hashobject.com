@@ -2,20 +2,20 @@
 name: Meeting famous people
 description: Meeting famous people traveling as digital nomand
 author: Anton Podviaznikov
-author_email: anton@hashobject.com
-author_url: http://twitter.com/podviaznikov
-author_github: podviaznikov
-author_twitter: podviaznikov
-author_avatar: /images/anton-avatar.png
+author-email: anton@hashobject.com
+author-url: http://twitter.com/podviaznikov
+author-github: podviaznikov
+author-twitter: podviaznikov
+author-avatar: /images/anton-avatar.png
 location: San Francisco, USA
-date_created: 2015-02-16
-date_modified: 2015-02-16
-date_published: 2015-02-16
+date-created: 2015-02-16
+date-modified: 2015-02-16
+date-published: 2015-02-16
 headline:
-in_language: en
+in-language: en
 keywords: famous people, celebrities
-discussion_url: https://github.com/hashobject/blog.hashobject.com/issues/20
-canonical_url: http://blog.hashobject.com/meeting-famous-people
+discussion-url: https://github.com/hashobject/blog.hashobject.com/issues/20
+canonical-url: http://blog.hashobject.com/meeting-famous-people
 ---
 ## Intro
 

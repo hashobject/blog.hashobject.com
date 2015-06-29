@@ -2,20 +2,20 @@
 name: Product launch on Beta List
 description: Analysis of product launch on Beta List
 author: Anton Podviaznikov
-author_email: anton@hashobject.com
-author_url: http://twitter.com/podviaznikov
-author_github: podviaznikov
-author_twitter: podviaznikov
-author_avatar: /images/anton-avatar.png
+author-email: anton@hashobject.com
+author-url: http://twitter.com/podviaznikov
+author-github: podviaznikov
+author-twitter: podviaznikov
+author-avatar: /images/anton-avatar.png
 location: Panama City, Panama
-date_created: 2013-08-04
-date_modified: 2014-02-10
-date_published: 2013-07-22
+date-created: 2013-08-04
+date-modified: 2014-02-10
+date-published: 2013-07-22
 headline:
-in_language: en
+in-language: en
 keywords: web site, web app, launch on Beta List, betalist, launcg analysis, communi.st, MailChimp
-discussion_url: https://github.com/hashobject/blog.hashobject.com/issues/6
-canonical_url: http://blog.hashobject.com/product-launch-on-betalist
+discussion-url: https://github.com/hashobject/blog.hashobject.com/issues/6
+canonical-url: http://blog.hashobject.com/product-launch-on-betalist
 ---
 ## Intro
 

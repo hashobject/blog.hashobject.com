@@ -2,20 +2,20 @@
 name: Make static web site with Clojure and host it on Amazon S3 and CloudFront
 description: Short guide how to create static web site using Clojure and host it on Amazon S3 and CloudFront
 author: Anton Podviaznikov
-author_email: anton@hashobject.com
-author_url: http://twitter.com/podviaznikov
-author_github: podviaznikov
-author_twitter: podviaznikov
-author_avatar: /images/anton-avatar.png
+author-email: anton@hashobject.com
+author-url: http://twitter.com/podviaznikov
+author-github: podviaznikov
+author-twitter: podviaznikov
+author-avatar: /images/anton-avatar.png
 location: Tegucigalpa, Honduras
-date_created: 2013-07-06
-date_modified: 2013-07-06
-date_published: 2013-07-06
+date-created: 2013-07-06
+date-modified: 2013-07-06
+date-published: 2013-07-06
 headline:
-in_language: en
+in-language: en
 keywords: clojure, amazon s3, web site, amazon route 53, amazon cloudfront, markdown, html, github, amazon route 53, clojure hiccup
-discussion_url: https://github.com/hashobject/blog.hashobject.com/issues/3
-canonical_url: http://blog.hashobject.com/make-static-site-with-clojure-and-host-on-amazon
+discussion-url: https://github.com/hashobject/blog.hashobject.com/issues/3
+canonical-url: http://blog.hashobject.com/make-static-site-with-clojure-and-host-on-amazon
 ---
 ## Intro
 

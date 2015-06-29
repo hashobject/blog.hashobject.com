@@ -2,20 +2,20 @@
 name: Five tech videos collections
 description: Five tech videos collections
 author: Anton Podviaznikov
-author_email: anton@hashobject.com
-author_url: http://twitter.com/podviaznikov
-author_github: podviaznikov
-author_twitter: podviaznikov
-author_avatar: /images/anton-avatar.png
+author-email: anton@hashobject.com
+author-url: http://twitter.com/podviaznikov
+author-github: podviaznikov
+author-twitter: podviaznikov
+author-avatar: /images/anton-avatar.png
 location: Kharkiv, Ukraine
-date_created: 2014-01-20
-date_modified: 2014-01-20
-date_published: 2014-01-20
+date-created: 2014-01-20
+date-modified: 2014-01-20
+date-published: 2014-01-20
 headline:
-in_language: en
+in-language: en
 keywords: tech videos, videos collections, 2013 videos
-discussion_url: https://github.com/hashobject/blog.hashobject.com/issues/12
-canonical_url: http://blog.hashobject.com/5-tech-videos-collections
+discussion-url: https://github.com/hashobject/blog.hashobject.com/issues/12
+canonical-url: http://blog.hashobject.com/5-tech-videos-collections
 ---
 ## Intro
 

@@ -2,20 +2,20 @@
 name: Upstart configuration for Clojure apps
 description: Short guide how to create Ubuntu Upstart configuration for Clojure apps using Leiningen
 author: Anton Podviaznikov
-author_email: anton@hashobject.com
-author_url: http://twitter.com/podviaznikov
-author_github: podviaznikov
-author_twitter: podviaznikov
-author_avatar: /images/anton-avatar.png
+author-email: anton@hashobject.com
+author-url: http://twitter.com/podviaznikov
+author-github: podviaznikov
+author-twitter: podviaznikov
+author-avatar: /images/anton-avatar.png
 location: Quito, Ecuador
-date_created: 2013-09-01
-date_modified: 2015-05-31
-date_published: 2013-09-01
+date-created: 2013-09-01
+date-modified: 2015-05-31
+date-published: 2013-09-01
 headline:
-in_language: en
+in-language: en
 keywords: clojure, upstart, ubuntu, leiningen
-discussion_url: https://github.com/hashobject/blog.hashobject.com/issues/8
-canonical_url: http://blog.hashobject.com/upstart-configuration-for-clojure-apps
+discussion-url: https://github.com/hashobject/blog.hashobject.com/issues/8
+canonical-url: http://blog.hashobject.com/upstart-configuration-for-clojure-apps
 ---
 ## Intro
 
