@@ -15,7 +15,6 @@ headline:
 in-language: en
 keywords: digital nomads, travel
 discussion-url: https://github.com/hashobject/blog.hashobject.com/issues/15
-canonical-url: http://blog.hashobject.com/first-timers
 ---
 ## Intro
 

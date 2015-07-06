@@ -15,7 +15,6 @@ headline:
 in-language: en
 keywords: clojure, amazon beanstalk, https, ssl, aws, heroku, deploy, web app, amazon route 53, naked domain
 discussion-url: https://github.com/hashobject/blog.hashobject.com/issues/1
-canonical-url: http://blog.hashobject.com/clojure-webapp-with-https-support-on-amazon-beanstalk
 ---
 
 ## Intro

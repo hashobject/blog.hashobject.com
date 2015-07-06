@@ -15,7 +15,6 @@ headline:
 in-language: en
 keywords: history, politics, ukraine, education
 discussion-url: https://github.com/hashobject/blog.hashobject.com/issues/19
-canonical-url: http://blog.hashobject.com/ukrainian-vs-russian
 ---
 ## Intro
 

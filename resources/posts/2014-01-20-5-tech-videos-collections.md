@@ -15,7 +15,6 @@ headline:
 in-language: en
 keywords: tech videos, videos collections, 2013 videos
 discussion-url: https://github.com/hashobject/blog.hashobject.com/issues/12
-canonical-url: http://blog.hashobject.com/5-tech-videos-collections
 ---
 ## Intro
 

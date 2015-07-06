@@ -15,7 +15,6 @@ headline:
 in-language: en
 keywords: famous people, celebrities
 discussion-url: https://github.com/hashobject/blog.hashobject.com/issues/20
-canonical-url: http://blog.hashobject.com/meeting-famous-people
 ---
 ## Intro
 

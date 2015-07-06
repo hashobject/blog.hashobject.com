@@ -15,7 +15,6 @@ headline:
 in-language: en
 keywords: 3d party tools, 3d party services
 discussion-url: https://github.com/hashobject/blog.hashobject.com/issues/14
-canonical-url: http://blog.hashobject.com/3rd-party-tools-and-services
 ---
 ## Intro
 

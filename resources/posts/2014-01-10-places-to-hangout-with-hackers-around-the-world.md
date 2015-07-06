@@ -15,7 +15,6 @@ headline:
 in-language: en
 keywords: hacker cafes, coworking spaces, meetups
 discussion-url: https://github.com/hashobject/blog.hashobject.com/issues/11
-canonical-url: http://blog.hashobject.com/places-to-hangout-with-hackers-around-the-world
 ---
 ## Intro
 

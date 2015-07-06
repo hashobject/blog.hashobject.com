@@ -15,7 +15,6 @@ headline:
 in-language: en
 keywords: history, education, rant
 discussion-url: https://github.com/hashobject/blog.hashobject.com/issues/16
-canonical-url: http://blog.hashobject.com/is-history-harmful
 ---
 ## Intro
 

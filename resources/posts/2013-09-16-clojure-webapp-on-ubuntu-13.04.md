@@ -15,7 +15,6 @@ headline:
 in-language: en
 keywords: clojure web app, ubuntu 13.04, Digital Ocean, leiningen, git
 discussion-url: https://github.com/hashobject/blog.hashobject.com/issues/9
-canonical-url: http://blog.hashobject.com/clojure-webapp-on-ubuntu-13.04
 ---
 ## Intro
 

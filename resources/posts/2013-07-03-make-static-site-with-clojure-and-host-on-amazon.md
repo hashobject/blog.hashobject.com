@@ -15,7 +15,6 @@ headline:
 in-language: en
 keywords: clojure, amazon s3, web site, amazon route 53, amazon cloudfront, markdown, html, github, amazon route 53, clojure hiccup
 discussion-url: https://github.com/hashobject/blog.hashobject.com/issues/3
-canonical-url: http://blog.hashobject.com/make-static-site-with-clojure-and-host-on-amazon
 ---
 ## Intro
 

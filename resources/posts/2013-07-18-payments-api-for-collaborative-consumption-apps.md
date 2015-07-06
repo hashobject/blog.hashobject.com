@@ -13,9 +13,8 @@ date-modified: 2015-05-31
 date-published: 2013-07-19
 headline:
 in-language: en
-keywords: payments, marketplaces, collaborative consuption, web apps,clojure, mangopay
+keywords: payments, marketplaces, collaborative consuption, web apps, clojure, mangopay
 discussion-url: https://github.com/hashobject/blog.hashobject.com/issues/4
-canonical-url: http://blog.hashobject.com/payments-api-for-collaborative-consumption-apps
 ---
 ## Intro
 

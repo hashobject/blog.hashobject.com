@@ -15,7 +15,6 @@ headline:
 in-language: en
 keywords: postgresql 9.2, ubuntu 13.04, digitalocean
 discussion-url: https://github.com/hashobject/blog.hashobject.com/issues/7
-canonical-url: http://blog.hashobject.com/install-postgresql-9.2-on-ubuntu-13.04
 ---
 ## Intro
 

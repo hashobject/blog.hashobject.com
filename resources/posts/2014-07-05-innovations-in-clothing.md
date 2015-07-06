@@ -15,7 +15,6 @@ headline:
 in-language: en
 keywords: clothing, fashion, technology, startups
 discussion-url: https://github.com/hashobject/blog.hashobject.com/issues/17
-canonical-url: http://blog.hashobject.com/innovations-in-clothing
 ---
 ## Intro
 

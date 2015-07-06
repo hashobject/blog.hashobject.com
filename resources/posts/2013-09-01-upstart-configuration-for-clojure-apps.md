@@ -15,7 +15,6 @@ headline:
 in-language: en
 keywords: clojure, upstart, ubuntu, leiningen
 discussion-url: https://github.com/hashobject/blog.hashobject.com/issues/8
-canonical-url: http://blog.hashobject.com/upstart-configuration-for-clojure-apps
 ---
 ## Intro
 

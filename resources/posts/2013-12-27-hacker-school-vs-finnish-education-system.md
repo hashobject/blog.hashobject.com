@@ -15,7 +15,6 @@ headline:
 in-language: en
 keywords: hacker school, education, finland, modern education
 discussion-url: https://github.com/hashobject/blog.hashobject.com/issues/10
-canonical-url: http://blog.hashobject.com/hacker-school-vs-finnish-education-system
 ---
 ## Intro
 

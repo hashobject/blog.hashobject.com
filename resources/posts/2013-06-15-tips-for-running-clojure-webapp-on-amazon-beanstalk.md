@@ -15,7 +15,6 @@ headline:
 in-language: en
 keywords: clojure, amazon beanstalk, https, aws, logs, tips, logging, web app
 discussion-url: https://github.com/hashobject/blog.hashobject.com/issues/2
-canonical-url: http://blog.hashobject.com/tips-for-running-clojure-webapp-on-amazon-beanstalk
 ---
 ## Logging
 

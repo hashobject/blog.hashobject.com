@@ -15,7 +15,6 @@ headline:
 in-language: en
 keywords: web site, web app, launch on Beta List, betalist, launcg analysis, communi.st, MailChimp
 discussion-url: https://github.com/hashobject/blog.hashobject.com/issues/6
-canonical-url: http://blog.hashobject.com/product-launch-on-betalist
 ---
 ## Intro
 

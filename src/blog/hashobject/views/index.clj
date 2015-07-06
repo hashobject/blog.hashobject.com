@@ -15,7 +15,7 @@
      [:p {:itemprop "description"} (:description post)]]])
 
 
-(defn render [posts]
+(defn render [global-meta posts]
   (html5 {:lang "en" :itemtype "http://schema.org/Blog"}
     [:head
       [:meta {:charset "utf-8"}]

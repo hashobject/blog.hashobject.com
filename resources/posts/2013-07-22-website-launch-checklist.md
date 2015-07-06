@@ -15,7 +15,6 @@ headline:
 in-language: en
 keywords: web site, web app, lauch checklist
 discussion-url: https://github.com/hashobject/blog.hashobject.com/issues/5
-canonical-url: http://blog.hashobject.com/website-launch-checklist
 ---
 ## Intro
 
