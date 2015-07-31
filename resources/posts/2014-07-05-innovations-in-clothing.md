@@ -9,7 +9,7 @@ author-twitter: podviaznikov
 author-avatar: /images/anton-avatar.png
 location: San Francisco, USA
 date-created: 2014-07-05
-date-modified: 2015-05-09
+date-modified: 2015-05-31
 date-published: 2014-07-05
 headline:
 in-language: en
@@ -51,6 +51,7 @@ Here is my list of companies to keep an eye on:
 
   * [IguanEye](http://en.iguaneye.com/) - shoes company that uses combinations of ancient Indians technique with modern technology.
 
+  * [Outlier](http://outlier.cc/) - pretty young company from New York that are trying to make fashionable and durable clothing for men that can be used during casual and also active events.
 
 
 ## Conclusion
