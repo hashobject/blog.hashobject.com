@@ -59,6 +59,12 @@ This will build all html, sitemap, rss, js, css and deploy it to S3.
   /ukrainian-vs-russian/index.html
   /meeting-famous-people/
   /meeting-famous-people/index.html
+  /traveling-and-diversity/
+  /traveling-and-diversity/index.html
+  /ukraine/
+  /ukraine/index.html
+  /5-years/
+  /5-years/index.html
 ```
 
 ## Content License
