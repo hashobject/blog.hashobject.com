@@ -65,6 +65,8 @@ This will build all html, sitemap, rss, js, css and deploy it to S3.
   /ukraine/index.html
   /5-years/
   /5-years/index.html
+  /me-goosta/
+  /me-goosta/index.html
 ```
 
 ## Content License
