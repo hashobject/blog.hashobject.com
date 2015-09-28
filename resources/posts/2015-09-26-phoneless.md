@@ -7,10 +7,10 @@ author-url: http://twitter.com/podviaznikov
 author-github: podviaznikov
 author-twitter: podviaznikov
 author-avatar: /images/anton-avatar.png
-location: San Francisco, USA
+location: St. louis, USA
 date-created: 2015-09-26
 date-modified: 2015-09-26
-date-published: 2015-09-26
+date-published: 2015-09-27
 headline:
 in-language: en
 keywords: phones, smartphones, anxiety, consumerism
@@ -61,7 +61,6 @@ I like this tweet and picture:
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
-
 ## Tradeoffs
 
 I'm not against smartphones or other Internet-connected devices. They provide us with some very useful functionality.
@@ -72,4 +71,4 @@ For me the decision was down to evaluating whether constant interruptions and hi
 
 ## Conclusion
 
-As a software engineer, I'm connected to the Internet probably 14 hours every day. I consume huge amounts of information during those hours. Not having a smartphone gives me ability to be offline for the short periods when I'm commuting, or doing shopping or walking, or having a meal in the restaurant. I think we should strive for the balance and to have some time for ourselves. It can be scary at the beginning and maybe even boring. But that is the only way to know who you are and who you want to be. Consumption prevents us not only from creating products but from knowing and improving ourselves.
+As a software engineer, I'm connected to the Internet probably 14 hours every day. I consume huge amounts of information during those hours. Not having a smartphone gives me ability to be *offline* for the short periods when I'm commuting, or doing shopping or walking, or having a meal in the restaurant. I think we should strive for the balance and to have some time for ourselves. It can be scary at the beginning and maybe even boring. But that is the only way to know who you are and who you want to be. Permanent consumption prevents us not only from creating products but from knowing and improving ourselves.
