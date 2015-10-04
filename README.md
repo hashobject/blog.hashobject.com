@@ -1,6 +1,6 @@
 # blog.hashobject.com
 
-Hashobject team technical blog. Generated using Clojure. Hosted on Amazon S3.
+Hashobject blog. Generated using Clojure. Hosted on Amazon S3.
 
 ## Full deploy
 
