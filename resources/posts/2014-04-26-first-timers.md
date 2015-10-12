@@ -9,7 +9,7 @@ author-twitter: podviaznikov
 author-avatar: /images/anton-avatar.png
 location: Ohrid, Macedonia
 date-created: 2014-04-26
-date-modified: 2015-05-31
+date-modified: 2015-10-11
 date-published: 2014-04-26
 headline:
 in-language: en
@@ -19,7 +19,7 @@ discussion-url: https://github.com/hashobject/blog.hashobject.com/issues/15
 ## Intro
 
 For the last 2.5 years [Maryna](http://twitter.com/m_aleksandrova) and I are living the
-[digital nomad](http://en.wikipedia.org/wiki/Digital_nomad) lifestyle. We are travelling around the world while
+[digital nomad](http://en.wikipedia.org/wiki/Digital_nomad) lifestyle. We are traveling around the world while
 working as designer and developer. We have visited handful of countries during this period and I noticed one interesting thing: while travelling we are always trying something new and doing something that we never did before.
 Here is my list of "first-timers".
 

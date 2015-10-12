@@ -9,7 +9,7 @@ author-twitter: podviaznikov
 author-avatar: /images/anton-avatar.png
 location: Ohrid, Macedonia
 date-created: 2014-05-11
-date-modified: 2014-05-31
+date-modified: 2015-10-11
 date-published: 2014-05-11
 headline:
 in-language: en
@@ -70,6 +70,6 @@ many things, ideas, idols, ideals from the past are quite obsolete now.
 
 ## Conclusion
 
-Can we imagine what will happen if we just "forget" all the history? Wars between the nations, slavery, genocides etc.  How we will treat every new person we meet? Will his nationality, origin, skin color matter to us?
+Can we imagine what will happen if we just "forget" all the history? Wars between the nations, slavery, genocides etc. How we will treat every new person we meet? Will his nationality, origin, skin color matter to us?
 
 Does the history protect us from repeating mistakes of the past or does it influence our attitude to each other?

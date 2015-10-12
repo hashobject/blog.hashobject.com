@@ -28,13 +28,15 @@
 (deftask build-dev
   "Build blog dev version"
   []
-  (comp (global-metadata)
+  (comp ;(base)
+        (global-metadata)
         (markdown)
-        (draft)
-        (ttr)
+        (dump-meta)
+        ;(draft)
+        ;(ttr)
         (slug)
         (permalink)
-        (canonical-url)
+        ;(canonical-url)
         (render :renderer 'blog.hashobject.views.post/render)
         (collection :renderer 'blog.hashobject.views.index/render :page "index.html")))
 
