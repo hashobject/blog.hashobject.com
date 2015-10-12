@@ -9,7 +9,7 @@ author-twitter: podviaznikov
 author-avatar: /images/anton-avatar.png
 location: Skopje, Macedonia
 date-created: 2014-04-21
-date-modified: 2014-04-21
+date-modified: 2015-10-11
 date-published: 2014-04-21
 headline:
 in-language: en
@@ -23,7 +23,6 @@ available that may speed up your development, improve code quality, simplify mai
 deployment etc.
 
 Let's split such tools by group for future reference. Most of the tools are agnostic to your environment. Some of them may be not. I used a lot of them in the Node.js and Clojure projects.
-
 
 
 ## Continuous integration and continuous deployment
@@ -55,6 +54,7 @@ Let's split such tools by group for future reference. Most of the tools are agno
   * [Errorception](https://errorception.com/)
   * [Debuggify](https://www.debuggify.net/)
   * [Bugsnag](https://bugsnag.com/)
+  * [Rollbar](https://rollbar.com/)
 
 ## Logs management
 
@@ -125,7 +125,8 @@ Let's split such tools by group for future reference. Most of the tools are agno
   * [Divshot](http://divshot.io/)
   * [StatusPage](https://www.statuspage.io/)
   * [NewRelic](http://newrelic.com/)
-
+  * [Datadog](https://www.datadoghq.com/)
+  * [PagerDuty](https://www.pagerduty.com/)
 
 
 ## Conclusion
