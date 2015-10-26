@@ -1,5 +1,7 @@
 # blog.hashobject.com
 
+[![Dependencies Status](http://jarkeeper.com/hashobject/blog.hashobject.com/status.svg)](http://jarkeeper.com/hashobject/blog.hashobject.com)
+
 Hashobject blog. Generated using Clojure. Hosted on Amazon S3.
 
 ## Full deploy
