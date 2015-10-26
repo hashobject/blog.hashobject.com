@@ -4,9 +4,9 @@
   :dependencies '[[hiccup "1.0.5"]
                   [perun "0.1.3-SNAPSHOT"]
                   [hashobject/boot-s3 "0.1.2-SNAPSHOT"]
-                  [clj-time "0.9.0"]
-                  [pandeiro/boot-http "0.6.3-SNAPSHOT"]
-                  [org.martinklepsch/boot-gzip "0.1.1"]])
+                  [clj-time "0.11.0"]
+                  [pandeiro/boot-http "0.6.3"]
+                  [org.martinklepsch/boot-gzip "0.1.2"]])
 
 (require '[io.perun :refer :all]
          '[blog.hashobject.views.index :as index-view]
