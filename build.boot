@@ -5,7 +5,7 @@
                   [perun "0.1.3-SNAPSHOT"]
                   [hashobject/boot-s3 "0.1.2-SNAPSHOT"]
                   [clj-time "0.11.0"]
-                  [pandeiro/boot-http "0.6.3"]
+                  [pandeiro/boot-http "0.7.0"]
                   [org.martinklepsch/boot-gzip "0.1.2"]])
 
 (require '[io.perun :refer :all]
