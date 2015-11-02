@@ -1,3 +1,5 @@
 {
   :base-url "http://blog.hashobject.com"
+  :site-title "Hashobject"
+  :site-description "Hashobject Blog"
 }
