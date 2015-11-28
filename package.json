@@ -5,11 +5,10 @@
   "private": true,
   "dependencies": {},
   "devDependencies": {
-    "gulp": "^3.8.10",
-    "react": "^0.13.0",
-    "react-count": "^0.2.1",
-    "stylus": "~0.32.1",
-    "webpack": "^1.7.3"
+    "stylus": "~0.52.4"
+  },
+  "scripts": {
+    "css": "./node_modules/stylus/bin/stylus  --include-css -I styl/ < ./styl/app.styl > ./resources/public/css/app.css"
   },
   "repository": {
     "type": "git",

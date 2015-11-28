@@ -38,13 +38,13 @@
         (permalink)
         (canonical-url)
         (render :renderer 'blog.hashobject.views.post/render)
-        (collection :renderer 'blog.hashobject.views.index/render :page "index.html")
-        (inject-scripts :scripts #{"ga.js"})))
+        (collection :renderer 'blog.hashobject.views.index/render :page "index.html")))
 
 (deftask build
   "Build blog prod version."
   []
   (comp (build-dev)
+        (inject-scripts :scripts #{"ga.js"})
         (sitemap :filename "sitemap.xml")
         (rss)
         (gzip :regex [#".html$" #".css$" #".js$"])
