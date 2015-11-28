@@ -15,7 +15,7 @@
      [:p {:itemprop "description"} (:description post)]]])
 
 
-(defn render [global-meta posts]
+(defn render [{metadata :meta posts :entries}]
   (html5 {:lang "en" :itemtype "http://schema.org/Blog"}
     [:head
       [:meta {:charset "utf-8"}]
@@ -31,7 +31,6 @@
       [:link {:rel "alternate" :type "application/rss+xml" :title "RSS" :href "/feed.rss"}]
       (include-css "/css/app.css")
       (include-css "http://fonts.googleapis.com/css?family=PT+Sans")
-      (common/ga)
      ]
     [:body
        (common/header)
