@@ -682,6 +682,9 @@ footer nav ul li a:hover:after {
 .post div.highlight .mf {
   color: #eaeced;
 }
+.post div.highlight {
+  padding: 10px;
+}
 .row.content {
   margin-top: 20px;
 }
