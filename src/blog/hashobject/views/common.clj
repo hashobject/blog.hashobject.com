@@ -6,6 +6,7 @@
   [:nav
     [:a#logo {:href "/"}]])
 
+
 (defn footer []
   [:footer.row
     [:nav {:role "navigation"}
