@@ -1,0 +1,33 @@
+body > nav
+  overflow: hidden;
+
+footer nav
+  text-align: center;
+
+footer nav ul li
+  display: inline-block;
+  margin-left: 1.5em;
+  margin-right: 1.5em;
+
+footer nav ul li a, footer nav ul li a:visited
+  color: $green-bright;
+  font-size: 1.0em;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+  text-decoration: none;
+  padding: 0 0.5em;
+
+
+footer nav ul li a:hover
+  color: #fff;
+  -webkit-transition:all 300ms;
+  -moz-transition:all 300ms;-o-transition:all 300ms;
+  -ms-transition:all 300ms;transition:all 300ms;
+  background-color: $green-bright
+
+footer nav ul li a:after
+  content:"\2192";
+  opacity: 0;
+
+footer nav ul li a:hover:after
+  opacity: 1;

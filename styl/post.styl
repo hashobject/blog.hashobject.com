@@ -27,9 +27,7 @@
     font-family: 'Consolas', Courier, monospace;
     margin: 15px 0;
     overflow-x: auto;
-    padding: 10px 15px;
-  & pre
-    padding: 20px 15px;
+    padding: 0;
   & img
     margin: 8px 0;
   & ul
@@ -37,6 +35,14 @@
     padding-left: 30px;
     & li
       color: $gray-dark;
+  & h1 a:before, h2 a:before, h3 a:before, h4 a:before, h5 a:before, h6 a:before
+      content:"\2192";
+      color:#1ab7ea!important;
+      opacity:0;
+      margin-right: 2px;
+      outline: none;
+  & h1:hover a:before, h2:hover a:before, h3:hover a:before, h4:hover a:before, h5:hover a:before, h6:hover a:before{
+    opacity:1;
 
 .post-meta
   margin-bottom: 2rem;

@@ -474,7 +474,7 @@ body{font-family:'PT Sans',Tahoma,sans-serif;font-size:14px;line-height:1.4;colo
 p{margin:7px 0}
 a{color:#eb4d94;text-decoration:none;}
 a:visited{color:#9e0047}
-body > nav{position:fixed;top:0;left:0;width:100%;height:80px;padding-top:0;background:none;z-index:1000;overflow:hidden;-webkit-transition:all .6s cubic-bezier(.7,.01,.3,1);-moz-transition:all .6s cubic-bezier(.7,.01,.3,1);-o-transition:all .6s cubic-bezier(.7,.01,.3,1);-ms-transition:all .6s cubic-bezier(.7,.01,.3,1);transition:all .6s cubic-bezier(.7,.01,.3,1);}
+body > nav{z-index:1000;overflow:hidden;}
 body > nav .header{z-index:2000;margin-top:0;width:100%;height:100px;background:none;-webkit-transition:all .6s cubic-bezier(.7,.01,.3,1);-moz-transition:all .6s cubic-bezier(.7,.01,.3,1);-o-transition:all .6s cubic-bezier(.7,.01,.3,1);-ms-transition:all .6s cubic-bezier(.7,.01,.3,1);transition:all .6s cubic-bezier(.7,.01,.3,1)}
 body > nav #toggle{width:40px;height:74px;z-index:2000;background-position:50% 50%;background-repeat:no-repeat;cursor:pointer;position:absolute;top:40px;right:30px;-webkit-transition:all .6s cubic-bezier(.7,.01,.3,1);-moz-transition:all .6s cubic-bezier(.7,.01,.3,1);-o-transition:all .6s cubic-bezier(.7,.01,.3,1);-ms-transition:all .6s cubic-bezier(.7,.01,.3,1);transition:all .6s cubic-bezier(.7,.01,.3,1);}
 body > nav #toggle .icon{width:24px;height:4px;margin:0;background:#ec008c;-webkit-transition:all .3s;-moz-transition:all .3s;-o-transition:all .3s;-ms-transition:all .3s;transition:all .3s;}
@@ -499,9 +499,18 @@ body > nav .overlay ul li a:hover{background-color:#fff;color:#eb4d94}
 .post h1,.post h2{font-size:18px;font-weight:bold;line-height:1.2}
 .post h1{text-transform:uppercase;margin-bottom:35px}
 .post h2{color:#1ab7ea;margin:35px 0 15px}
+.post h1 a:before, h2 a:before, h3 a:before, h4 a:before, h5 a:before, h6 a:before{
+  content:"\2192";
+  color:#1ab7ea!important;
+  opacity:0;
+  margin-right: 2px;
+  outline: none;
+}
+.post h1:hover a:before, h2:hover a:before, h3:hover a:before, h4:hover a:before, h5:hover a:before, h6:hover a:before{
+  opacity:1;
+}
 .post blockquote{background:#eaeced;border-left:5px solid #eb4d94;color:#39434a;font-size:16px;font-style:italic;margin:15px 0;padding:15px 15px 15px 25px}
 .post pre,.post code{background:#39434a;color:#99ec51;display:block;font-family:'Consolas',Courier,monospace;margin:15px 0;overflow-x:auto;padding:10px 15px}
-.post pre{padding:20px 15px}
 .post img{margin:8px 0}
 .post ul{margin:15px 0;padding-left:30px;}
 .post ul li{color:#39434a}
@@ -510,15 +519,46 @@ body > nav .overlay ul li a:hover{background-color:#fff;color:#eb4d94}
 .post-meta .meta-info{display:inline-block}
 .post-meta .meta-label{display:inline-block;min-width:100px}
 .post-discussion,.license.small-12.columns{color:#39434a;font-style:italic;font-size:1em;margin-bottom:30px;padding:0 1em}
-.post p > code{margin-left:15px;margin-right:15px}
-.post code,.post pre[class="brush: clojure"],.post pre[class="brush: shell"],.post div.highlight{font-family:Courier,monospace;font-weight:normal;color:#99ec51;background-color:#3a434a;display:block;margin:15px;padding:0;}
+.post p > code{margin-left:0;margin-right:0; padding: 0 15px;}
+.post code,.post pre[class="brush: clojure"],.post pre[class="brush: shell"],.post div.highlight{font-family:Courier,monospace;font-weight:normal;color:#99ec51;background-color:#3a434a;display:block;margin:0;padding:0;}
 .post code .s,.post pre[class="brush: clojure"] .s,.post pre[class="brush: shell"] .s,.post div.highlight .s{color:#eb4d94}
 .post code .p,.post pre[class="brush: clojure"] .p,.post pre[class="brush: shell"] .p,.post div.highlight .p,.post code .o,.post pre[class="brush: clojure"] .o,.post pre[class="brush: shell"] .o,.post div.highlight .o,.post code .se,.post pre[class="brush: clojure"] .se,.post pre[class="brush: shell"] .se,.post div.highlight .se{color:#eaeced}
 .post code .mi,.post pre[class="brush: clojure"] .mi,.post pre[class="brush: shell"] .mi,.post div.highlight .mi,.post code .mo,.post pre[class="brush: clojure"] .mo,.post pre[class="brush: shell"] .mo,.post div.highlight .mo,.post code .mf,.post pre[class="brush: clojure"] .mf,.post pre[class="brush: shell"] .mf,.post div.highlight .mf{color:#eaeced}
-.row.content{margin-top:80px}
+.row.content{margin-top:20px}
 ul.items{margin-left:0;}
 ul.items li.item{list-style:none;margin-bottom:20px;}
 ul.items li.item a.title{text-transform:uppercase}
 ul.items li.item div.item-meta{font-size:smaller;margin-top:10px;}
 ul.items li.item div.item-meta img{width:26px;-webkit-border-radius:13px;border-radius:13px;margin-right:13px}
 ul.items li.item div.item-meta .pub-data{font-size:.8em;display:inline-block}
+footer nav {
+  text-align: center;
+}
+footer nav ul li{
+  display: inline-block;
+  margin-left: 1.5em;
+  margin-right: 1.5em;
+}
+footer nav ul li a, footer nav ul li a:visited {
+  color: #99ec51;
+  font-size: 1.0em;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+  text-decoration: none;
+  padding: 0 0.5em;
+}
+
+footer nav ul li a:hover{
+  color:#fff;
+  -webkit-transition:all 300ms;
+  -moz-transition:all 300ms;-o-transition:all 300ms;
+  -ms-transition:all 300ms;transition:all 300ms;
+  background-color:#99ec51
+}
+footer nav ul li a:after{
+  content:"\2192";
+  opacity: 0;
+}
+footer nav ul li a:hover:after{
+  opacity: 1;
+}
