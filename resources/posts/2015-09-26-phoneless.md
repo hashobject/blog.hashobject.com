@@ -1,6 +1,6 @@
 ---
 name: Phoneless
-description: On living life without a smart phone
+description: On living life without a smart phone in the modern society
 author: Anton Podviaznikov
 author-email: anton@hashobject.com
 author-url: http://twitter.com/podviaznikov

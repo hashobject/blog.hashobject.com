@@ -1,6 +1,6 @@
 ---
 name: Ukrainian music
-description: Exploring Ukrainian bands with English lyrics
+description: List of up and coming Ukrainian bands with English lyrics
 author: Anton Podviaznikov
 author-email: anton@hashobject.com
 author-url: http://twitter.com/podviaznikov
@@ -9,7 +9,7 @@ author-twitter: podviaznikov
 author-avatar: /images/anton-avatar.png
 location: San Francisco, USA
 date-created: 2015-09-18
-date-modified: 2015-09-19
+date-modified: 2015-11-27
 date-published: 2015-09-18
 headline:
 in-language: en
@@ -31,9 +31,9 @@ Ukrainian bands and artists that have English lyrics (just as a side note: this 
 
 <iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/55005913&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
 
-[Lika Bugaeva](http://www.likabugaeva.com/) - young indie-rock band.
+[Zetetics](http://www.zetetics.net/) - young indie-rock band.
 
-<iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/31938774&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+<iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/152559089&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
 
 [Secret Avenue](http://secretavenue.net/) - new wave, indie band influenced by the 70s-80s culture.
 
