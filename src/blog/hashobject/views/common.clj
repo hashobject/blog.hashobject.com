@@ -12,8 +12,8 @@
     [:nav {:role "navigation"}
       [:ul
        [:li [:a {:href "http://hashobject.com"} "Home"]]
-       [:li.active [:a {:href "http://blog.hashobject.com"} "Blog"]]
-       [:li [:a {:href "http://os.hashobject.com"} "Open Source"]]
+       [:li [:a {:href "http://blog.hashobject.com"} "Blog"]]
+       [:li [:a {:href "http://code.hashobject.com"} "Code"]]
        [:li [:a {:href "http://labs.hashobject.com"} "Labs"]]]]
     [:p.license.small-12.columns "Except as otherwise noted, the content of this site is licensed
      under the <a href='http://creativecommons.org/licenses/by/3.0/'>Creative Commons Attribution 3.0 License</a>,
