@@ -21,7 +21,7 @@
       [:link {:rel "shortcut icon" :href "/favicon.ico"}]
       [:link {:rel "publisher" :href "https://plus.google.com/118068495795214676039"}]
       [:link {:rel "author" :href "/humans.txt"}]
-      [:link {:rel "alternate" :type "application/rss+xml" :title "RSS" :href "feed.rss"}]
+      [:link {:rel "alternate" :type "application/rss+xml" :title "RSS" :href "/feed.rss"}]
       [:link {:rel "discussionUrl" :href (:discussion-url post)}]
       [:link {:rel "canonical" :href (:canonical-url post)}]
       (include-css "/css/app.css")
