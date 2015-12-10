@@ -30,7 +30,7 @@
       [:link {:rel "author" :href "/humans.txt"}]
       [:link {:rel "alternate" :type "application/rss+xml" :title "RSS" :href "/feed.rss"}]
       (include-css "/css/app.css")
-      (include-css "http://fonts.googleapis.com/css?family=PT+Sans")
+      (include-css "https://fonts.googleapis.com/css?family=PT+Sans")
      ]
     [:body
        (common/header)
