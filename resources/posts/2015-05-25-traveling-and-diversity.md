@@ -14,7 +14,7 @@ date-published: 2015-05-25
 headline:
 in-language: en
 keywords: traveling, diversity, cultures
-discussion-url: https://github.com/hashobject/blog.hashobject.com/issues/21
+discussion-url: https://github.com/hashobject/blog.hashobject.com/issues/22
 ---
 ## Intro
 

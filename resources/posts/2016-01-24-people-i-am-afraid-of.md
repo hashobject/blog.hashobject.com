@@ -14,7 +14,7 @@ date-published: 2016-01-24
 headline:
 in-language: en
 keywords: people, societies, society
-discussion-url: https://github.com/hashobject/blog.hashobject.com/issues/27
+discussion-url: https://github.com/hashobject/blog.hashobject.com/issues/28
 ---
 ## Intro
 

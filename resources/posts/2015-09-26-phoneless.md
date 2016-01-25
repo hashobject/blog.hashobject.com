@@ -14,7 +14,7 @@ date-published: 2015-09-27
 headline:
 in-language: en
 keywords: phones, smartphones, anxiety, consumerism
-discussion-url: https://github.com/hashobject/blog.hashobject.com/issues/26
+discussion-url: https://github.com/hashobject/blog.hashobject.com/issues/27
 ---
 ## Intro
 
