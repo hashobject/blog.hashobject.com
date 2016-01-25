@@ -30,7 +30,7 @@ Let me explain who I consider people in those categories and why I am afraid of 
 
 In the last couple of years I met decent amount of people that lead me to write this post.
 For me those were usually "entrepreneurs" (from various countries) that had 1 goal (become rich and powerfull). Usually they also do some projects that brings either ~0 value to people and societies or
-in some cases creates harm (e.x. products that play on weaknesses of people, products that make people worth and not better human beings).
+in some cases creates harm (e.x. products that play on weaknesses of people, products that make people worth and not better human beings). Sometimes such "entrepreneurs" were also just salesmen.
 
 I call these people one-dimensional humans. There is nothing more to their personality than I outlined in single paragraph above. They have single goal, they are not aware of more complex systems we leave in, they don't have appropriate knowledge (or education) and interest in the humanitarian sciences.
 The real danger comes not from the fact that those people are one-dimensional (because there are a lot of people like that but they are not dangerous but useful to the societies) but from the fact
